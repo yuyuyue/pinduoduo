@@ -1,0 +1,461 @@
+2019-07-16 01:09:27,401 ERROR 984 [-/127.0.0.1/-/33ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.Error: WHERE parameter "customer_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:44:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+
+pid: 984
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:11:05,619 ERROR 2036 [-/127.0.0.1/-/33ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.Error: WHERE parameter "customer_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:44:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+
+pid: 2036
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:11:54,579 ERROR 8692 [-/127.0.0.1/-/38ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.Error: WHERE parameter "customer_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:45:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+
+pid: 8692
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:12:21,746 ERROR 18968 [-/127.0.0.1/-/60ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.Error: WHERE parameter "customer_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\service\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:45:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+
+pid: 18968
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:12:24,067 ERROR 9156 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9156
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:12:27,168 ERROR 16528 [-/127.0.0.1/-/38ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.SequelizeDatabaseError: Unknown column 'customer.avatar_url ' in 'field list'
+    at Query.formatError (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\service\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\service\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\service\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\service\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\service\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\service\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\service\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:45:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+sql: "SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"
+pid: 16528
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:13:35,825 ERROR 12160 [-/127.0.0.1/-/87ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.SequelizeDatabaseError: Unknown column 'customer.avatar_url ' in 'field list'
+    at Query.formatError (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\service\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\service\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\service\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\service\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\service\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\service\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\service\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:45:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+sql: "SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"
+pid: 12160
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:14:00,836 ERROR 21168 [-/127.0.0.1/-/46ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.SequelizeDatabaseError: Unknown column 'customer.avatar_url ' in 'field list'
+    at Query.formatError (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\service\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\service\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\service\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\service\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\service\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\service\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\service\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:45:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:42:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+sql: "SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"
+pid: 21168
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 01:14:56,964 ERROR 16228 [-/127.0.0.1/-/67ms GET /comment/customer/b821e7c0a6d711e9b6af15003c8e3be8] nodejs.SequelizeDatabaseError: Unknown column 'customer.avatar_url ' in 'field list'
+    at Query.formatError (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\service\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\service\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\service\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\service\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\service\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\service\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\service\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\service\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\service\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\service\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\service\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\service\node_modules\sequelize\lib\model.js:1752:8)
+    at CategoryService.indexByCustomerId (D:\vscode\service\app\service\comment.ts:45:52)
+    at CommentController.indexByCustomerId (D:\vscode\service\app\controller\comment.ts:41:49)
+    at Object.callFn (D:\vscode\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\service\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\service\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\app\middleware\authorization.ts:20:13
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\service\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\service\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\service\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\service\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer.avatar_url ' in 'field list'","sql":"SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"}
+sql: "SELECT `comments`.`id`, `comments`.`comment_id`, `comments`.`quality`, `comments`.`service`, `comments`.`logistics`, `comments`.`customer_id`, `comments`.`good_id`, `comments`.`descreption`, `comments`.`add_descreption`, `comments`.`created_at`, `comments`.`updated_at`, `customer`.`id` AS `customer.id`, `customer`.`username` AS `customer.username`, `customer`.`avatar_url ` AS `customer.avatar_url ` FROM `comments` AS `comments` LEFT OUTER JOIN `customers` AS `customer` ON `comments`.`customer_id` = `customer`.`id` WHERE `comments`.`customer_id` = 'b821e7c0a6d711e9b6af15003c8e3be8';"
+pid: 16228
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 15:12:46,518 ERROR 3520 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\vscode\\service\\app\\public"
+name: "EPERMError"
+pid: 3520
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 15:28:19,832 ERROR 9152 [-/127.0.0.1/-/26ms GET /pin/51051a60a79711e9ba5ab78138abc97b] nodejs.TypeError: Cannot read property 'updated_at' of null
+    at ImgService.index (D:\vscode\service\app\service\pin.ts:58:35)
+
+pid: 9152
+hostname: DESKTOP-QJUC35N
+
+2019-07-16 15:54:38,654 ERROR 3520 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\vscode\\service\\app\\public"
+name: "EPERMError"
+pid: 3520
+hostname: DESKTOP-QJUC35N
+

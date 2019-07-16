@@ -1,0 +1,507 @@
+2019-06-29 15:08:44,120 INFO 17072 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-29 15:08:44,120 INFO 17072 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-29 15:08:44,120 INFO 17072 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-29 15:08:44,249 INFO 17072 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 48075753ms at 2019-06-30 04:30:00.002
+2019-06-29 15:08:44,249 INFO 17072 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 31875751ms at 2019-06-30 00:00:00.000
+2019-06-29 15:08:44,250 INFO 17072 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 31876751ms at 2019-06-30 00:00:01.001
+2019-06-29 15:22:27,075 INFO 23232 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47252927ms at 2019-06-30 04:30:00.002
+2019-06-29 15:22:27,076 INFO 23232 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 31052925ms at 2019-06-30 00:00:00.001
+2019-06-29 15:22:27,076 INFO 23232 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 31053924ms at 2019-06-30 00:00:01.000
+2019-06-29 15:22:26,658 INFO 13196 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-29 15:22:26,658 INFO 13196 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-29 15:22:26,658 INFO 13196 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 15:39:57,072 INFO 22888 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 15:39:57,072 INFO 22888 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 15:39:57,072 INFO 22888 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 15:39:58,396 INFO 20580 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 46201608ms at 2019-07-03 04:30:00.003
+2019-07-02 15:39:58,396 INFO 20580 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 30001604ms at 2019-07-03 00:00:00.000
+2019-07-02 15:39:58,396 INFO 20580 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 30002604ms at 2019-07-03 00:00:01.000
+2019-07-02 15:43:02,646 INFO 3648 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 15:43:02,646 INFO 3648 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 15:43:02,646 INFO 3648 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 15:43:16,842 INFO 23148 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 15:43:16,842 INFO 23148 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 15:43:16,842 INFO 23148 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 15:43:56,743 INFO 4788 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 15:43:56,743 INFO 4788 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 15:43:56,743 INFO 4788 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 15:44:29,968 INFO 21840 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 15:44:29,968 INFO 21840 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 15:44:29,968 INFO 21840 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 15:45:13,110 INFO 22988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 15:45:13,110 INFO 22988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 15:45:13,110 INFO 22988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:09:17,364 INFO 9908 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:09:17,364 INFO 9908 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:09:17,364 INFO 9908 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:09:17,821 INFO 23832 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 44442181ms at 2019-07-03 04:30:00.002
+2019-07-02 16:09:17,821 INFO 23832 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 28242179ms at 2019-07-03 00:00:00.000
+2019-07-02 16:09:17,822 INFO 23832 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 28243179ms at 2019-07-03 00:00:01.001
+2019-07-02 16:29:47,531 INFO 6776 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:29:47,531 INFO 6776 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:29:47,531 INFO 6776 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:30:33,080 INFO 25944 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:30:33,080 INFO 25944 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:30:33,080 INFO 25944 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:30:45,341 INFO 8912 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:30:45,341 INFO 8912 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:30:45,341 INFO 8912 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:30:52,815 INFO 18768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:30:52,815 INFO 18768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:30:52,815 INFO 18768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:32:10,683 INFO 22876 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:32:10,683 INFO 22876 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:32:10,683 INFO 22876 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:34:24,140 INFO 20012 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:34:24,140 INFO 20012 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:34:24,140 INFO 20012 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:34:28,040 INFO 8560 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:34:28,040 INFO 8560 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:34:28,040 INFO 8560 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:37:09,909 INFO 26192 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:37:09,909 INFO 26192 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:37:09,909 INFO 26192 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 16:37:10,488 INFO 20904 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42769514ms at 2019-07-03 04:30:00.002
+2019-07-02 16:37:10,489 INFO 20904 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 26569512ms at 2019-07-03 00:00:00.001
+2019-07-02 16:37:10,489 INFO 20904 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 26570511ms at 2019-07-03 00:00:01.000
+2019-07-02 16:37:50,630 INFO 15032 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 16:37:50,630 INFO 15032 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 16:37:50,630 INFO 15032 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 20:28:26,878 INFO 14260 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 20:28:26,878 INFO 14260 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 20:28:26,878 INFO 14260 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 20:41:02,939 INFO 20956 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 20:41:02,939 INFO 20956 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 20:41:02,939 INFO 20956 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 20:41:06,165 INFO 21236 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 20:41:06,165 INFO 21236 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 20:41:06,165 INFO 21236 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 20:41:13,671 INFO 26100 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 20:41:13,671 INFO 26100 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 20:41:13,671 INFO 26100 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-02 20:45:22,584 INFO 27408 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-02 20:45:22,584 INFO 27408 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-02 20:45:22,584 INFO 27408 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:06:43,058 INFO 22796 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:06:43,058 INFO 22796 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:06:43,058 INFO 22796 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:06:44,265 INFO 21720 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 66195742ms at 2019-07-09 04:30:00.007
+2019-07-08 10:06:44,266 INFO 21720 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49995734ms at 2019-07-09 00:00:00.000
+2019-07-08 10:06:44,267 INFO 21720 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49996734ms at 2019-07-09 00:00:01.001
+2019-07-08 10:11:49,342 INFO 11852 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:11:49,342 INFO 11852 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:11:49,342 INFO 11852 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:15:18,740 INFO 11668 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:15:18,740 INFO 11668 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:15:18,740 INFO 11668 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:15:20,624 INFO 20428 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65679378ms at 2019-07-09 04:30:00.002
+2019-07-08 10:15:20,624 INFO 20428 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49479376ms at 2019-07-09 00:00:00.000
+2019-07-08 10:15:20,625 INFO 20428 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49480376ms at 2019-07-09 00:00:01.001
+2019-07-08 10:18:09,973 INFO 15152 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:18:09,973 INFO 15152 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:18:09,973 INFO 15152 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:18:47,019 INFO 7180 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:18:47,019 INFO 7180 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:18:47,019 INFO 7180 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:18:50,205 INFO 10596 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:18:50,205 INFO 10596 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:18:50,205 INFO 10596 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:20:01,290 INFO 19588 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:20:01,290 INFO 19588 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:20:01,290 INFO 19588 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:20:03,158 INFO 9436 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65396845ms at 2019-07-09 04:30:00.003
+2019-07-08 10:20:03,158 INFO 9436 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49196842ms at 2019-07-09 00:00:00.000
+2019-07-08 10:20:03,158 INFO 9436 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49197842ms at 2019-07-09 00:00:01.000
+2019-07-08 10:20:41,432 INFO 22412 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:20:41,432 INFO 22412 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:20:41,432 INFO 22412 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:24:46,093 INFO 22280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:24:46,093 INFO 22280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:24:46,093 INFO 22280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:24:55,174 INFO 22496 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:24:55,174 INFO 22496 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:24:55,174 INFO 22496 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:26:43,725 INFO 2280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:26:43,725 INFO 2280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:26:43,726 INFO 2280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:26:46,888 INFO 17624 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:26:46,888 INFO 17624 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:26:46,888 INFO 17624 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:29:43,256 INFO 11200 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:29:43,256 INFO 11200 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:29:43,256 INFO 11200 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:29:45,217 INFO 22804 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64814790ms at 2019-07-09 04:30:00.007
+2019-07-08 10:29:45,218 INFO 22804 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48614783ms at 2019-07-09 00:00:00.001
+2019-07-08 10:29:45,218 INFO 22804 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48615782ms at 2019-07-09 00:00:01.000
+2019-07-08 10:33:39,660 INFO 4936 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:33:39,660 INFO 4936 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:33:39,660 INFO 4936 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:33:54,286 INFO 19564 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:33:54,286 INFO 19564 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:33:54,286 INFO 19564 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:33:54,737 INFO 22504 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64565266ms at 2019-07-09 04:30:00.003
+2019-07-08 10:33:54,737 INFO 22504 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48365263ms at 2019-07-09 00:00:00.000
+2019-07-08 10:33:54,737 INFO 22504 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48366263ms at 2019-07-09 00:00:01.000
+2019-07-08 10:39:00,985 INFO 22692 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:39:00,985 INFO 22692 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:39:00,985 INFO 22692 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:39:01,409 INFO 2544 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64258594ms at 2019-07-09 04:30:00.003
+2019-07-08 10:39:01,409 INFO 2544 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48058591ms at 2019-07-09 00:00:00.000
+2019-07-08 10:39:01,409 INFO 2544 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48059591ms at 2019-07-09 00:00:01.000
+2019-07-08 10:40:51,160 INFO 23452 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64148842ms at 2019-07-09 04:30:00.002
+2019-07-08 10:40:51,160 INFO 23452 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47948840ms at 2019-07-09 00:00:00.000
+2019-07-08 10:40:51,161 INFO 23452 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47949840ms at 2019-07-09 00:00:01.001
+2019-07-08 10:40:50,751 INFO 22460 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:40:50,751 INFO 22460 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:40:50,751 INFO 22460 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:42:29,135 INFO 23036 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:42:29,135 INFO 23036 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:42:29,135 INFO 23036 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:42:29,621 INFO 14768 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64050381ms at 2019-07-09 04:30:00.002
+2019-07-08 10:42:29,622 INFO 14768 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47850379ms at 2019-07-09 00:00:00.001
+2019-07-08 10:42:29,622 INFO 14768 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47851378ms at 2019-07-09 00:00:01.000
+2019-07-08 10:52:55,550 INFO 18372 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:52:55,550 INFO 18372 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:52:55,550 INFO 18372 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:53:44,893 INFO 7640 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63375110ms at 2019-07-09 04:30:00.003
+2019-07-08 10:53:44,894 INFO 7640 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47175107ms at 2019-07-09 00:00:00.001
+2019-07-08 10:53:44,894 INFO 7640 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47176106ms at 2019-07-09 00:00:01.000
+2019-07-08 10:53:44,487 INFO 20316 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:53:44,487 INFO 20316 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:53:44,487 INFO 20316 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:54:46,719 INFO 19368 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:54:46,719 INFO 19368 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:54:46,719 INFO 19368 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:55:03,616 INFO 1860 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63296386ms at 2019-07-09 04:30:00.002
+2019-07-08 10:55:03,616 INFO 1860 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47096384ms at 2019-07-09 00:00:00.000
+2019-07-08 10:55:03,617 INFO 1860 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47097384ms at 2019-07-09 00:00:01.001
+2019-07-08 10:55:03,202 INFO 9248 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:55:03,202 INFO 9248 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:55:03,202 INFO 9248 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:55:38,015 INFO 2580 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63261988ms at 2019-07-09 04:30:00.003
+2019-07-08 10:55:38,015 INFO 2580 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47061985ms at 2019-07-09 00:00:00.000
+2019-07-08 10:55:38,015 INFO 2580 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47062985ms at 2019-07-09 00:00:01.000
+2019-07-08 10:55:37,614 INFO 14916 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:55:37,614 INFO 14916 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:55:37,614 INFO 14916 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:58:23,309 INFO 21768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:58:23,309 INFO 21768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:58:23,309 INFO 21768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 10:58:45,592 INFO 21996 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 10:58:45,592 INFO 21996 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 10:58:45,592 INFO 21996 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:05:01,468 INFO 2304 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:05:01,468 INFO 2304 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:05:01,468 INFO 2304 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:05:59,540 INFO 21284 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:05:59,540 INFO 21284 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:05:59,540 INFO 21284 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:06:57,070 INFO 18592 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:06:57,070 INFO 18592 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:06:57,070 INFO 18592 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:07:39,760 INFO 9640 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:07:39,760 INFO 9640 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:07:39,760 INFO 9640 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:08:15,414 INFO 22500 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:08:15,414 INFO 22500 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:08:15,414 INFO 22500 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:09:28,102 INFO 19564 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:09:28,102 INFO 19564 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:09:28,102 INFO 19564 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:10:39,887 INFO 2908 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:10:39,887 INFO 2908 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:10:39,887 INFO 2908 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:15:19,616 INFO 4424 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:15:19,616 INFO 4424 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:15:19,616 INFO 4424 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:15:21,609 INFO 20620 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 62078395ms at 2019-07-09 04:30:00.004
+2019-07-08 11:15:21,609 INFO 20620 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45878391ms at 2019-07-09 00:00:00.000
+2019-07-08 11:15:21,609 INFO 20620 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45879391ms at 2019-07-09 00:00:01.000
+2019-07-08 11:16:28,562 INFO 11700 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:16:28,562 INFO 11700 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:16:28,562 INFO 11700 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:17:07,780 INFO 22768 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61972222ms at 2019-07-09 04:30:00.002
+2019-07-08 11:17:07,781 INFO 22768 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45772220ms at 2019-07-09 00:00:00.001
+2019-07-08 11:17:07,781 INFO 22768 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45773219ms at 2019-07-09 00:00:01.000
+2019-07-08 11:17:07,382 INFO 14628 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:17:07,382 INFO 14628 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:17:07,382 INFO 14628 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:18:41,201 INFO 22868 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:18:41,201 INFO 22868 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:18:41,201 INFO 22868 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:19:46,561 INFO 2856 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:19:46,561 INFO 2856 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:19:46,561 INFO 2856 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:20:18,289 INFO 22824 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:20:18,289 INFO 22824 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:20:18,289 INFO 22824 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:28:09,504 INFO 11700 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:28:09,504 INFO 11700 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:28:09,504 INFO 11700 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:28:17,385 INFO 23108 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:28:17,385 INFO 23108 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:28:17,385 INFO 23108 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:30:44,715 INFO 984 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:30:44,715 INFO 984 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:30:44,715 INFO 984 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:30:46,612 INFO 22772 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61153390ms at 2019-07-09 04:30:00.002
+2019-07-08 11:30:46,613 INFO 22772 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 44953387ms at 2019-07-09 00:00:00.000
+2019-07-08 11:30:46,613 INFO 22772 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44954387ms at 2019-07-09 00:00:01.000
+2019-07-08 11:32:02,461 INFO 19356 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:32:02,461 INFO 19356 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:32:02,461 INFO 19356 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 11:32:40,989 INFO 22432 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 11:32:40,989 INFO 22432 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 11:32:40,989 INFO 22432 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:43:19,505 INFO 7876 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:43:19,505 INFO 7876 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:43:19,505 INFO 7876 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:44:26,938 INFO 19068 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:44:26,938 INFO 19068 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:44:26,938 INFO 19068 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:45:43,968 INFO 21320 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:45:43,968 INFO 21320 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:45:43,968 INFO 21320 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:45:47,745 INFO 12276 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:45:47,745 INFO 12276 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:45:47,745 INFO 12276 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:46:18,126 INFO 20960 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 49421877ms at 2019-07-09 04:30:00.003
+2019-07-08 14:46:18,126 INFO 20960 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 33221874ms at 2019-07-09 00:00:00.000
+2019-07-08 14:46:18,126 INFO 20960 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 33222874ms at 2019-07-09 00:00:01.000
+2019-07-08 14:46:17,714 INFO 21284 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:46:17,714 INFO 21284 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:46:17,714 INFO 21284 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:49:07,054 INFO 5768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:49:07,054 INFO 5768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:49:07,054 INFO 5768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:49:45,738 INFO 19716 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:49:45,738 INFO 19716 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:49:45,738 INFO 19716 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:49:52,208 INFO 22512 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:49:52,208 INFO 22512 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:49:52,208 INFO 22512 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:52:16,701 INFO 9640 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:52:16,701 INFO 9640 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:52:16,701 INFO 9640 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:52:35,732 INFO 21984 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:52:35,732 INFO 21984 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:52:35,732 INFO 21984 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:53:15,954 INFO 21792 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:53:15,954 INFO 21792 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:53:15,954 INFO 21792 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:53:27,093 INFO 20020 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:53:27,093 INFO 20020 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:53:27,093 INFO 20020 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:54:09,820 INFO 9464 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:54:09,820 INFO 9464 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:54:09,820 INFO 9464 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:57:52,476 INFO 14096 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:57:52,476 INFO 14096 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:57:52,476 INFO 14096 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 14:59:06,282 INFO 21836 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 14:59:06,282 INFO 21836 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 14:59:06,282 INFO 21836 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:05:42,371 INFO 23988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:05:42,371 INFO 23988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:05:42,371 INFO 23988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:05:51,061 INFO 21904 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:05:51,061 INFO 21904 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:05:51,061 INFO 21904 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:06:19,262 INFO 24460 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:06:19,262 INFO 24460 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:06:19,262 INFO 24460 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:13:27,268 INFO 24176 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:13:27,268 INFO 24176 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:13:27,268 INFO 24176 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:14:19,609 INFO 24380 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:14:19,609 INFO 24380 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:14:19,609 INFO 24380 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:15:01,195 INFO 21100 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:15:01,196 INFO 21100 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:15:01,196 INFO 21100 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:16:23,176 INFO 4380 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:16:23,176 INFO 4380 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:16:23,176 INFO 4380 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:19:22,426 INFO 24300 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:19:22,426 INFO 24300 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:19:22,426 INFO 24300 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:20:05,143 INFO 22988 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47394860ms at 2019-07-09 04:30:00.003
+2019-07-08 15:20:05,143 INFO 22988 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 31194857ms at 2019-07-09 00:00:00.000
+2019-07-08 15:20:05,143 INFO 22988 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 31195857ms at 2019-07-09 00:00:01.000
+2019-07-08 15:20:04,745 INFO 20016 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:20:04,745 INFO 20016 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:20:04,745 INFO 20016 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:21:29,867 INFO 20524 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:21:29,867 INFO 20524 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:21:29,867 INFO 20524 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:21:58,198 INFO 9024 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:21:58,198 INFO 9024 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:21:58,198 INFO 9024 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:23:31,945 INFO 2284 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47188057ms at 2019-07-09 04:30:00.002
+2019-07-08 15:23:31,945 INFO 2284 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 30988055ms at 2019-07-09 00:00:00.000
+2019-07-08 15:23:31,946 INFO 2284 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 30989055ms at 2019-07-09 00:00:01.001
+2019-07-08 15:23:31,553 INFO 8864 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:23:31,553 INFO 8864 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:23:31,553 INFO 8864 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:25:00,988 INFO 23924 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:25:00,988 INFO 23924 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:25:00,988 INFO 23924 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:25:54,736 INFO 24400 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:25:54,736 INFO 24400 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:25:54,737 INFO 24400 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 15:26:49,966 INFO 5768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 15:26:49,967 INFO 5768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 15:26:49,967 INFO 5768 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:06:14,718 INFO 16428 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:06:14,718 INFO 16428 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:06:14,718 INFO 16428 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:06:16,991 INFO 18064 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 37423012ms at 2019-07-09 04:30:00.003
+2019-07-08 18:06:16,991 INFO 18064 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 21223009ms at 2019-07-09 00:00:00.000
+2019-07-08 18:06:16,992 INFO 18064 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 21224009ms at 2019-07-09 00:00:01.001
+2019-07-08 18:07:12,262 INFO 21820 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:07:12,262 INFO 21820 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:07:12,262 INFO 21820 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:08:05,923 INFO 22132 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:08:05,923 INFO 22132 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:08:05,923 INFO 22132 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:08:09,114 INFO 19808 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:08:09,114 INFO 19808 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:08:09,114 INFO 19808 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:08:35,961 INFO 19368 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:08:35,961 INFO 19368 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:08:35,961 INFO 19368 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:09:44,172 INFO 9616 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:09:44,172 INFO 9616 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:09:44,172 INFO 9616 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:11:53,969 INFO 22092 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:11:53,969 INFO 22092 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:11:53,969 INFO 22092 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:12:44,313 INFO 15484 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:12:44,313 INFO 15484 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:12:44,313 INFO 15484 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:12:47,869 INFO 23996 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:12:47,869 INFO 23996 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:12:47,869 INFO 23996 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:13:15,647 INFO 23088 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:13:15,647 INFO 23088 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:13:15,647 INFO 23088 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:14:16,997 INFO 24988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:14:16,997 INFO 24988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:14:16,997 INFO 24988 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 18:14:44,894 INFO 18496 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 18:14:44,894 INFO 18496 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 18:14:44,894 INFO 18496 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:09:55,510 INFO 25508 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:09:55,510 INFO 25508 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:09:55,510 INFO 25508 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:11:49,222 INFO 6244 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:11:49,222 INFO 6244 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:11:49,222 INFO 6244 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:13:03,051 INFO 18332 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:13:03,051 INFO 18332 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:13:03,051 INFO 18332 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:13:32,410 INFO 20488 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:13:32,410 INFO 20488 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:13:32,410 INFO 20488 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:14:02,664 INFO 24012 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:14:02,664 INFO 24012 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:14:02,664 INFO 24012 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:15:35,014 INFO 22584 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:15:35,014 INFO 22584 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:15:35,014 INFO 22584 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 20:36:06,658 INFO 23004 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 20:36:06,658 INFO 23004 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 20:36:06,658 INFO 23004 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:18:35,727 INFO 25832 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:18:35,727 INFO 25832 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:18:35,727 INFO 25832 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:19:44,006 INFO 25756 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:19:44,006 INFO 25756 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:19:44,006 INFO 25756 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:21:11,788 INFO 11580 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:21:11,788 INFO 11580 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:21:11,788 INFO 11580 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:25:47,417 INFO 18576 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:25:47,417 INFO 18576 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:25:47,417 INFO 18576 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:26:14,575 INFO 22000 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:26:14,575 INFO 22000 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:26:14,575 INFO 22000 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:32:08,304 INFO 2236 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:32:08,304 INFO 2236 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:32:08,304 INFO 2236 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:32:35,438 INFO 26424 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:32:35,438 INFO 26424 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:32:35,438 INFO 26424 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:33:03,468 INFO 14132 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:33:03,468 INFO 14132 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:33:03,468 INFO 14132 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:33:14,314 INFO 24892 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:33:14,314 INFO 24892 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:33:14,314 INFO 24892 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:33:59,288 INFO 26280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:33:59,288 INFO 26280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:33:59,289 INFO 26280 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:37:45,338 INFO 18388 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:37:45,338 INFO 18388 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:37:45,338 INFO 18388 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:39:07,834 INFO 14224 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:39:07,834 INFO 14224 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:39:07,834 INFO 14224 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:41:43,052 INFO 5116 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17296951ms at 2019-07-09 04:30:00.003
+2019-07-08 23:41:43,052 INFO 5116 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1096948ms at 2019-07-09 00:00:00.000
+2019-07-08 23:41:43,052 INFO 5116 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1097948ms at 2019-07-09 00:00:01.000
+2019-07-08 23:41:42,245 INFO 18292 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:41:42,245 INFO 18292 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:41:42,245 INFO 18292 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:42:06,537 INFO 23568 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:42:06,537 INFO 23568 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:42:06,537 INFO 23568 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:43:10,196 INFO 14092 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17209807ms at 2019-07-09 04:30:00.003
+2019-07-08 23:43:10,196 INFO 14092 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1009804ms at 2019-07-09 00:00:00.000
+2019-07-08 23:43:10,196 INFO 14092 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1010804ms at 2019-07-09 00:00:01.000
+2019-07-08 23:43:09,793 INFO 24892 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:43:09,793 INFO 24892 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:43:09,793 INFO 24892 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:43:15,313 INFO 16128 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:43:15,313 INFO 16128 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:43:15,313 INFO 16128 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:47:54,411 INFO 24628 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:47:54,411 INFO 24628 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:47:54,411 INFO 24628 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:48:05,378 INFO 24224 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:48:05,378 INFO 24224 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:48:05,378 INFO 24224 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:49:36,083 INFO 22196 [Timer] D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 16823919ms at 2019-07-09 04:30:00.002
+2019-07-08 23:49:36,084 INFO 22196 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 623916ms at 2019-07-09 00:00:00.000
+2019-07-08 23:49:36,084 INFO 22196 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 624916ms at 2019-07-09 00:00:01.000
+2019-07-08 23:49:35,665 INFO 19596 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:49:35,665 INFO 19596 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:49:35,665 INFO 19596 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:50:33,819 INFO 26608 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:50:33,819 INFO 26608 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:50:33,819 INFO 26608 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:50:52,485 INFO 25444 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:50:52,485 INFO 25444 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:50:52,485 INFO 25444 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:52:43,376 INFO 24048 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:52:43,376 INFO 24048 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:52:43,376 INFO 24048 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:53:29,613 INFO 244 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:53:29,613 INFO 244 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:53:29,613 INFO 244 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:54:01,388 INFO 24916 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:54:01,388 INFO 24916 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:54:01,388 INFO 24916 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:54:07,867 INFO 24556 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:54:07,867 INFO 24556 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:54:07,867 INFO 24556 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-08 23:54:40,820 INFO 7656 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-08 23:54:40,820 INFO 7656 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-08 23:54:40,820 INFO 7656 [egg-schedule]: register schedule D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-09 00:00:00,004 INFO 7656 [Job#15626016000022516365881827691] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2019-07-09 00:00:00,009 INFO 7656 [Job#15626016000022516365881827691] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 5ms
+2019-07-09 00:00:00,008 INFO 22196 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399997ms at 2019-07-10 00:00:00.005
+2019-07-09 00:00:01,002 INFO 7656 [Job#15626016010022516375875633311] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-07-09 00:00:01,015 INFO 7656 [Job#15626016010022516375875633311] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 13ms
+2019-07-09 00:00:01,004 INFO 22196 [Timer] D:\vscode\sequelize-ts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399998ms at 2019-07-10 00:00:01.002

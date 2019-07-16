@@ -1,0 +1,1319 @@
+2019-07-09 00:00:01,020 INFO 7656 [egg-logrotator] app logger reload: got log-reload message
+2019-07-09 00:00:45,098 INFO 6676 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:00:45,134 INFO 6676 [egg-multipart] stream mode enable
+2019-07-09 00:00:47,024 INFO 6676 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:00:47,027 INFO 6676 [egg-security] use csrf middleware
+2019-07-09 00:00:47,027 INFO 6676 [egg-security] use methodnoallow middleware
+2019-07-09 00:00:47,028 INFO 6676 [egg-security] use noopen middleware
+2019-07-09 00:00:47,028 INFO 6676 [egg-security] use nosniff middleware
+2019-07-09 00:00:47,029 INFO 6676 [egg-security] use xssProtection middleware
+2019-07-09 00:00:47,029 INFO 6676 [egg-security] use xframe middleware
+2019-07-09 00:00:47,030 INFO 6676 [egg-security] use dta middleware
+2019-07-09 00:00:47,030 INFO 6676 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:00:47,052 INFO 6676 [egg:core] dump config after load, 7ms
+2019-07-09 00:00:47,080 INFO 6676 [egg-watcher:application] watcher start success
+2019-07-09 00:00:47,101 INFO 6676 [egg:core] dump config after ready, 6ms
+2019-07-09 00:01:32,613 INFO 25836 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:01:32,645 INFO 25836 [egg-multipart] stream mode enable
+2019-07-09 00:01:32,994 INFO 25836 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:01:32,997 INFO 25836 [egg-security] use csrf middleware
+2019-07-09 00:01:32,998 INFO 25836 [egg-security] use methodnoallow middleware
+2019-07-09 00:01:32,998 INFO 25836 [egg-security] use noopen middleware
+2019-07-09 00:01:32,999 INFO 25836 [egg-security] use nosniff middleware
+2019-07-09 00:01:32,999 INFO 25836 [egg-security] use xssProtection middleware
+2019-07-09 00:01:33,000 INFO 25836 [egg-security] use xframe middleware
+2019-07-09 00:01:33,000 INFO 25836 [egg-security] use dta middleware
+2019-07-09 00:01:33,000 INFO 25836 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:01:33,015 INFO 25836 [egg:core] dump config after load, 8ms
+2019-07-09 00:01:33,066 INFO 25836 [egg-watcher:application] watcher start success
+2019-07-09 00:01:33,118 INFO 25836 [egg:core] dump config after ready, 10ms
+2019-07-09 00:01:34,289 INFO 24360 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:01:34,327 INFO 24360 [egg-multipart] stream mode enable
+2019-07-09 00:01:34,640 INFO 24360 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:01:34,643 INFO 24360 [egg-security] use csrf middleware
+2019-07-09 00:01:34,644 INFO 24360 [egg-security] use methodnoallow middleware
+2019-07-09 00:01:34,644 INFO 24360 [egg-security] use noopen middleware
+2019-07-09 00:01:34,645 INFO 24360 [egg-security] use nosniff middleware
+2019-07-09 00:01:34,646 INFO 24360 [egg-security] use xssProtection middleware
+2019-07-09 00:01:34,646 INFO 24360 [egg-security] use xframe middleware
+2019-07-09 00:01:34,646 INFO 24360 [egg-security] use dta middleware
+2019-07-09 00:01:34,646 INFO 24360 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:01:34,664 INFO 24360 [egg:core] dump config after load, 10ms
+2019-07-09 00:01:34,710 INFO 24360 [egg-watcher:application] watcher start success
+2019-07-09 00:01:34,738 INFO 24360 [egg:core] dump config after ready, 7ms
+2019-07-09 00:02:37,108 INFO 22780 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:02:37,143 INFO 22780 [egg-multipart] stream mode enable
+2019-07-09 00:02:37,492 INFO 22780 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:02:37,495 INFO 22780 [egg-security] use csrf middleware
+2019-07-09 00:02:37,496 INFO 22780 [egg-security] use methodnoallow middleware
+2019-07-09 00:02:37,496 INFO 22780 [egg-security] use noopen middleware
+2019-07-09 00:02:37,497 INFO 22780 [egg-security] use nosniff middleware
+2019-07-09 00:02:37,497 INFO 22780 [egg-security] use xssProtection middleware
+2019-07-09 00:02:37,498 INFO 22780 [egg-security] use xframe middleware
+2019-07-09 00:02:37,498 INFO 22780 [egg-security] use dta middleware
+2019-07-09 00:02:37,498 INFO 22780 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:02:39,099 INFO 22780 [egg:core] dump config after load, 7ms
+2019-07-09 00:02:39,133 INFO 22780 [egg-watcher:application] watcher start success
+2019-07-09 00:02:39,154 INFO 22780 [egg:core] dump config after ready, 6ms
+2019-07-09 00:05:05,927 INFO 26264 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:05:05,961 INFO 26264 [egg-multipart] stream mode enable
+2019-07-09 00:05:06,283 INFO 26264 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:05:06,286 INFO 26264 [egg-security] use csrf middleware
+2019-07-09 00:05:06,287 INFO 26264 [egg-security] use methodnoallow middleware
+2019-07-09 00:05:06,287 INFO 26264 [egg-security] use noopen middleware
+2019-07-09 00:05:06,288 INFO 26264 [egg-security] use nosniff middleware
+2019-07-09 00:05:06,288 INFO 26264 [egg-security] use xssProtection middleware
+2019-07-09 00:05:06,289 INFO 26264 [egg-security] use xframe middleware
+2019-07-09 00:05:06,289 INFO 26264 [egg-security] use dta middleware
+2019-07-09 00:05:06,289 INFO 26264 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:05:06,305 INFO 26264 [egg:core] dump config after load, 8ms
+2019-07-09 00:05:06,351 INFO 26264 [egg-watcher:application] watcher start success
+2019-07-09 00:05:06,374 INFO 26264 [egg:core] dump config after ready, 7ms
+2019-07-09 00:12:34,766 INFO 26328 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:12:34,796 INFO 26328 [egg-multipart] stream mode enable
+2019-07-09 00:12:35,103 INFO 26328 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:12:35,106 INFO 26328 [egg-security] use csrf middleware
+2019-07-09 00:12:35,107 INFO 26328 [egg-security] use methodnoallow middleware
+2019-07-09 00:12:35,107 INFO 26328 [egg-security] use noopen middleware
+2019-07-09 00:12:35,108 INFO 26328 [egg-security] use nosniff middleware
+2019-07-09 00:12:35,108 INFO 26328 [egg-security] use xssProtection middleware
+2019-07-09 00:12:35,109 INFO 26328 [egg-security] use xframe middleware
+2019-07-09 00:12:35,109 INFO 26328 [egg-security] use dta middleware
+2019-07-09 00:12:35,109 INFO 26328 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:12:35,123 INFO 26328 [egg:core] dump config after load, 8ms
+2019-07-09 00:12:35,153 INFO 26328 [egg-watcher:application] watcher start success
+2019-07-09 00:12:35,178 INFO 26328 [egg:core] dump config after ready, 10ms
+2019-07-09 00:13:07,499 INFO 11092 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:13:07,535 INFO 11092 [egg-multipart] stream mode enable
+2019-07-09 00:13:07,855 INFO 11092 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:13:07,858 INFO 11092 [egg-security] use csrf middleware
+2019-07-09 00:13:07,859 INFO 11092 [egg-security] use methodnoallow middleware
+2019-07-09 00:13:07,859 INFO 11092 [egg-security] use noopen middleware
+2019-07-09 00:13:07,860 INFO 11092 [egg-security] use nosniff middleware
+2019-07-09 00:13:07,860 INFO 11092 [egg-security] use xssProtection middleware
+2019-07-09 00:13:07,861 INFO 11092 [egg-security] use xframe middleware
+2019-07-09 00:13:07,861 INFO 11092 [egg-security] use dta middleware
+2019-07-09 00:13:07,861 INFO 11092 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:13:09,625 INFO 11092 [egg:core] dump config after load, 17ms
+2019-07-09 00:13:09,703 INFO 11092 [egg-watcher:application] watcher start success
+2019-07-09 00:13:09,739 INFO 11092 [egg:core] dump config after ready, 12ms
+2019-07-09 00:19:35,103 INFO 26804 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:19:35,135 INFO 26804 [egg-multipart] stream mode enable
+2019-07-09 00:19:35,463 INFO 26804 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:19:35,466 INFO 26804 [egg-security] use csrf middleware
+2019-07-09 00:19:35,467 INFO 26804 [egg-security] use methodnoallow middleware
+2019-07-09 00:19:35,467 INFO 26804 [egg-security] use noopen middleware
+2019-07-09 00:19:35,468 INFO 26804 [egg-security] use nosniff middleware
+2019-07-09 00:19:35,469 INFO 26804 [egg-security] use xssProtection middleware
+2019-07-09 00:19:35,469 INFO 26804 [egg-security] use xframe middleware
+2019-07-09 00:19:35,469 INFO 26804 [egg-security] use dta middleware
+2019-07-09 00:19:35,469 INFO 26804 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:19:35,484 INFO 26804 [egg:core] dump config after load, 9ms
+2019-07-09 00:19:35,515 INFO 26804 [egg-watcher:application] watcher start success
+2019-07-09 00:19:35,551 INFO 26804 [egg:core] dump config after ready, 9ms
+2019-07-09 00:19:36,794 INFO 27504 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:19:36,825 INFO 27504 [egg-multipart] stream mode enable
+2019-07-09 00:19:37,139 INFO 27504 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:19:37,142 INFO 27504 [egg-security] use csrf middleware
+2019-07-09 00:19:37,143 INFO 27504 [egg-security] use methodnoallow middleware
+2019-07-09 00:19:37,143 INFO 27504 [egg-security] use noopen middleware
+2019-07-09 00:19:37,144 INFO 27504 [egg-security] use nosniff middleware
+2019-07-09 00:19:37,144 INFO 27504 [egg-security] use xssProtection middleware
+2019-07-09 00:19:37,145 INFO 27504 [egg-security] use xframe middleware
+2019-07-09 00:19:37,145 INFO 27504 [egg-security] use dta middleware
+2019-07-09 00:19:37,145 INFO 27504 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:19:37,159 INFO 27504 [egg:core] dump config after load, 8ms
+2019-07-09 00:19:37,194 INFO 27504 [egg-watcher:application] watcher start success
+2019-07-09 00:19:37,226 INFO 27504 [egg:core] dump config after ready, 7ms
+2019-07-09 00:19:51,293 INFO 27096 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:19:51,326 INFO 27096 [egg-multipart] stream mode enable
+2019-07-09 00:19:51,693 INFO 27096 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:19:51,696 INFO 27096 [egg-security] use csrf middleware
+2019-07-09 00:19:51,697 INFO 27096 [egg-security] use methodnoallow middleware
+2019-07-09 00:19:51,697 INFO 27096 [egg-security] use noopen middleware
+2019-07-09 00:19:51,698 INFO 27096 [egg-security] use nosniff middleware
+2019-07-09 00:19:51,698 INFO 27096 [egg-security] use xssProtection middleware
+2019-07-09 00:19:51,699 INFO 27096 [egg-security] use xframe middleware
+2019-07-09 00:19:51,699 INFO 27096 [egg-security] use dta middleware
+2019-07-09 00:19:51,699 INFO 27096 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:19:53,366 INFO 27096 [egg:core] dump config after load, 7ms
+2019-07-09 00:19:53,397 INFO 27096 [egg-watcher:application] watcher start success
+2019-07-09 00:19:53,419 INFO 27096 [egg:core] dump config after ready, 7ms
+2019-07-09 00:20:54,056 INFO 26628 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:20:54,087 INFO 26628 [egg-multipart] stream mode enable
+2019-07-09 00:20:54,455 INFO 26628 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:20:54,458 INFO 26628 [egg-security] use csrf middleware
+2019-07-09 00:20:54,459 INFO 26628 [egg-security] use methodnoallow middleware
+2019-07-09 00:20:54,459 INFO 26628 [egg-security] use noopen middleware
+2019-07-09 00:20:54,460 INFO 26628 [egg-security] use nosniff middleware
+2019-07-09 00:20:54,460 INFO 26628 [egg-security] use xssProtection middleware
+2019-07-09 00:20:54,461 INFO 26628 [egg-security] use xframe middleware
+2019-07-09 00:20:54,461 INFO 26628 [egg-security] use dta middleware
+2019-07-09 00:20:54,461 INFO 26628 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:20:54,474 INFO 26628 [egg:core] dump config after load, 7ms
+2019-07-09 00:20:54,505 INFO 26628 [egg-watcher:application] watcher start success
+2019-07-09 00:20:54,527 INFO 26628 [egg:core] dump config after ready, 7ms
+2019-07-09 00:21:10,853 INFO 27144 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:21:10,885 INFO 27144 [egg-multipart] stream mode enable
+2019-07-09 00:21:11,223 INFO 27144 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:21:11,229 INFO 27144 [egg-security] use csrf middleware
+2019-07-09 00:21:11,230 INFO 27144 [egg-security] use methodnoallow middleware
+2019-07-09 00:21:11,230 INFO 27144 [egg-security] use noopen middleware
+2019-07-09 00:21:11,231 INFO 27144 [egg-security] use nosniff middleware
+2019-07-09 00:21:11,231 INFO 27144 [egg-security] use xssProtection middleware
+2019-07-09 00:21:11,232 INFO 27144 [egg-security] use xframe middleware
+2019-07-09 00:21:11,232 INFO 27144 [egg-security] use dta middleware
+2019-07-09 00:21:11,232 INFO 27144 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:21:11,250 INFO 27144 [egg:core] dump config after load, 12ms
+2019-07-09 00:21:11,313 INFO 27144 [egg-watcher:application] watcher start success
+2019-07-09 00:21:11,348 INFO 27144 [egg:core] dump config after ready, 7ms
+2019-07-09 00:28:10,949 INFO 21108 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:28:10,980 INFO 21108 [egg-multipart] stream mode enable
+2019-07-09 00:28:11,291 INFO 21108 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:28:11,293 INFO 21108 [egg-security] use csrf middleware
+2019-07-09 00:28:11,294 INFO 21108 [egg-security] use methodnoallow middleware
+2019-07-09 00:28:11,295 INFO 21108 [egg-security] use noopen middleware
+2019-07-09 00:28:11,295 INFO 21108 [egg-security] use nosniff middleware
+2019-07-09 00:28:11,296 INFO 21108 [egg-security] use xssProtection middleware
+2019-07-09 00:28:11,296 INFO 21108 [egg-security] use xframe middleware
+2019-07-09 00:28:11,296 INFO 21108 [egg-security] use dta middleware
+2019-07-09 00:28:11,296 INFO 21108 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:28:11,310 INFO 21108 [egg:core] dump config after load, 7ms
+2019-07-09 00:28:11,342 INFO 21108 [egg-watcher:application] watcher start success
+2019-07-09 00:28:11,362 INFO 21108 [egg:core] dump config after ready, 6ms
+2019-07-09 00:29:14,472 INFO 27616 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:29:14,509 INFO 27616 [egg-multipart] stream mode enable
+2019-07-09 00:29:14,868 INFO 27616 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:29:14,871 INFO 27616 [egg-security] use csrf middleware
+2019-07-09 00:29:14,871 INFO 27616 [egg-security] use methodnoallow middleware
+2019-07-09 00:29:14,872 INFO 27616 [egg-security] use noopen middleware
+2019-07-09 00:29:14,873 INFO 27616 [egg-security] use nosniff middleware
+2019-07-09 00:29:14,873 INFO 27616 [egg-security] use xssProtection middleware
+2019-07-09 00:29:14,873 INFO 27616 [egg-security] use xframe middleware
+2019-07-09 00:29:14,874 INFO 27616 [egg-security] use dta middleware
+2019-07-09 00:29:14,874 INFO 27616 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:29:14,887 INFO 27616 [egg:core] dump config after load, 7ms
+2019-07-09 00:29:14,918 INFO 27616 [egg-watcher:application] watcher start success
+2019-07-09 00:29:14,941 INFO 27616 [egg:core] dump config after ready, 6ms
+2019-07-09 00:30:04,617 INFO 19676 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:30:04,649 INFO 19676 [egg-multipart] stream mode enable
+2019-07-09 00:30:04,968 INFO 19676 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:30:04,971 INFO 19676 [egg-security] use csrf middleware
+2019-07-09 00:30:04,972 INFO 19676 [egg-security] use methodnoallow middleware
+2019-07-09 00:30:04,972 INFO 19676 [egg-security] use noopen middleware
+2019-07-09 00:30:04,973 INFO 19676 [egg-security] use nosniff middleware
+2019-07-09 00:30:04,973 INFO 19676 [egg-security] use xssProtection middleware
+2019-07-09 00:30:04,974 INFO 19676 [egg-security] use xframe middleware
+2019-07-09 00:30:04,974 INFO 19676 [egg-security] use dta middleware
+2019-07-09 00:30:04,974 INFO 19676 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:30:04,989 INFO 19676 [egg:core] dump config after load, 8ms
+2019-07-09 00:30:05,018 INFO 19676 [egg-watcher:application] watcher start success
+2019-07-09 00:30:05,041 INFO 19676 [egg:core] dump config after ready, 7ms
+2019-07-09 00:31:26,800 INFO 26188 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:31:26,833 INFO 26188 [egg-multipart] stream mode enable
+2019-07-09 00:31:27,176 INFO 26188 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:31:27,182 INFO 26188 [egg-security] use csrf middleware
+2019-07-09 00:31:27,183 INFO 26188 [egg-security] use methodnoallow middleware
+2019-07-09 00:31:27,184 INFO 26188 [egg-security] use noopen middleware
+2019-07-09 00:31:27,184 INFO 26188 [egg-security] use nosniff middleware
+2019-07-09 00:31:27,185 INFO 26188 [egg-security] use xssProtection middleware
+2019-07-09 00:31:27,185 INFO 26188 [egg-security] use xframe middleware
+2019-07-09 00:31:27,186 INFO 26188 [egg-security] use dta middleware
+2019-07-09 00:31:27,186 INFO 26188 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:31:27,200 INFO 26188 [egg:core] dump config after load, 8ms
+2019-07-09 00:31:27,234 INFO 26188 [egg-watcher:application] watcher start success
+2019-07-09 00:31:27,258 INFO 26188 [egg:core] dump config after ready, 6ms
+2019-07-09 00:32:13,582 INFO 19676 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:32:13,613 INFO 19676 [egg-multipart] stream mode enable
+2019-07-09 00:32:13,922 INFO 19676 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:32:13,925 INFO 19676 [egg-security] use csrf middleware
+2019-07-09 00:32:13,926 INFO 19676 [egg-security] use methodnoallow middleware
+2019-07-09 00:32:13,927 INFO 19676 [egg-security] use noopen middleware
+2019-07-09 00:32:13,927 INFO 19676 [egg-security] use nosniff middleware
+2019-07-09 00:32:13,928 INFO 19676 [egg-security] use xssProtection middleware
+2019-07-09 00:32:13,928 INFO 19676 [egg-security] use xframe middleware
+2019-07-09 00:32:13,928 INFO 19676 [egg-security] use dta middleware
+2019-07-09 00:32:13,928 INFO 19676 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:32:13,942 INFO 19676 [egg:core] dump config after load, 8ms
+2019-07-09 00:32:13,972 INFO 19676 [egg-watcher:application] watcher start success
+2019-07-09 00:32:13,997 INFO 19676 [egg:core] dump config after ready, 7ms
+2019-07-09 00:37:34,742 INFO 26540 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:37:34,775 INFO 26540 [egg-multipart] stream mode enable
+2019-07-09 00:37:35,111 INFO 26540 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:37:35,116 INFO 26540 [egg-security] use csrf middleware
+2019-07-09 00:37:35,117 INFO 26540 [egg-security] use methodnoallow middleware
+2019-07-09 00:37:35,118 INFO 26540 [egg-security] use noopen middleware
+2019-07-09 00:37:35,119 INFO 26540 [egg-security] use nosniff middleware
+2019-07-09 00:37:35,119 INFO 26540 [egg-security] use xssProtection middleware
+2019-07-09 00:37:35,119 INFO 26540 [egg-security] use xframe middleware
+2019-07-09 00:37:35,120 INFO 26540 [egg-security] use dta middleware
+2019-07-09 00:37:35,120 INFO 26540 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:37:35,141 INFO 26540 [egg:core] dump config after load, 15ms
+2019-07-09 00:37:35,252 INFO 26540 [egg-watcher:application] watcher start success
+2019-07-09 00:37:35,299 INFO 26540 [egg:core] dump config after ready, 11ms
+2019-07-09 00:37:39,581 INFO 23748 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:37:39,611 INFO 23748 [egg-multipart] stream mode enable
+2019-07-09 00:37:39,928 INFO 23748 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:37:39,930 INFO 23748 [egg-security] use csrf middleware
+2019-07-09 00:37:39,931 INFO 23748 [egg-security] use methodnoallow middleware
+2019-07-09 00:37:39,931 INFO 23748 [egg-security] use noopen middleware
+2019-07-09 00:37:39,932 INFO 23748 [egg-security] use nosniff middleware
+2019-07-09 00:37:39,932 INFO 23748 [egg-security] use xssProtection middleware
+2019-07-09 00:37:39,933 INFO 23748 [egg-security] use xframe middleware
+2019-07-09 00:37:39,933 INFO 23748 [egg-security] use dta middleware
+2019-07-09 00:37:39,933 INFO 23748 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:37:39,946 INFO 23748 [egg:core] dump config after load, 7ms
+2019-07-09 00:37:39,975 INFO 23748 [egg-watcher:application] watcher start success
+2019-07-09 00:37:40,002 INFO 23748 [egg:core] dump config after ready, 9ms
+2019-07-09 00:37:46,720 INFO 27644 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:37:46,751 INFO 27644 [egg-multipart] stream mode enable
+2019-07-09 00:37:47,062 INFO 27644 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:37:47,065 INFO 27644 [egg-security] use csrf middleware
+2019-07-09 00:37:47,066 INFO 27644 [egg-security] use methodnoallow middleware
+2019-07-09 00:37:47,067 INFO 27644 [egg-security] use noopen middleware
+2019-07-09 00:37:47,067 INFO 27644 [egg-security] use nosniff middleware
+2019-07-09 00:37:47,068 INFO 27644 [egg-security] use xssProtection middleware
+2019-07-09 00:37:47,068 INFO 27644 [egg-security] use xframe middleware
+2019-07-09 00:37:47,069 INFO 27644 [egg-security] use dta middleware
+2019-07-09 00:37:47,069 INFO 27644 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:37:48,751 INFO 27644 [egg:core] dump config after load, 9ms
+2019-07-09 00:37:48,785 INFO 27644 [egg-watcher:application] watcher start success
+2019-07-09 00:37:48,809 INFO 27644 [egg:core] dump config after ready, 6ms
+2019-07-09 00:38:18,645 INFO 26844 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:38:18,675 INFO 26844 [egg-multipart] stream mode enable
+2019-07-09 00:38:19,005 INFO 26844 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:38:19,008 INFO 26844 [egg-security] use csrf middleware
+2019-07-09 00:38:19,009 INFO 26844 [egg-security] use methodnoallow middleware
+2019-07-09 00:38:19,009 INFO 26844 [egg-security] use noopen middleware
+2019-07-09 00:38:19,010 INFO 26844 [egg-security] use nosniff middleware
+2019-07-09 00:38:19,010 INFO 26844 [egg-security] use xssProtection middleware
+2019-07-09 00:38:19,011 INFO 26844 [egg-security] use xframe middleware
+2019-07-09 00:38:19,011 INFO 26844 [egg-security] use dta middleware
+2019-07-09 00:38:19,011 INFO 26844 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:38:19,024 INFO 26844 [egg:core] dump config after load, 7ms
+2019-07-09 00:38:19,055 INFO 26844 [egg-watcher:application] watcher start success
+2019-07-09 00:38:19,077 INFO 26844 [egg:core] dump config after ready, 7ms
+2019-07-09 00:38:49,978 INFO 9316 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:38:50,011 INFO 9316 [egg-multipart] stream mode enable
+2019-07-09 00:38:50,324 INFO 9316 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:38:50,326 INFO 9316 [egg-security] use csrf middleware
+2019-07-09 00:38:50,327 INFO 9316 [egg-security] use methodnoallow middleware
+2019-07-09 00:38:50,328 INFO 9316 [egg-security] use noopen middleware
+2019-07-09 00:38:50,329 INFO 9316 [egg-security] use nosniff middleware
+2019-07-09 00:38:50,329 INFO 9316 [egg-security] use xssProtection middleware
+2019-07-09 00:38:50,330 INFO 9316 [egg-security] use xframe middleware
+2019-07-09 00:38:50,330 INFO 9316 [egg-security] use dta middleware
+2019-07-09 00:38:50,330 INFO 9316 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:38:50,348 INFO 9316 [egg:core] dump config after load, 12ms
+2019-07-09 00:38:50,382 INFO 9316 [egg-watcher:application] watcher start success
+2019-07-09 00:38:50,414 INFO 9316 [egg:core] dump config after ready, 9ms
+2019-07-09 00:39:50,941 INFO 13228 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:39:50,973 INFO 13228 [egg-multipart] stream mode enable
+2019-07-09 00:39:51,309 INFO 13228 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:39:51,313 INFO 13228 [egg-security] use csrf middleware
+2019-07-09 00:39:51,314 INFO 13228 [egg-security] use methodnoallow middleware
+2019-07-09 00:39:51,314 INFO 13228 [egg-security] use noopen middleware
+2019-07-09 00:39:51,315 INFO 13228 [egg-security] use nosniff middleware
+2019-07-09 00:39:51,315 INFO 13228 [egg-security] use xssProtection middleware
+2019-07-09 00:39:51,315 INFO 13228 [egg-security] use xframe middleware
+2019-07-09 00:39:51,316 INFO 13228 [egg-security] use dta middleware
+2019-07-09 00:39:51,316 INFO 13228 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:39:51,329 INFO 13228 [egg:core] dump config after load, 8ms
+2019-07-09 00:39:51,357 INFO 13228 [egg-watcher:application] watcher start success
+2019-07-09 00:39:51,380 INFO 13228 [egg:core] dump config after ready, 7ms
+2019-07-09 00:40:15,074 INFO 27304 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:40:15,107 INFO 27304 [egg-multipart] stream mode enable
+2019-07-09 00:40:15,450 INFO 27304 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:40:15,452 INFO 27304 [egg-security] use csrf middleware
+2019-07-09 00:40:15,453 INFO 27304 [egg-security] use methodnoallow middleware
+2019-07-09 00:40:15,453 INFO 27304 [egg-security] use noopen middleware
+2019-07-09 00:40:15,454 INFO 27304 [egg-security] use nosniff middleware
+2019-07-09 00:40:15,454 INFO 27304 [egg-security] use xssProtection middleware
+2019-07-09 00:40:15,455 INFO 27304 [egg-security] use xframe middleware
+2019-07-09 00:40:15,455 INFO 27304 [egg-security] use dta middleware
+2019-07-09 00:40:15,455 INFO 27304 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:40:15,469 INFO 27304 [egg:core] dump config after load, 8ms
+2019-07-09 00:40:15,499 INFO 27304 [egg-watcher:application] watcher start success
+2019-07-09 00:40:15,527 INFO 27304 [egg:core] dump config after ready, 7ms
+2019-07-09 00:41:57,128 INFO 10900 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:41:57,167 INFO 10900 [egg-multipart] stream mode enable
+2019-07-09 00:41:59,126 INFO 10900 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:41:59,129 INFO 10900 [egg-security] use csrf middleware
+2019-07-09 00:41:59,130 INFO 10900 [egg-security] use methodnoallow middleware
+2019-07-09 00:41:59,130 INFO 10900 [egg-security] use noopen middleware
+2019-07-09 00:41:59,131 INFO 10900 [egg-security] use nosniff middleware
+2019-07-09 00:41:59,131 INFO 10900 [egg-security] use xssProtection middleware
+2019-07-09 00:41:59,131 INFO 10900 [egg-security] use xframe middleware
+2019-07-09 00:41:59,132 INFO 10900 [egg-security] use dta middleware
+2019-07-09 00:41:59,132 INFO 10900 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:41:59,145 INFO 10900 [egg:core] dump config after load, 7ms
+2019-07-09 00:41:59,175 INFO 10900 [egg-watcher:application] watcher start success
+2019-07-09 00:41:59,202 INFO 10900 [egg:core] dump config after ready, 5ms
+2019-07-09 00:48:38,045 INFO 26908 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:48:38,078 INFO 26908 [egg-multipart] stream mode enable
+2019-07-09 00:48:38,598 INFO 26908 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:48:38,601 INFO 26908 [egg-security] use csrf middleware
+2019-07-09 00:48:38,602 INFO 26908 [egg-security] use methodnoallow middleware
+2019-07-09 00:48:38,602 INFO 26908 [egg-security] use noopen middleware
+2019-07-09 00:48:38,603 INFO 26908 [egg-security] use nosniff middleware
+2019-07-09 00:48:38,604 INFO 26908 [egg-security] use xssProtection middleware
+2019-07-09 00:48:38,605 INFO 26908 [egg-security] use xframe middleware
+2019-07-09 00:48:38,606 INFO 26908 [egg-security] use dta middleware
+2019-07-09 00:48:38,606 INFO 26908 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:48:38,630 INFO 26908 [egg:core] dump config after load, 14ms
+2019-07-09 00:48:38,668 INFO 26908 [egg-watcher:application] watcher start success
+2019-07-09 00:48:38,694 INFO 26908 [egg:core] dump config after ready, 7ms
+2019-07-09 00:48:50,531 INFO 27380 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:48:50,616 INFO 27380 [egg-multipart] stream mode enable
+2019-07-09 00:48:51,019 INFO 27380 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:48:51,022 INFO 27380 [egg-security] use csrf middleware
+2019-07-09 00:48:51,023 INFO 27380 [egg-security] use methodnoallow middleware
+2019-07-09 00:48:51,023 INFO 27380 [egg-security] use noopen middleware
+2019-07-09 00:48:51,024 INFO 27380 [egg-security] use nosniff middleware
+2019-07-09 00:48:51,024 INFO 27380 [egg-security] use xssProtection middleware
+2019-07-09 00:48:51,025 INFO 27380 [egg-security] use xframe middleware
+2019-07-09 00:48:51,025 INFO 27380 [egg-security] use dta middleware
+2019-07-09 00:48:51,025 INFO 27380 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:48:51,042 INFO 27380 [egg:core] dump config after load, 11ms
+2019-07-09 00:48:51,085 INFO 27380 [egg-watcher:application] watcher start success
+2019-07-09 00:48:51,126 INFO 27380 [egg:core] dump config after ready, 9ms
+2019-07-09 00:49:08,638 INFO 27276 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:49:08,687 INFO 27276 [egg-multipart] stream mode enable
+2019-07-09 00:49:09,058 INFO 27276 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:49:09,060 INFO 27276 [egg-security] use csrf middleware
+2019-07-09 00:49:09,061 INFO 27276 [egg-security] use methodnoallow middleware
+2019-07-09 00:49:09,062 INFO 27276 [egg-security] use noopen middleware
+2019-07-09 00:49:09,063 INFO 27276 [egg-security] use nosniff middleware
+2019-07-09 00:49:09,063 INFO 27276 [egg-security] use xssProtection middleware
+2019-07-09 00:49:09,063 INFO 27276 [egg-security] use xframe middleware
+2019-07-09 00:49:09,064 INFO 27276 [egg-security] use dta middleware
+2019-07-09 00:49:09,064 INFO 27276 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:49:09,085 INFO 27276 [egg:core] dump config after load, 12ms
+2019-07-09 00:49:09,131 INFO 27276 [egg-watcher:application] watcher start success
+2019-07-09 00:49:09,269 INFO 27276 [egg:core] dump config after ready, 106ms
+2019-07-09 00:49:30,459 INFO 24520 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:49:30,501 INFO 24520 [egg-multipart] stream mode enable
+2019-07-09 00:49:32,882 INFO 24520 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:49:32,885 INFO 24520 [egg-security] use csrf middleware
+2019-07-09 00:49:32,886 INFO 24520 [egg-security] use methodnoallow middleware
+2019-07-09 00:49:32,886 INFO 24520 [egg-security] use noopen middleware
+2019-07-09 00:49:32,887 INFO 24520 [egg-security] use nosniff middleware
+2019-07-09 00:49:32,888 INFO 24520 [egg-security] use xssProtection middleware
+2019-07-09 00:49:32,888 INFO 24520 [egg-security] use xframe middleware
+2019-07-09 00:49:32,888 INFO 24520 [egg-security] use dta middleware
+2019-07-09 00:49:32,888 INFO 24520 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:49:32,904 INFO 24520 [egg:core] dump config after load, 10ms
+2019-07-09 00:49:32,939 INFO 24520 [egg-watcher:application] watcher start success
+2019-07-09 00:49:32,973 INFO 24520 [egg:core] dump config after ready, 13ms
+2019-07-09 00:51:08,166 INFO 22068 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:51:08,200 INFO 22068 [egg-multipart] stream mode enable
+2019-07-09 00:51:10,961 INFO 22068 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:51:10,966 INFO 22068 [egg-security] use csrf middleware
+2019-07-09 00:51:10,967 INFO 22068 [egg-security] use methodnoallow middleware
+2019-07-09 00:51:10,968 INFO 22068 [egg-security] use noopen middleware
+2019-07-09 00:51:10,969 INFO 22068 [egg-security] use nosniff middleware
+2019-07-09 00:51:10,969 INFO 22068 [egg-security] use xssProtection middleware
+2019-07-09 00:51:10,969 INFO 22068 [egg-security] use xframe middleware
+2019-07-09 00:51:10,970 INFO 22068 [egg-security] use dta middleware
+2019-07-09 00:51:10,971 INFO 22068 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:51:11,000 INFO 22068 [egg:core] dump config after load, 14ms
+2019-07-09 00:51:11,066 INFO 22068 [egg-watcher:application] watcher start success
+2019-07-09 00:51:11,099 INFO 22068 [egg:core] dump config after ready, 10ms
+2019-07-09 00:51:15,012 INFO 26644 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:51:15,072 INFO 26644 [egg-multipart] stream mode enable
+2019-07-09 00:51:15,449 INFO 26644 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:51:15,452 INFO 26644 [egg-security] use csrf middleware
+2019-07-09 00:51:15,453 INFO 26644 [egg-security] use methodnoallow middleware
+2019-07-09 00:51:15,453 INFO 26644 [egg-security] use noopen middleware
+2019-07-09 00:51:15,455 INFO 26644 [egg-security] use nosniff middleware
+2019-07-09 00:51:15,455 INFO 26644 [egg-security] use xssProtection middleware
+2019-07-09 00:51:15,456 INFO 26644 [egg-security] use xframe middleware
+2019-07-09 00:51:15,457 INFO 26644 [egg-security] use dta middleware
+2019-07-09 00:51:15,457 INFO 26644 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:51:15,471 INFO 26644 [egg:core] dump config after load, 7ms
+2019-07-09 00:51:15,534 INFO 26644 [egg-watcher:application] watcher start success
+2019-07-09 00:51:15,579 INFO 26644 [egg:core] dump config after ready, 10ms
+2019-07-09 00:51:37,584 INFO 6604 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:51:37,617 INFO 6604 [egg-multipart] stream mode enable
+2019-07-09 00:51:39,745 INFO 6604 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:51:39,748 INFO 6604 [egg-security] use csrf middleware
+2019-07-09 00:51:39,749 INFO 6604 [egg-security] use methodnoallow middleware
+2019-07-09 00:51:39,749 INFO 6604 [egg-security] use noopen middleware
+2019-07-09 00:51:39,750 INFO 6604 [egg-security] use nosniff middleware
+2019-07-09 00:51:39,750 INFO 6604 [egg-security] use xssProtection middleware
+2019-07-09 00:51:39,751 INFO 6604 [egg-security] use xframe middleware
+2019-07-09 00:51:39,751 INFO 6604 [egg-security] use dta middleware
+2019-07-09 00:51:39,751 INFO 6604 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:51:39,765 INFO 6604 [egg:core] dump config after load, 6ms
+2019-07-09 00:51:39,806 INFO 6604 [egg-watcher:application] watcher start success
+2019-07-09 00:51:39,828 INFO 6604 [egg:core] dump config after ready, 7ms
+2019-07-09 00:51:57,663 INFO 3952 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:51:57,697 INFO 3952 [egg-multipart] stream mode enable
+2019-07-09 00:51:59,910 INFO 3952 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:51:59,912 INFO 3952 [egg-security] use csrf middleware
+2019-07-09 00:51:59,913 INFO 3952 [egg-security] use methodnoallow middleware
+2019-07-09 00:51:59,914 INFO 3952 [egg-security] use noopen middleware
+2019-07-09 00:51:59,915 INFO 3952 [egg-security] use nosniff middleware
+2019-07-09 00:51:59,915 INFO 3952 [egg-security] use xssProtection middleware
+2019-07-09 00:51:59,915 INFO 3952 [egg-security] use xframe middleware
+2019-07-09 00:51:59,916 INFO 3952 [egg-security] use dta middleware
+2019-07-09 00:51:59,916 INFO 3952 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:51:59,932 INFO 3952 [egg:core] dump config after load, 7ms
+2019-07-09 00:51:59,973 INFO 3952 [egg-watcher:application] watcher start success
+2019-07-09 00:51:59,997 INFO 3952 [egg:core] dump config after ready, 8ms
+2019-07-09 00:52:10,199 INFO 26648 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:52:10,237 INFO 26648 [egg-multipart] stream mode enable
+2019-07-09 00:52:10,671 INFO 26648 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:52:10,675 INFO 26648 [egg-security] use csrf middleware
+2019-07-09 00:52:10,676 INFO 26648 [egg-security] use methodnoallow middleware
+2019-07-09 00:52:10,676 INFO 26648 [egg-security] use noopen middleware
+2019-07-09 00:52:10,677 INFO 26648 [egg-security] use nosniff middleware
+2019-07-09 00:52:10,677 INFO 26648 [egg-security] use xssProtection middleware
+2019-07-09 00:52:10,678 INFO 26648 [egg-security] use xframe middleware
+2019-07-09 00:52:10,678 INFO 26648 [egg-security] use dta middleware
+2019-07-09 00:52:10,678 INFO 26648 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:52:10,707 INFO 26648 [egg:core] dump config after load, 15ms
+2019-07-09 00:52:10,762 INFO 26648 [egg-watcher:application] watcher start success
+2019-07-09 00:52:10,803 INFO 26648 [egg:core] dump config after ready, 11ms
+2019-07-09 00:52:42,309 INFO 27008 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:52:42,357 INFO 27008 [egg-multipart] stream mode enable
+2019-07-09 00:52:42,862 INFO 27008 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:52:42,871 INFO 27008 [egg-security] use csrf middleware
+2019-07-09 00:52:42,872 INFO 27008 [egg-security] use methodnoallow middleware
+2019-07-09 00:52:42,872 INFO 27008 [egg-security] use noopen middleware
+2019-07-09 00:52:42,873 INFO 27008 [egg-security] use nosniff middleware
+2019-07-09 00:52:42,874 INFO 27008 [egg-security] use xssProtection middleware
+2019-07-09 00:52:42,874 INFO 27008 [egg-security] use xframe middleware
+2019-07-09 00:52:42,875 INFO 27008 [egg-security] use dta middleware
+2019-07-09 00:52:42,875 INFO 27008 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:52:42,890 INFO 27008 [egg:core] dump config after load, 8ms
+2019-07-09 00:52:42,931 INFO 27008 [egg-watcher:application] watcher start success
+2019-07-09 00:52:42,959 INFO 27008 [egg:core] dump config after ready, 7ms
+2019-07-09 00:52:44,552 INFO 14132 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 00:52:44,585 INFO 14132 [egg-multipart] stream mode enable
+2019-07-09 00:52:44,937 INFO 14132 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 00:52:44,939 INFO 14132 [egg-security] use csrf middleware
+2019-07-09 00:52:44,940 INFO 14132 [egg-security] use methodnoallow middleware
+2019-07-09 00:52:44,940 INFO 14132 [egg-security] use noopen middleware
+2019-07-09 00:52:44,941 INFO 14132 [egg-security] use nosniff middleware
+2019-07-09 00:52:44,941 INFO 14132 [egg-security] use xssProtection middleware
+2019-07-09 00:52:44,942 INFO 14132 [egg-security] use xframe middleware
+2019-07-09 00:52:44,942 INFO 14132 [egg-security] use dta middleware
+2019-07-09 00:52:44,942 INFO 14132 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 00:52:46,738 INFO 14132 [egg:core] dump config after load, 10ms
+2019-07-09 00:52:46,771 INFO 14132 [egg-watcher:application] watcher start success
+2019-07-09 00:52:46,797 INFO 14132 [egg:core] dump config after ready, 7ms
+2019-07-09 10:01:30,400 INFO 24508 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:01:30,434 INFO 24508 [egg-multipart] stream mode enable
+2019-07-09 10:01:30,932 INFO 24508 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:01:30,947 INFO 24508 [egg-security] use csrf middleware
+2019-07-09 10:01:30,948 INFO 24508 [egg-security] use methodnoallow middleware
+2019-07-09 10:01:30,948 INFO 24508 [egg-security] use noopen middleware
+2019-07-09 10:01:30,949 INFO 24508 [egg-security] use nosniff middleware
+2019-07-09 10:01:30,949 INFO 24508 [egg-security] use xssProtection middleware
+2019-07-09 10:01:30,950 INFO 24508 [egg-security] use xframe middleware
+2019-07-09 10:01:30,950 INFO 24508 [egg-security] use dta middleware
+2019-07-09 10:01:30,950 INFO 24508 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:01:32,683 INFO 24508 [egg:core] dump config after load, 8ms
+2019-07-09 10:01:32,719 INFO 24508 [egg-watcher:application] watcher start success
+2019-07-09 10:01:32,747 INFO 24508 [egg:core] dump config after ready, 10ms
+2019-07-09 10:02:33,305 INFO 25248 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:02:33,337 INFO 25248 [egg-multipart] stream mode enable
+2019-07-09 10:02:33,651 INFO 25248 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:02:33,654 INFO 25248 [egg-security] use csrf middleware
+2019-07-09 10:02:33,655 INFO 25248 [egg-security] use methodnoallow middleware
+2019-07-09 10:02:33,655 INFO 25248 [egg-security] use noopen middleware
+2019-07-09 10:02:33,656 INFO 25248 [egg-security] use nosniff middleware
+2019-07-09 10:02:33,657 INFO 25248 [egg-security] use xssProtection middleware
+2019-07-09 10:02:33,657 INFO 25248 [egg-security] use xframe middleware
+2019-07-09 10:02:33,658 INFO 25248 [egg-security] use dta middleware
+2019-07-09 10:02:33,658 INFO 25248 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:02:35,260 INFO 25248 [egg:core] dump config after load, 7ms
+2019-07-09 10:02:35,290 INFO 25248 [egg-watcher:application] watcher start success
+2019-07-09 10:02:35,311 INFO 25248 [egg:core] dump config after ready, 5ms
+2019-07-09 10:06:28,776 INFO 23332 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:06:28,811 INFO 23332 [egg-multipart] stream mode enable
+2019-07-09 10:06:29,127 INFO 23332 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:06:29,130 INFO 23332 [egg-security] use csrf middleware
+2019-07-09 10:06:29,131 INFO 23332 [egg-security] use methodnoallow middleware
+2019-07-09 10:06:29,131 INFO 23332 [egg-security] use noopen middleware
+2019-07-09 10:06:29,132 INFO 23332 [egg-security] use nosniff middleware
+2019-07-09 10:06:29,132 INFO 23332 [egg-security] use xssProtection middleware
+2019-07-09 10:06:29,133 INFO 23332 [egg-security] use xframe middleware
+2019-07-09 10:06:29,133 INFO 23332 [egg-security] use dta middleware
+2019-07-09 10:06:29,133 INFO 23332 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:06:30,699 INFO 23332 [egg:core] dump config after load, 8ms
+2019-07-09 10:06:30,729 INFO 23332 [egg-watcher:application] watcher start success
+2019-07-09 10:06:30,750 INFO 23332 [egg:core] dump config after ready, 6ms
+2019-07-09 10:08:26,909 INFO 15980 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:08:26,944 INFO 15980 [egg-multipart] stream mode enable
+2019-07-09 10:08:27,298 INFO 15980 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:08:27,302 INFO 15980 [egg-security] use csrf middleware
+2019-07-09 10:08:27,303 INFO 15980 [egg-security] use methodnoallow middleware
+2019-07-09 10:08:27,304 INFO 15980 [egg-security] use noopen middleware
+2019-07-09 10:08:27,304 INFO 15980 [egg-security] use nosniff middleware
+2019-07-09 10:08:27,305 INFO 15980 [egg-security] use xssProtection middleware
+2019-07-09 10:08:27,305 INFO 15980 [egg-security] use xframe middleware
+2019-07-09 10:08:27,306 INFO 15980 [egg-security] use dta middleware
+2019-07-09 10:08:27,306 INFO 15980 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:08:27,322 INFO 15980 [egg:core] dump config after load, 10ms
+2019-07-09 10:08:27,375 INFO 15980 [egg-watcher:application] watcher start success
+2019-07-09 10:08:27,399 INFO 15980 [egg:core] dump config after ready, 5ms
+2019-07-09 10:10:28,814 INFO 27324 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:10:28,847 INFO 27324 [egg-multipart] stream mode enable
+2019-07-09 10:10:30,687 INFO 27324 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:10:30,691 INFO 27324 [egg-security] use csrf middleware
+2019-07-09 10:10:30,691 INFO 27324 [egg-security] use methodnoallow middleware
+2019-07-09 10:10:30,692 INFO 27324 [egg-security] use noopen middleware
+2019-07-09 10:10:30,693 INFO 27324 [egg-security] use nosniff middleware
+2019-07-09 10:10:30,693 INFO 27324 [egg-security] use xssProtection middleware
+2019-07-09 10:10:30,693 INFO 27324 [egg-security] use xframe middleware
+2019-07-09 10:10:30,694 INFO 27324 [egg-security] use dta middleware
+2019-07-09 10:10:30,694 INFO 27324 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:10:30,708 INFO 27324 [egg:core] dump config after load, 8ms
+2019-07-09 10:10:30,739 INFO 27324 [egg-watcher:application] watcher start success
+2019-07-09 10:10:30,762 INFO 27324 [egg:core] dump config after ready, 6ms
+2019-07-09 10:10:43,036 INFO 27744 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:10:43,068 INFO 27744 [egg-multipart] stream mode enable
+2019-07-09 10:10:43,429 INFO 27744 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:10:43,432 INFO 27744 [egg-security] use csrf middleware
+2019-07-09 10:10:43,433 INFO 27744 [egg-security] use methodnoallow middleware
+2019-07-09 10:10:43,433 INFO 27744 [egg-security] use noopen middleware
+2019-07-09 10:10:43,434 INFO 27744 [egg-security] use nosniff middleware
+2019-07-09 10:10:43,435 INFO 27744 [egg-security] use xssProtection middleware
+2019-07-09 10:10:43,435 INFO 27744 [egg-security] use xframe middleware
+2019-07-09 10:10:43,435 INFO 27744 [egg-security] use dta middleware
+2019-07-09 10:10:43,435 INFO 27744 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:10:45,073 INFO 27744 [egg:core] dump config after load, 7ms
+2019-07-09 10:10:45,105 INFO 27744 [egg-watcher:application] watcher start success
+2019-07-09 10:10:45,127 INFO 27744 [egg:core] dump config after ready, 7ms
+2019-07-09 10:11:12,726 INFO 25400 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:11:12,765 INFO 25400 [egg-multipart] stream mode enable
+2019-07-09 10:11:13,119 INFO 25400 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:11:13,121 INFO 25400 [egg-security] use csrf middleware
+2019-07-09 10:11:13,122 INFO 25400 [egg-security] use methodnoallow middleware
+2019-07-09 10:11:13,123 INFO 25400 [egg-security] use noopen middleware
+2019-07-09 10:11:13,123 INFO 25400 [egg-security] use nosniff middleware
+2019-07-09 10:11:13,124 INFO 25400 [egg-security] use xssProtection middleware
+2019-07-09 10:11:13,124 INFO 25400 [egg-security] use xframe middleware
+2019-07-09 10:11:13,125 INFO 25400 [egg-security] use dta middleware
+2019-07-09 10:11:13,125 INFO 25400 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:11:14,848 INFO 25400 [egg:core] dump config after load, 7ms
+2019-07-09 10:11:14,882 INFO 25400 [egg-watcher:application] watcher start success
+2019-07-09 10:11:14,903 INFO 25400 [egg:core] dump config after ready, 5ms
+2019-07-09 10:12:41,478 INFO 18348 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:12:41,509 INFO 18348 [egg-multipart] stream mode enable
+2019-07-09 10:12:41,817 INFO 18348 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:12:41,819 INFO 18348 [egg-security] use csrf middleware
+2019-07-09 10:12:41,820 INFO 18348 [egg-security] use methodnoallow middleware
+2019-07-09 10:12:41,821 INFO 18348 [egg-security] use noopen middleware
+2019-07-09 10:12:41,821 INFO 18348 [egg-security] use nosniff middleware
+2019-07-09 10:12:41,822 INFO 18348 [egg-security] use xssProtection middleware
+2019-07-09 10:12:41,822 INFO 18348 [egg-security] use xframe middleware
+2019-07-09 10:12:41,822 INFO 18348 [egg-security] use dta middleware
+2019-07-09 10:12:41,823 INFO 18348 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:12:43,376 INFO 18348 [egg:core] dump config after load, 7ms
+2019-07-09 10:12:43,407 INFO 18348 [egg-watcher:application] watcher start success
+2019-07-09 10:12:43,428 INFO 18348 [egg:core] dump config after ready, 6ms
+2019-07-09 10:13:54,379 INFO 7332 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 10:13:54,414 INFO 7332 [egg-multipart] stream mode enable
+2019-07-09 10:13:56,357 INFO 7332 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 10:13:56,360 INFO 7332 [egg-security] use csrf middleware
+2019-07-09 10:13:56,361 INFO 7332 [egg-security] use methodnoallow middleware
+2019-07-09 10:13:56,362 INFO 7332 [egg-security] use noopen middleware
+2019-07-09 10:13:56,363 INFO 7332 [egg-security] use nosniff middleware
+2019-07-09 10:13:56,364 INFO 7332 [egg-security] use xssProtection middleware
+2019-07-09 10:13:56,364 INFO 7332 [egg-security] use xframe middleware
+2019-07-09 10:13:56,365 INFO 7332 [egg-security] use dta middleware
+2019-07-09 10:13:56,365 INFO 7332 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 10:13:56,378 INFO 7332 [egg:core] dump config after load, 7ms
+2019-07-09 10:13:56,408 INFO 7332 [egg-watcher:application] watcher start success
+2019-07-09 10:13:56,429 INFO 7332 [egg:core] dump config after ready, 6ms
+2019-07-09 22:55:41,010 INFO 20512 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 22:55:41,049 INFO 20512 [egg-multipart] stream mode enable
+2019-07-09 22:55:41,964 INFO 20512 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 22:55:41,969 INFO 20512 [egg-security] use csrf middleware
+2019-07-09 22:55:41,970 INFO 20512 [egg-security] use methodnoallow middleware
+2019-07-09 22:55:41,970 INFO 20512 [egg-security] use noopen middleware
+2019-07-09 22:55:41,971 INFO 20512 [egg-security] use nosniff middleware
+2019-07-09 22:55:41,971 INFO 20512 [egg-security] use xssProtection middleware
+2019-07-09 22:55:41,972 INFO 20512 [egg-security] use xframe middleware
+2019-07-09 22:55:41,972 INFO 20512 [egg-security] use dta middleware
+2019-07-09 22:55:41,972 INFO 20512 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 22:55:42,072 INFO 20512 [egg:core] dump config after load, 8ms
+2019-07-09 22:55:42,111 INFO 20512 [egg-watcher:application] watcher start success
+2019-07-09 22:55:42,153 INFO 20512 [egg:core] dump config after ready, 24ms
+2019-07-09 22:55:51,254 ERROR 20512 nodejs.InvalidAccessKeyId.NotFoundError: Specified access key is not found., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "InvalidAccessKeyId.NotFoundError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=InvalidAccessKeyId.NotFound&source=PopGw","Message":"Specified access key is not found.","RequestId":"B2A755FE-A880-4EE4-B8BE-18232F85D28F","HostId":"dysmsapi.aliyuncs.com","Code":"InvalidAccessKeyId.NotFound"}
+code: "InvalidAccessKeyId.NotFound"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":404,"headers":{"date":"Tue, 09 Jul 2019 14:55:54 GMT","content-type":"application/json; charset=UTF-8","content-length":"278","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 20512
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:00:08,834 ERROR 20512 nodejs.InvalidAccessKeyId.NotFoundError: Specified access key is not found., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "InvalidAccessKeyId.NotFoundError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=InvalidAccessKeyId.NotFound&source=PopGw","Message":"Specified access key is not found.","RequestId":"A3AC4D73-2557-4DD4-B994-07928A8AADA5","HostId":"dysmsapi.aliyuncs.com","Code":"InvalidAccessKeyId.NotFound"}
+code: "InvalidAccessKeyId.NotFound"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":404,"headers":{"date":"Tue, 09 Jul 2019 15:00:12 GMT","content-type":"application/json; charset=UTF-8","content-length":"278","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 20512
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:06:51,095 INFO 25688 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:06:51,131 INFO 25688 [egg-multipart] stream mode enable
+2019-07-09 23:06:51,497 INFO 25688 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:06:51,500 INFO 25688 [egg-security] use csrf middleware
+2019-07-09 23:06:51,501 INFO 25688 [egg-security] use methodnoallow middleware
+2019-07-09 23:06:51,501 INFO 25688 [egg-security] use noopen middleware
+2019-07-09 23:06:51,502 INFO 25688 [egg-security] use nosniff middleware
+2019-07-09 23:06:51,503 INFO 25688 [egg-security] use xssProtection middleware
+2019-07-09 23:06:51,503 INFO 25688 [egg-security] use xframe middleware
+2019-07-09 23:06:51,503 INFO 25688 [egg-security] use dta middleware
+2019-07-09 23:06:51,503 INFO 25688 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:06:51,521 INFO 25688 [egg:core] dump config after load, 10ms
+2019-07-09 23:06:51,568 INFO 25688 [egg-watcher:application] watcher start success
+2019-07-09 23:06:51,598 INFO 25688 [egg:core] dump config after ready, 7ms
+2019-07-09 23:07:00,038 INFO 17080 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:07:00,072 INFO 17080 [egg-multipart] stream mode enable
+2019-07-09 23:07:00,647 INFO 17080 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:07:00,653 INFO 17080 [egg-security] use csrf middleware
+2019-07-09 23:07:00,654 INFO 17080 [egg-security] use methodnoallow middleware
+2019-07-09 23:07:00,654 INFO 17080 [egg-security] use noopen middleware
+2019-07-09 23:07:00,655 INFO 17080 [egg-security] use nosniff middleware
+2019-07-09 23:07:00,656 INFO 17080 [egg-security] use xssProtection middleware
+2019-07-09 23:07:00,656 INFO 17080 [egg-security] use xframe middleware
+2019-07-09 23:07:00,656 INFO 17080 [egg-security] use dta middleware
+2019-07-09 23:07:00,657 INFO 17080 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:07:00,674 INFO 17080 [egg:core] dump config after load, 10ms
+2019-07-09 23:07:00,727 INFO 17080 [egg-watcher:application] watcher start success
+2019-07-09 23:07:00,761 INFO 17080 [egg:core] dump config after ready, 8ms
+2019-07-09 23:07:05,350 ERROR 17080 nodejs.isv.INVALID_JSON_PARAMError: JSON参数不合法, URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "isv.INVALID_JSON_PARAMError"
+data: {"Message":"JSON参数不合法","RequestId":"871CEF7B-C7C6-4EFE-AF03-E1D9F5574DFE","Code":"isv.INVALID_JSON_PARAM"}
+code: "isv.INVALID_JSON_PARAM"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":200,"headers":{"date":"Tue, 09 Jul 2019 15:07:08 GMT","content-type":"application/json; charset=UTF-8","content-length":"116","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 17080
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:08:48,493 INFO 1000 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:08:48,523 INFO 1000 [egg-multipart] stream mode enable
+2019-07-09 23:08:50,912 INFO 1000 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:08:50,915 INFO 1000 [egg-security] use csrf middleware
+2019-07-09 23:08:50,916 INFO 1000 [egg-security] use methodnoallow middleware
+2019-07-09 23:08:50,916 INFO 1000 [egg-security] use noopen middleware
+2019-07-09 23:08:50,917 INFO 1000 [egg-security] use nosniff middleware
+2019-07-09 23:08:50,917 INFO 1000 [egg-security] use xssProtection middleware
+2019-07-09 23:08:50,918 INFO 1000 [egg-security] use xframe middleware
+2019-07-09 23:08:50,918 INFO 1000 [egg-security] use dta middleware
+2019-07-09 23:08:50,918 INFO 1000 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:08:50,932 INFO 1000 [egg:core] dump config after load, 7ms
+2019-07-09 23:08:50,963 INFO 1000 [egg-watcher:application] watcher start success
+2019-07-09 23:08:50,986 INFO 1000 [egg:core] dump config after ready, 8ms
+2019-07-09 23:08:55,226 ERROR 1000 nodejs.isv.INVALID_JSON_PARAMError: JSON参数不合法, URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "isv.INVALID_JSON_PARAMError"
+data: {"Message":"JSON参数不合法","RequestId":"1940E87F-F49A-4642-B9CE-7CCA93B218EE","Code":"isv.INVALID_JSON_PARAM"}
+code: "isv.INVALID_JSON_PARAM"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":200,"headers":{"date":"Tue, 09 Jul 2019 15:08:58 GMT","content-type":"application/json; charset=UTF-8","content-length":"116","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 1000
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:10:25,318 INFO 22796 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:10:25,354 INFO 22796 [egg-multipart] stream mode enable
+2019-07-09 23:10:25,756 INFO 22796 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:10:25,759 INFO 22796 [egg-security] use csrf middleware
+2019-07-09 23:10:25,759 INFO 22796 [egg-security] use methodnoallow middleware
+2019-07-09 23:10:25,760 INFO 22796 [egg-security] use noopen middleware
+2019-07-09 23:10:25,761 INFO 22796 [egg-security] use nosniff middleware
+2019-07-09 23:10:25,761 INFO 22796 [egg-security] use xssProtection middleware
+2019-07-09 23:10:25,761 INFO 22796 [egg-security] use xframe middleware
+2019-07-09 23:10:25,762 INFO 22796 [egg-security] use dta middleware
+2019-07-09 23:10:25,762 INFO 22796 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:10:25,775 INFO 22796 [egg:core] dump config after load, 7ms
+2019-07-09 23:10:25,810 INFO 22796 [egg-watcher:application] watcher start success
+2019-07-09 23:10:25,841 INFO 22796 [egg:core] dump config after ready, 13ms
+2019-07-09 23:10:26,416 ERROR 22796 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"E5C5A2BB-EAE5-4213-8A4F-170FE5CE64D6","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:10:29 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 22796
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:12:12,540 INFO 11104 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:12:12,589 INFO 11104 [egg-multipart] stream mode enable
+2019-07-09 23:12:15,009 INFO 11104 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:12:15,012 INFO 11104 [egg-security] use csrf middleware
+2019-07-09 23:12:15,013 INFO 11104 [egg-security] use methodnoallow middleware
+2019-07-09 23:12:15,014 INFO 11104 [egg-security] use noopen middleware
+2019-07-09 23:12:15,015 INFO 11104 [egg-security] use nosniff middleware
+2019-07-09 23:12:15,015 INFO 11104 [egg-security] use xssProtection middleware
+2019-07-09 23:12:15,016 INFO 11104 [egg-security] use xframe middleware
+2019-07-09 23:12:15,016 INFO 11104 [egg-security] use dta middleware
+2019-07-09 23:12:15,016 INFO 11104 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:12:15,039 INFO 11104 [egg:core] dump config after load, 8ms
+2019-07-09 23:12:15,068 INFO 11104 [egg-watcher:application] watcher start success
+2019-07-09 23:12:15,094 INFO 11104 [egg:core] dump config after ready, 9ms
+2019-07-09 23:12:39,733 INFO 26728 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:12:39,767 INFO 26728 [egg-multipart] stream mode enable
+2019-07-09 23:12:40,117 INFO 26728 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:12:40,122 INFO 26728 [egg-security] use csrf middleware
+2019-07-09 23:12:40,123 INFO 26728 [egg-security] use methodnoallow middleware
+2019-07-09 23:12:40,123 INFO 26728 [egg-security] use noopen middleware
+2019-07-09 23:12:40,124 INFO 26728 [egg-security] use nosniff middleware
+2019-07-09 23:12:40,124 INFO 26728 [egg-security] use xssProtection middleware
+2019-07-09 23:12:40,125 INFO 26728 [egg-security] use xframe middleware
+2019-07-09 23:12:40,125 INFO 26728 [egg-security] use dta middleware
+2019-07-09 23:12:40,125 INFO 26728 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:12:40,145 INFO 26728 [egg:core] dump config after load, 11ms
+2019-07-09 23:12:40,189 INFO 26728 [egg-watcher:application] watcher start success
+2019-07-09 23:12:40,222 INFO 26728 [egg:core] dump config after ready, 6ms
+2019-07-09 23:13:22,590 INFO 19788 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:13:22,622 INFO 19788 [egg-multipart] stream mode enable
+2019-07-09 23:13:22,946 INFO 19788 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:13:22,951 INFO 19788 [egg-security] use csrf middleware
+2019-07-09 23:13:22,952 INFO 19788 [egg-security] use methodnoallow middleware
+2019-07-09 23:13:22,952 INFO 19788 [egg-security] use noopen middleware
+2019-07-09 23:13:22,953 INFO 19788 [egg-security] use nosniff middleware
+2019-07-09 23:13:22,953 INFO 19788 [egg-security] use xssProtection middleware
+2019-07-09 23:13:22,954 INFO 19788 [egg-security] use xframe middleware
+2019-07-09 23:13:22,954 INFO 19788 [egg-security] use dta middleware
+2019-07-09 23:13:22,954 INFO 19788 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:13:22,975 INFO 19788 [egg:core] dump config after load, 12ms
+2019-07-09 23:13:23,007 INFO 19788 [egg-watcher:application] watcher start success
+2019-07-09 23:13:23,042 INFO 19788 [egg:core] dump config after ready, 20ms
+2019-07-09 23:16:31,860 INFO 14216 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:16:31,895 INFO 14216 [egg-multipart] stream mode enable
+2019-07-09 23:16:34,284 INFO 14216 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:16:34,286 INFO 14216 [egg-security] use csrf middleware
+2019-07-09 23:16:34,287 INFO 14216 [egg-security] use methodnoallow middleware
+2019-07-09 23:16:34,288 INFO 14216 [egg-security] use noopen middleware
+2019-07-09 23:16:34,288 INFO 14216 [egg-security] use nosniff middleware
+2019-07-09 23:16:34,289 INFO 14216 [egg-security] use xssProtection middleware
+2019-07-09 23:16:34,289 INFO 14216 [egg-security] use xframe middleware
+2019-07-09 23:16:34,290 INFO 14216 [egg-security] use dta middleware
+2019-07-09 23:16:34,290 INFO 14216 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:16:34,305 INFO 14216 [egg:core] dump config after load, 8ms
+2019-07-09 23:16:34,351 INFO 14216 [egg-watcher:application] watcher start success
+2019-07-09 23:16:34,377 INFO 14216 [egg:core] dump config after ready, 8ms
+2019-07-09 23:17:16,626 ERROR 14216 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"3A8A28FB-DF8C-4681-9C55-EB4AE15869EB","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:17:20 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 14216
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:18:32,897 INFO 20088 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:18:32,934 INFO 20088 [egg-multipart] stream mode enable
+2019-07-09 23:18:35,137 INFO 20088 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:18:35,139 INFO 20088 [egg-security] use csrf middleware
+2019-07-09 23:18:35,140 INFO 20088 [egg-security] use methodnoallow middleware
+2019-07-09 23:18:35,140 INFO 20088 [egg-security] use noopen middleware
+2019-07-09 23:18:35,141 INFO 20088 [egg-security] use nosniff middleware
+2019-07-09 23:18:35,142 INFO 20088 [egg-security] use xssProtection middleware
+2019-07-09 23:18:35,142 INFO 20088 [egg-security] use xframe middleware
+2019-07-09 23:18:35,143 INFO 20088 [egg-security] use dta middleware
+2019-07-09 23:18:35,143 INFO 20088 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:18:35,157 INFO 20088 [egg:core] dump config after load, 8ms
+2019-07-09 23:18:35,192 INFO 20088 [egg-watcher:application] watcher start success
+2019-07-09 23:18:35,215 INFO 20088 [egg:core] dump config after ready, 7ms
+2019-07-09 23:19:15,202 ERROR 20088 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"398B99A2-DCD1-4CA9-BC08-7CE06F0F9F66","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:19:18 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 20088
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:19:29,928 INFO 580 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:19:29,968 INFO 580 [egg-multipart] stream mode enable
+2019-07-09 23:19:32,093 INFO 580 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:19:32,095 INFO 580 [egg-security] use csrf middleware
+2019-07-09 23:19:32,096 INFO 580 [egg-security] use methodnoallow middleware
+2019-07-09 23:19:32,097 INFO 580 [egg-security] use noopen middleware
+2019-07-09 23:19:32,097 INFO 580 [egg-security] use nosniff middleware
+2019-07-09 23:19:32,098 INFO 580 [egg-security] use xssProtection middleware
+2019-07-09 23:19:32,098 INFO 580 [egg-security] use xframe middleware
+2019-07-09 23:19:32,098 INFO 580 [egg-security] use dta middleware
+2019-07-09 23:19:32,098 INFO 580 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:19:32,114 INFO 580 [egg:core] dump config after load, 8ms
+2019-07-09 23:19:32,144 INFO 580 [egg-watcher:application] watcher start success
+2019-07-09 23:19:32,172 INFO 580 [egg:core] dump config after ready, 8ms
+2019-07-09 23:20:06,030 INFO 24040 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:20:06,060 INFO 24040 [egg-multipart] stream mode enable
+2019-07-09 23:20:06,434 INFO 24040 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:20:06,436 INFO 24040 [egg-security] use csrf middleware
+2019-07-09 23:20:06,437 INFO 24040 [egg-security] use methodnoallow middleware
+2019-07-09 23:20:06,438 INFO 24040 [egg-security] use noopen middleware
+2019-07-09 23:20:06,438 INFO 24040 [egg-security] use nosniff middleware
+2019-07-09 23:20:06,439 INFO 24040 [egg-security] use xssProtection middleware
+2019-07-09 23:20:06,439 INFO 24040 [egg-security] use xframe middleware
+2019-07-09 23:20:06,440 INFO 24040 [egg-security] use dta middleware
+2019-07-09 23:20:06,440 INFO 24040 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:20:06,455 INFO 24040 [egg:core] dump config after load, 8ms
+2019-07-09 23:20:06,493 INFO 24040 [egg-watcher:application] watcher start success
+2019-07-09 23:20:06,530 INFO 24040 [egg:core] dump config after ready, 8ms
+2019-07-09 23:20:29,325 ERROR 24040 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"25046095-0FC4-4E41-9633-A973A1AA5017","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:20:32 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 24040
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:20:54,783 ERROR 24040 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"DB7DCDAD-53A2-47FC-9CE1-E907FF3C1F6F","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:20:58 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 24040
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:20:53,285 INFO 6940 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:20:53,371 INFO 6940 [egg-multipart] stream mode enable
+2019-07-09 23:20:55,618 INFO 6940 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:20:55,621 INFO 6940 [egg-security] use csrf middleware
+2019-07-09 23:20:55,622 INFO 6940 [egg-security] use methodnoallow middleware
+2019-07-09 23:20:55,623 INFO 6940 [egg-security] use noopen middleware
+2019-07-09 23:20:55,623 INFO 6940 [egg-security] use nosniff middleware
+2019-07-09 23:20:55,624 INFO 6940 [egg-security] use xssProtection middleware
+2019-07-09 23:20:55,624 INFO 6940 [egg-security] use xframe middleware
+2019-07-09 23:20:55,625 INFO 6940 [egg-security] use dta middleware
+2019-07-09 23:20:55,625 INFO 6940 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:20:55,639 INFO 6940 [egg:core] dump config after load, 7ms
+2019-07-09 23:20:55,675 INFO 6940 [egg-watcher:application] watcher start success
+2019-07-09 23:20:55,710 INFO 6940 [egg:core] dump config after ready, 18ms
+2019-07-09 23:21:03,407 ERROR 6940 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"59AB42DB-F569-440D-9E00-80636CD7D5F7","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:21:06 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 6940
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:23:02,735 INFO 19196 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:23:02,767 INFO 19196 [egg-multipart] stream mode enable
+2019-07-09 23:23:03,137 INFO 19196 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:23:03,140 INFO 19196 [egg-security] use csrf middleware
+2019-07-09 23:23:03,141 INFO 19196 [egg-security] use methodnoallow middleware
+2019-07-09 23:23:03,142 INFO 19196 [egg-security] use noopen middleware
+2019-07-09 23:23:03,143 INFO 19196 [egg-security] use nosniff middleware
+2019-07-09 23:23:03,143 INFO 19196 [egg-security] use xssProtection middleware
+2019-07-09 23:23:03,144 INFO 19196 [egg-security] use xframe middleware
+2019-07-09 23:23:03,144 INFO 19196 [egg-security] use dta middleware
+2019-07-09 23:23:03,144 INFO 19196 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:23:04,961 INFO 19196 [egg:core] dump config after load, 10ms
+2019-07-09 23:23:04,999 INFO 19196 [egg-watcher:application] watcher start success
+2019-07-09 23:23:05,021 INFO 19196 [egg:core] dump config after ready, 6ms
+2019-07-09 23:23:32,117 INFO 27620 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:23:32,159 INFO 27620 [egg-multipart] stream mode enable
+2019-07-09 23:23:32,511 INFO 27620 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:23:32,514 INFO 27620 [egg-security] use csrf middleware
+2019-07-09 23:23:32,516 INFO 27620 [egg-security] use methodnoallow middleware
+2019-07-09 23:23:32,516 INFO 27620 [egg-security] use noopen middleware
+2019-07-09 23:23:32,517 INFO 27620 [egg-security] use nosniff middleware
+2019-07-09 23:23:32,517 INFO 27620 [egg-security] use xssProtection middleware
+2019-07-09 23:23:32,518 INFO 27620 [egg-security] use xframe middleware
+2019-07-09 23:23:32,518 INFO 27620 [egg-security] use dta middleware
+2019-07-09 23:23:32,518 INFO 27620 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:23:34,370 INFO 27620 [egg:core] dump config after load, 10ms
+2019-07-09 23:23:34,453 INFO 27620 [egg-watcher:application] watcher start success
+2019-07-09 23:23:34,536 INFO 27620 [egg:core] dump config after ready, 17ms
+2019-07-09 23:23:38,119 ERROR 27620 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"030369FB-F2D0-43AD-9455-E000F43EB957","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:23:41 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 27620
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:24:12,207 ERROR 27620 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"A617BC11-B853-435F-87F3-1DEA4F8900C8","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:24:15 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 27620
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:24:11,593 INFO 23088 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:24:11,626 INFO 23088 [egg-multipart] stream mode enable
+2019-07-09 23:24:14,050 INFO 23088 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:24:14,055 INFO 23088 [egg-security] use csrf middleware
+2019-07-09 23:24:14,058 INFO 23088 [egg-security] use methodnoallow middleware
+2019-07-09 23:24:14,059 INFO 23088 [egg-security] use noopen middleware
+2019-07-09 23:24:14,060 INFO 23088 [egg-security] use nosniff middleware
+2019-07-09 23:24:14,060 INFO 23088 [egg-security] use xssProtection middleware
+2019-07-09 23:24:14,061 INFO 23088 [egg-security] use xframe middleware
+2019-07-09 23:24:14,061 INFO 23088 [egg-security] use dta middleware
+2019-07-09 23:24:14,061 INFO 23088 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:24:14,095 INFO 23088 [egg:core] dump config after load, 26ms
+2019-07-09 23:24:14,144 INFO 23088 [egg-watcher:application] watcher start success
+2019-07-09 23:24:14,178 INFO 23088 [egg:core] dump config after ready, 14ms
+2019-07-09 23:24:30,211 ERROR 23088 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"9B009F5B-B3F8-40A7-B378-8335F83F04AF","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:24:33 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 23088
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:24:59,476 INFO 14024 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:24:59,509 INFO 14024 [egg-multipart] stream mode enable
+2019-07-09 23:25:01,827 INFO 14024 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:25:01,830 INFO 14024 [egg-security] use csrf middleware
+2019-07-09 23:25:01,832 INFO 14024 [egg-security] use methodnoallow middleware
+2019-07-09 23:25:01,833 INFO 14024 [egg-security] use noopen middleware
+2019-07-09 23:25:01,833 INFO 14024 [egg-security] use nosniff middleware
+2019-07-09 23:25:01,834 INFO 14024 [egg-security] use xssProtection middleware
+2019-07-09 23:25:01,834 INFO 14024 [egg-security] use xframe middleware
+2019-07-09 23:25:01,835 INFO 14024 [egg-security] use dta middleware
+2019-07-09 23:25:01,835 INFO 14024 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:25:01,854 INFO 14024 [egg:core] dump config after load, 11ms
+2019-07-09 23:25:01,884 INFO 14024 [egg-watcher:application] watcher start success
+2019-07-09 23:25:01,915 INFO 14024 [egg:core] dump config after ready, 13ms
+2019-07-09 23:25:26,039 ERROR 14024 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"36442978-0C38-412B-812E-5A9516A7DEDD","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:25:29 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 14024
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:25:25,170 INFO 27692 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:25:25,202 INFO 27692 [egg-multipart] stream mode enable
+2019-07-09 23:25:27,741 INFO 27692 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:25:27,744 INFO 27692 [egg-security] use csrf middleware
+2019-07-09 23:25:27,745 INFO 27692 [egg-security] use methodnoallow middleware
+2019-07-09 23:25:27,745 INFO 27692 [egg-security] use noopen middleware
+2019-07-09 23:25:27,746 INFO 27692 [egg-security] use nosniff middleware
+2019-07-09 23:25:27,746 INFO 27692 [egg-security] use xssProtection middleware
+2019-07-09 23:25:27,747 INFO 27692 [egg-security] use xframe middleware
+2019-07-09 23:25:27,747 INFO 27692 [egg-security] use dta middleware
+2019-07-09 23:25:27,747 INFO 27692 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:25:27,763 INFO 27692 [egg:core] dump config after load, 7ms
+2019-07-09 23:25:27,797 INFO 27692 [egg-watcher:application] watcher start success
+2019-07-09 23:25:27,821 INFO 27692 [egg:core] dump config after ready, 8ms
+2019-07-09 23:25:43,086 INFO 26644 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:25:43,126 INFO 26644 [egg-multipart] stream mode enable
+2019-07-09 23:25:45,541 INFO 26644 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:25:45,544 INFO 26644 [egg-security] use csrf middleware
+2019-07-09 23:25:45,553 INFO 26644 [egg-security] use methodnoallow middleware
+2019-07-09 23:25:45,554 INFO 26644 [egg-security] use noopen middleware
+2019-07-09 23:25:45,554 INFO 26644 [egg-security] use nosniff middleware
+2019-07-09 23:25:45,555 INFO 26644 [egg-security] use xssProtection middleware
+2019-07-09 23:25:45,555 INFO 26644 [egg-security] use xframe middleware
+2019-07-09 23:25:45,556 INFO 26644 [egg-security] use dta middleware
+2019-07-09 23:25:45,556 INFO 26644 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:25:45,573 INFO 26644 [egg:core] dump config after load, 10ms
+2019-07-09 23:25:45,614 INFO 26644 [egg-watcher:application] watcher start success
+2019-07-09 23:25:45,642 INFO 26644 [egg:core] dump config after ready, 7ms
+2019-07-09 23:27:53,618 INFO 9780 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:27:53,650 INFO 9780 [egg-multipart] stream mode enable
+2019-07-09 23:27:55,802 INFO 9780 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:27:55,805 INFO 9780 [egg-security] use csrf middleware
+2019-07-09 23:27:55,806 INFO 9780 [egg-security] use methodnoallow middleware
+2019-07-09 23:27:55,806 INFO 9780 [egg-security] use noopen middleware
+2019-07-09 23:27:55,807 INFO 9780 [egg-security] use nosniff middleware
+2019-07-09 23:27:55,807 INFO 9780 [egg-security] use xssProtection middleware
+2019-07-09 23:27:55,807 INFO 9780 [egg-security] use xframe middleware
+2019-07-09 23:27:55,808 INFO 9780 [egg-security] use dta middleware
+2019-07-09 23:27:55,808 INFO 9780 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:27:55,836 INFO 9780 [egg:core] dump config after load, 9ms
+2019-07-09 23:27:55,877 INFO 9780 [egg-watcher:application] watcher start success
+2019-07-09 23:27:55,911 INFO 9780 [egg:core] dump config after ready, 13ms
+2019-07-09 23:32:40,553 INFO 26520 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:32:40,594 INFO 26520 [egg-multipart] stream mode enable
+2019-07-09 23:32:42,703 INFO 26520 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:32:42,706 INFO 26520 [egg-security] use csrf middleware
+2019-07-09 23:32:42,707 INFO 26520 [egg-security] use methodnoallow middleware
+2019-07-09 23:32:42,707 INFO 26520 [egg-security] use noopen middleware
+2019-07-09 23:32:42,708 INFO 26520 [egg-security] use nosniff middleware
+2019-07-09 23:32:42,708 INFO 26520 [egg-security] use xssProtection middleware
+2019-07-09 23:32:42,709 INFO 26520 [egg-security] use xframe middleware
+2019-07-09 23:32:42,709 INFO 26520 [egg-security] use dta middleware
+2019-07-09 23:32:42,709 INFO 26520 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:32:42,723 INFO 26520 [egg:core] dump config after load, 7ms
+2019-07-09 23:32:42,755 INFO 26520 [egg-watcher:application] watcher start success
+2019-07-09 23:32:42,780 INFO 26520 [egg:core] dump config after ready, 8ms
+2019-07-09 23:33:05,113 INFO 23480 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:33:05,144 INFO 23480 [egg-multipart] stream mode enable
+2019-07-09 23:33:05,481 INFO 23480 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:33:05,484 INFO 23480 [egg-security] use csrf middleware
+2019-07-09 23:33:05,484 INFO 23480 [egg-security] use methodnoallow middleware
+2019-07-09 23:33:05,485 INFO 23480 [egg-security] use noopen middleware
+2019-07-09 23:33:05,486 INFO 23480 [egg-security] use nosniff middleware
+2019-07-09 23:33:05,486 INFO 23480 [egg-security] use xssProtection middleware
+2019-07-09 23:33:05,486 INFO 23480 [egg-security] use xframe middleware
+2019-07-09 23:33:05,487 INFO 23480 [egg-security] use dta middleware
+2019-07-09 23:33:05,487 INFO 23480 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:33:05,500 INFO 23480 [egg:core] dump config after load, 7ms
+2019-07-09 23:33:05,533 INFO 23480 [egg-watcher:application] watcher start success
+2019-07-09 23:33:05,559 INFO 23480 [egg:core] dump config after ready, 10ms
+2019-07-09 23:36:03,251 INFO 20640 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:36:03,282 INFO 20640 [egg-multipart] stream mode enable
+2019-07-09 23:36:03,615 INFO 20640 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:36:03,618 INFO 20640 [egg-security] use csrf middleware
+2019-07-09 23:36:03,619 INFO 20640 [egg-security] use methodnoallow middleware
+2019-07-09 23:36:03,619 INFO 20640 [egg-security] use noopen middleware
+2019-07-09 23:36:03,620 INFO 20640 [egg-security] use nosniff middleware
+2019-07-09 23:36:03,621 INFO 20640 [egg-security] use xssProtection middleware
+2019-07-09 23:36:03,621 INFO 20640 [egg-security] use xframe middleware
+2019-07-09 23:36:03,622 INFO 20640 [egg-security] use dta middleware
+2019-07-09 23:36:03,622 INFO 20640 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:36:03,636 INFO 20640 [egg:core] dump config after load, 7ms
+2019-07-09 23:36:03,676 INFO 20640 [egg-watcher:application] watcher start success
+2019-07-09 23:36:03,711 INFO 20640 [egg:core] dump config after ready, 10ms
+2019-07-09 23:42:14,177 INFO 19872 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:42:14,220 INFO 19872 [egg-multipart] stream mode enable
+2019-07-09 23:42:16,166 INFO 19872 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:42:16,168 INFO 19872 [egg-security] use csrf middleware
+2019-07-09 23:42:16,170 INFO 19872 [egg-security] use methodnoallow middleware
+2019-07-09 23:42:16,170 INFO 19872 [egg-security] use noopen middleware
+2019-07-09 23:42:16,171 INFO 19872 [egg-security] use nosniff middleware
+2019-07-09 23:42:16,171 INFO 19872 [egg-security] use xssProtection middleware
+2019-07-09 23:42:16,172 INFO 19872 [egg-security] use xframe middleware
+2019-07-09 23:42:16,172 INFO 19872 [egg-security] use dta middleware
+2019-07-09 23:42:16,172 INFO 19872 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:42:16,187 INFO 19872 [egg:core] dump config after load, 9ms
+2019-07-09 23:42:16,217 INFO 19872 [egg-watcher:application] watcher start success
+2019-07-09 23:42:16,252 INFO 19872 [egg:core] dump config after ready, 18ms
+2019-07-09 23:42:21,052 INFO 3748 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:42:21,082 INFO 3748 [egg-multipart] stream mode enable
+2019-07-09 23:42:21,413 INFO 3748 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:42:21,416 INFO 3748 [egg-security] use csrf middleware
+2019-07-09 23:42:21,417 INFO 3748 [egg-security] use methodnoallow middleware
+2019-07-09 23:42:21,417 INFO 3748 [egg-security] use noopen middleware
+2019-07-09 23:42:21,418 INFO 3748 [egg-security] use nosniff middleware
+2019-07-09 23:42:21,418 INFO 3748 [egg-security] use xssProtection middleware
+2019-07-09 23:42:21,419 INFO 3748 [egg-security] use xframe middleware
+2019-07-09 23:42:21,419 INFO 3748 [egg-security] use dta middleware
+2019-07-09 23:42:21,419 INFO 3748 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:42:23,045 INFO 3748 [egg:core] dump config after load, 7ms
+2019-07-09 23:42:23,073 INFO 3748 [egg-watcher:application] watcher start success
+2019-07-09 23:42:23,095 INFO 3748 [egg:core] dump config after ready, 7ms
+2019-07-09 23:42:24,244 INFO 19640 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:42:24,276 INFO 19640 [egg-multipart] stream mode enable
+2019-07-09 23:42:24,611 INFO 19640 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:42:24,613 INFO 19640 [egg-security] use csrf middleware
+2019-07-09 23:42:24,614 INFO 19640 [egg-security] use methodnoallow middleware
+2019-07-09 23:42:24,614 INFO 19640 [egg-security] use noopen middleware
+2019-07-09 23:42:24,615 INFO 19640 [egg-security] use nosniff middleware
+2019-07-09 23:42:24,615 INFO 19640 [egg-security] use xssProtection middleware
+2019-07-09 23:42:24,616 INFO 19640 [egg-security] use xframe middleware
+2019-07-09 23:42:24,616 INFO 19640 [egg-security] use dta middleware
+2019-07-09 23:42:24,616 INFO 19640 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:42:24,631 INFO 19640 [egg:core] dump config after load, 8ms
+2019-07-09 23:42:24,668 INFO 19640 [egg-watcher:application] watcher start success
+2019-07-09 23:42:24,700 INFO 19640 [egg:core] dump config after ready, 6ms
+2019-07-09 23:42:28,060 INFO 16256 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:42:28,092 INFO 16256 [egg-multipart] stream mode enable
+2019-07-09 23:42:28,410 INFO 16256 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:42:28,413 INFO 16256 [egg-security] use csrf middleware
+2019-07-09 23:42:28,414 INFO 16256 [egg-security] use methodnoallow middleware
+2019-07-09 23:42:28,414 INFO 16256 [egg-security] use noopen middleware
+2019-07-09 23:42:28,415 INFO 16256 [egg-security] use nosniff middleware
+2019-07-09 23:42:28,415 INFO 16256 [egg-security] use xssProtection middleware
+2019-07-09 23:42:28,416 INFO 16256 [egg-security] use xframe middleware
+2019-07-09 23:42:28,416 INFO 16256 [egg-security] use dta middleware
+2019-07-09 23:42:28,416 INFO 16256 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:42:28,430 INFO 16256 [egg:core] dump config after load, 7ms
+2019-07-09 23:42:28,463 INFO 16256 [egg-watcher:application] watcher start success
+2019-07-09 23:42:28,494 INFO 16256 [egg:core] dump config after ready, 5ms
+2019-07-09 23:42:41,731 INFO 15840 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:42:41,764 INFO 15840 [egg-multipart] stream mode enable
+2019-07-09 23:42:42,086 INFO 15840 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:42:42,088 INFO 15840 [egg-security] use csrf middleware
+2019-07-09 23:42:42,089 INFO 15840 [egg-security] use methodnoallow middleware
+2019-07-09 23:42:42,090 INFO 15840 [egg-security] use noopen middleware
+2019-07-09 23:42:42,090 INFO 15840 [egg-security] use nosniff middleware
+2019-07-09 23:42:42,091 INFO 15840 [egg-security] use xssProtection middleware
+2019-07-09 23:42:42,091 INFO 15840 [egg-security] use xframe middleware
+2019-07-09 23:42:42,092 INFO 15840 [egg-security] use dta middleware
+2019-07-09 23:42:42,092 INFO 15840 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:42:42,116 INFO 15840 [egg:core] dump config after load, 11ms
+2019-07-09 23:42:42,151 INFO 15840 [egg-watcher:application] watcher start success
+2019-07-09 23:42:42,180 INFO 15840 [egg:core] dump config after ready, 8ms
+2019-07-09 23:51:09,835 INFO 5464 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:51:09,866 INFO 5464 [egg-multipart] stream mode enable
+2019-07-09 23:51:10,199 INFO 5464 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:51:10,201 INFO 5464 [egg-security] use csrf middleware
+2019-07-09 23:51:10,202 INFO 5464 [egg-security] use methodnoallow middleware
+2019-07-09 23:51:10,203 INFO 5464 [egg-security] use noopen middleware
+2019-07-09 23:51:10,204 INFO 5464 [egg-security] use nosniff middleware
+2019-07-09 23:51:10,204 INFO 5464 [egg-security] use xssProtection middleware
+2019-07-09 23:51:10,205 INFO 5464 [egg-security] use xframe middleware
+2019-07-09 23:51:10,205 INFO 5464 [egg-security] use dta middleware
+2019-07-09 23:51:10,205 INFO 5464 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:51:10,221 INFO 5464 [egg:core] dump config after load, 8ms
+2019-07-09 23:51:10,252 INFO 5464 [egg-watcher:application] watcher start success
+2019-07-09 23:51:10,286 INFO 5464 [egg:core] dump config after ready, 13ms
+2019-07-09 23:51:26,253 INFO 22352 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:51:26,284 INFO 22352 [egg-multipart] stream mode enable
+2019-07-09 23:51:28,489 INFO 22352 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:51:28,491 INFO 22352 [egg-security] use csrf middleware
+2019-07-09 23:51:28,492 INFO 22352 [egg-security] use methodnoallow middleware
+2019-07-09 23:51:28,493 INFO 22352 [egg-security] use noopen middleware
+2019-07-09 23:51:28,494 INFO 22352 [egg-security] use nosniff middleware
+2019-07-09 23:51:28,494 INFO 22352 [egg-security] use xssProtection middleware
+2019-07-09 23:51:28,495 INFO 22352 [egg-security] use xframe middleware
+2019-07-09 23:51:28,495 INFO 22352 [egg-security] use dta middleware
+2019-07-09 23:51:28,495 INFO 22352 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:51:28,509 INFO 22352 [egg:core] dump config after load, 8ms
+2019-07-09 23:51:28,549 INFO 22352 [egg-watcher:application] watcher start success
+2019-07-09 23:51:28,572 INFO 22352 [egg:core] dump config after ready, 7ms
+2019-07-09 23:52:24,908 ERROR 22352 nodejs.TypeError: ctx.helper.sendPhoneMsg is not a function
+    at CustomerService.sendVerificationCode (D:\vscode\sequelize-ts\app\service\customer.ts:139:16)
+    at CustomerController.sendcode (D:\vscode\sequelize-ts\app\controller\login.ts:64:41)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22352
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:52:23,887 INFO 26160 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:52:23,917 INFO 26160 [egg-multipart] stream mode enable
+2019-07-09 23:52:24,234 INFO 26160 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:52:24,236 INFO 26160 [egg-security] use csrf middleware
+2019-07-09 23:52:24,237 INFO 26160 [egg-security] use methodnoallow middleware
+2019-07-09 23:52:24,238 INFO 26160 [egg-security] use noopen middleware
+2019-07-09 23:52:24,240 INFO 26160 [egg-security] use nosniff middleware
+2019-07-09 23:52:24,240 INFO 26160 [egg-security] use xssProtection middleware
+2019-07-09 23:52:24,241 INFO 26160 [egg-security] use xframe middleware
+2019-07-09 23:52:24,241 INFO 26160 [egg-security] use dta middleware
+2019-07-09 23:52:24,241 INFO 26160 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:52:26,163 INFO 26160 [egg:core] dump config after load, 6ms
+2019-07-09 23:52:26,194 INFO 26160 [egg-watcher:application] watcher start success
+2019-07-09 23:52:26,217 INFO 26160 [egg:core] dump config after ready, 7ms
+2019-07-09 23:52:53,869 INFO 19564 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:52:53,915 INFO 19564 [egg-multipart] stream mode enable
+2019-07-09 23:52:55,793 INFO 19564 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:52:55,796 INFO 19564 [egg-security] use csrf middleware
+2019-07-09 23:52:55,797 INFO 19564 [egg-security] use methodnoallow middleware
+2019-07-09 23:52:55,797 INFO 19564 [egg-security] use noopen middleware
+2019-07-09 23:52:55,798 INFO 19564 [egg-security] use nosniff middleware
+2019-07-09 23:52:55,798 INFO 19564 [egg-security] use xssProtection middleware
+2019-07-09 23:52:55,799 INFO 19564 [egg-security] use xframe middleware
+2019-07-09 23:52:55,799 INFO 19564 [egg-security] use dta middleware
+2019-07-09 23:52:55,799 INFO 19564 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:52:55,855 INFO 19564 [egg:core] dump config after load, 8ms
+2019-07-09 23:52:55,884 INFO 19564 [egg-watcher:application] watcher start success
+2019-07-09 23:52:55,906 INFO 19564 [egg:core] dump config after ready, 6ms
+2019-07-09 23:54:58,360 INFO 16592 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:54:58,397 INFO 16592 [egg-multipart] stream mode enable
+2019-07-09 23:54:58,719 INFO 16592 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:54:58,722 INFO 16592 [egg-security] use csrf middleware
+2019-07-09 23:54:58,723 INFO 16592 [egg-security] use methodnoallow middleware
+2019-07-09 23:54:58,723 INFO 16592 [egg-security] use noopen middleware
+2019-07-09 23:54:58,724 INFO 16592 [egg-security] use nosniff middleware
+2019-07-09 23:54:58,724 INFO 16592 [egg-security] use xssProtection middleware
+2019-07-09 23:54:58,725 INFO 16592 [egg-security] use xframe middleware
+2019-07-09 23:54:58,725 INFO 16592 [egg-security] use dta middleware
+2019-07-09 23:54:58,725 INFO 16592 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:55:00,338 INFO 16592 [egg:core] dump config after load, 7ms
+2019-07-09 23:55:00,375 INFO 16592 [egg-watcher:application] watcher start success
+2019-07-09 23:55:00,397 INFO 16592 [egg:core] dump config after ready, 7ms
+2019-07-09 23:56:45,681 INFO 23344 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:56:45,717 INFO 23344 [egg-multipart] stream mode enable
+2019-07-09 23:56:46,099 INFO 23344 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:56:46,101 INFO 23344 [egg-security] use csrf middleware
+2019-07-09 23:56:46,102 INFO 23344 [egg-security] use methodnoallow middleware
+2019-07-09 23:56:46,102 INFO 23344 [egg-security] use noopen middleware
+2019-07-09 23:56:46,103 INFO 23344 [egg-security] use nosniff middleware
+2019-07-09 23:56:46,104 INFO 23344 [egg-security] use xssProtection middleware
+2019-07-09 23:56:46,104 INFO 23344 [egg-security] use xframe middleware
+2019-07-09 23:56:46,105 INFO 23344 [egg-security] use dta middleware
+2019-07-09 23:56:46,105 INFO 23344 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:56:46,167 INFO 23344 [egg:core] dump config after load, 10ms
+2019-07-09 23:56:46,219 INFO 23344 [egg-watcher:application] watcher start success
+2019-07-09 23:56:46,273 INFO 23344 [egg:core] dump config after ready, 8ms
+2019-07-09 23:58:17,862 INFO 11216 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:58:17,895 INFO 11216 [egg-multipart] stream mode enable
+2019-07-09 23:58:18,206 INFO 11216 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:58:18,209 INFO 11216 [egg-security] use csrf middleware
+2019-07-09 23:58:18,209 INFO 11216 [egg-security] use methodnoallow middleware
+2019-07-09 23:58:18,210 INFO 11216 [egg-security] use noopen middleware
+2019-07-09 23:58:18,211 INFO 11216 [egg-security] use nosniff middleware
+2019-07-09 23:58:18,211 INFO 11216 [egg-security] use xssProtection middleware
+2019-07-09 23:58:18,211 INFO 11216 [egg-security] use xframe middleware
+2019-07-09 23:58:18,212 INFO 11216 [egg-security] use dta middleware
+2019-07-09 23:58:18,212 INFO 11216 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:58:19,853 INFO 11216 [egg:core] dump config after load, 8ms
+2019-07-09 23:58:19,882 INFO 11216 [egg-watcher:application] watcher start success
+2019-07-09 23:58:19,905 INFO 11216 [egg:core] dump config after ready, 6ms
+2019-07-09 23:59:23,064 INFO 15140 [egg:logger] init all loggers with options: {"dir":"D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-09 23:59:23,097 INFO 15140 [egg-multipart] stream mode enable
+2019-07-09 23:59:23,414 INFO 15140 [egg-static] starting static serve /public/ -> D:\vscode\sequelize-ts\app\public
+2019-07-09 23:59:23,417 INFO 15140 [egg-security] use csrf middleware
+2019-07-09 23:59:23,418 INFO 15140 [egg-security] use methodnoallow middleware
+2019-07-09 23:59:23,419 INFO 15140 [egg-security] use noopen middleware
+2019-07-09 23:59:23,419 INFO 15140 [egg-security] use nosniff middleware
+2019-07-09 23:59:23,420 INFO 15140 [egg-security] use xssProtection middleware
+2019-07-09 23:59:23,420 INFO 15140 [egg-security] use xframe middleware
+2019-07-09 23:59:23,421 INFO 15140 [egg-security] use dta middleware
+2019-07-09 23:59:23,421 INFO 15140 [egg-security] compose 7 middlewares into one security middleware
+2019-07-09 23:59:25,060 INFO 15140 [egg:core] dump config after load, 19ms
+2019-07-09 23:59:25,092 INFO 15140 [egg-watcher:application] watcher start success
+2019-07-09 23:59:25,115 INFO 15140 [egg:core] dump config after ready, 7ms
+2019-07-10 00:00:00,014 INFO 15140 [egg-logrotator] clean all log before 31 days
+2019-07-10 00:00:01,013 INFO 15140 [egg-logrotator] broadcast log-reload
+2019-07-10 00:00:01,013 INFO 15140 [egg-logrotator] rotate files success by DayRotator, files ["D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\common-error.log -> D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\common-error.log.2019-07-09","D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\sequelize-ts-example-web.log -> D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\sequelize-ts-example-web.log.2019-07-09","D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\egg-web.log -> D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\egg-web.log.2019-07-09","D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\egg-schedule.log -> D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\egg-schedule.log.2019-07-09","D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\egg-agent.log -> D:\\vscode\\sequelize-ts\\logs\\sequelize-ts-example\\egg-agent.log.2019-07-09"]

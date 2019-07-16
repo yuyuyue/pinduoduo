@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": "yby980410",
+    "database": "pinduoduo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "yby980410",
+    "database": "test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

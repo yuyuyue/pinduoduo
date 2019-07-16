@@ -1,0 +1,1431 @@
+2019-07-02 15:40:13,180 ERROR 22888 [-/127.0.0.1/-/10ms GET /customer] nodejs.TypeError: Cannot read property 'list' of undefined
+    at CustomerController.index (D:\vscode\sequelize-ts\app\controller\customer.ts:12:44)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 22888
+hostname: DESKTOP-QJUC35N
+
+2019-07-02 15:44:00,462 ERROR 4788 [-/127.0.0.1/-/8ms GET /customer] nodejs.TypeError: Cannot read property 'list' of undefined
+    at CustomerController.index (D:\vscode\sequelize-ts\app\controller\customer.ts:12:44)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 4788
+hostname: DESKTOP-QJUC35N
+
+2019-07-02 15:44:31,570 ERROR 4788 [-/127.0.0.1/-/26ms GET /customer] nodejs.TypeError: Cannot read property 'list' of undefined
+    at CustomerController.index (D:\vscode\sequelize-ts\app\controller\customer.ts:12:44)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 4788
+hostname: DESKTOP-QJUC35N
+
+2019-07-02 15:44:35,186 ERROR 21840 [-/127.0.0.1/-/67ms GET /customer] nodejs.SequelizeDatabaseError: Table 'dev.customers' doesn't exist
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1749:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1746:8)
+    at Function.findAndCountAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:2088:12)
+    at Customer.list (D:\vscode\sequelize-ts\app\service\customer.ts:8:36)
+    at CustomerController.index (D:\vscode\sequelize-ts\app\controller\customer.ts:12:43)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'dev.customers' doesn't exist","sql":"SELECT `id`, `name`, `avatar`, `wechat`, `iswechat`, `phone`, `gender`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customer` ORDER BY `customer`.`created_at` DESC, `customer`.`id` DESC LIMIT 0, 0;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'dev.customers' doesn't exist","sql":"SELECT `id`, `name`, `avatar`, `wechat`, `iswechat`, `phone`, `gender`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customer` ORDER BY `customer`.`created_at` DESC, `customer`.`id` DESC LIMIT 0, 0;"}
+sql: "SELECT `id`, `name`, `avatar`, `wechat`, `iswechat`, `phone`, `gender`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customer` ORDER BY `customer`.`created_at` DESC, `customer`.`id` DESC LIMIT 0, 0;"
+pid: 21840
+hostname: DESKTOP-QJUC35N
+
+2019-07-02 15:45:13,651 ERROR 22988 [-/127.0.0.1/-/38ms GET /customer] nodejs.SequelizeDatabaseError: Table 'pinduoduo.customers' doesn't exist
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.rawSelect (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1162:27)
+    at Function.aggregate (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1985:32)
+    at Promise.try.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:2035:19)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.count (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:2019:8)
+    at Function.findAndCountAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:2087:12)
+    at Customer.list (D:\vscode\sequelize-ts\app\service\customer.ts:8:36)
+    at CustomerController.index (D:\vscode\sequelize-ts\app\controller\customer.ts:12:43)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'pinduoduo.customers' doesn't exist","sql":"SELECT count(*) AS `count` FROM `customers` AS `customer`;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'pinduoduo.customers' doesn't exist","sql":"SELECT count(*) AS `count` FROM `customers` AS `customer`;"}
+sql: "SELECT count(*) AS `count` FROM `customers` AS `customer`;"
+pid: 22988
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:10:27,730 ERROR 22796 [-/127.0.0.1/-/5ms POST /register] nodejs.TypeError: Cannot read property 'v1' of undefined
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:16:32)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22796
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:11:50,704 ERROR 22796 [-/127.0.0.1/-/1ms POST /register] nodejs.TypeError: Cannot read property 'v1' of undefined
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:16:32)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22796
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:15:25,158 ERROR 11668 [-/127.0.0.1/-/8ms POST /register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:69:52)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 11668
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:29:57,554 ERROR 11200 [-/127.0.0.1/-/13ms POST /register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:69:52)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 11200
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:33:57,095 ERROR 19564 [-/127.0.0.1/-/39ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 19564
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:39:03,074 ERROR 22692 [-/127.0.0.1/-/32ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 22692
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:40:53,715 ERROR 22460 [-/127.0.0.1/-/41ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 22460
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:42:30,599 ERROR 23036 [-/127.0.0.1/-/33ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 23036
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:53:45,344 ERROR 20316 [-/127.0.0.1/-/35ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 20316
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:54:46,898 ERROR 20316 [-/127.0.0.1/-/15ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 20316
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:56:48,733 ERROR 14916 [-/127.0.0.1/-/34ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:13:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 14916
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:58:26,503 ERROR 21768 [-/127.0.0.1/-/34ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 21768
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 10:58:48,392 ERROR 21996 [-/127.0.0.1/-/32ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 21996
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:06:02,417 ERROR 2304 [-/127.0.0.1/-/104ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:70:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:19:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 2304
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:07:02,462 ERROR 18592 [-/127.0.0.1/-/68ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:71:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:20:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 18592
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:07:39,472 ERROR 18592 [-/127.0.0.1/-/14ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:71:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:20:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 18592
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:08:15,309 ERROR 9640 [-/127.0.0.1/-/49ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:69:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:18:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 9640
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:10:40,654 ERROR 19564 [-/127.0.0.1/-/43ms POST /register] nodejs.SequelizeDatabaseError: Unknown column 'customer_id' in 'field list'
+    at Query.formatError (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.handler [as onResult] (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:46:23)
+    at Query.execute (D:\vscode\sequelize-ts\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:72:12)
+    at PacketParser.executeStart (D:\vscode\sequelize-ts\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (D:\vscode\sequelize-ts\node_modules\mysql2\lib\connection.js:79:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Query.run (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:29)
+From previous event:
+    at Promise.try.then.connection (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:635:12)
+From previous event:
+    at Promise.resolve.retry (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:632:10)
+    at D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\vscode\sequelize-ts\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (D:\vscode\sequelize-ts\node_modules\sequelize\lib\sequelize.js:576:23)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1120:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:69:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:18:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:32)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'customer_id' in 'field list'","sql":"SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"}
+sql: "SELECT `id`, `customer_id` AS `customerId`, `username`, `password`, `avatar_url` AS `avatarUrl`, `mobile`, `wechat`, `wxavatae_url` AS `wxavataeUrl`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445' LIMIT 1;"
+pid: 19564
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:17:09,661 ERROR 14628 [-/127.0.0.1/-/59ms POST /register] nodejs.TypeError: ctx.returnBody is not a function
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:30:9)
+
+pid: 14628
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:18:48,341 ERROR 22868 [-/127.0.0.1/-/46ms POST /register] nodejs.TypeError: ctx.returnBody is not a function
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:30:9)
+
+pid: 22868
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 11:20:29,722 ERROR 22824 [-/127.0.0.1/-/48ms POST /register] nodejs.TypeError: ctx.returnBody is not a function
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:30:9)
+
+pid: 22824
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 14:45:49,242 ERROR 21320 [-/127.0.0.1/-/24ms POST /register] nodejs.TypeError: Cannot read property 'createCipher' of undefined
+    at Helper.exports.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 21320
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 14:45:50,376 ERROR 22772 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 22772
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 14:46:48,439 ERROR 21284 [-/127.0.0.1/-/49ms POST /register] nodejs.TypeError: Cannot read property 'createCipher' of undefined
+    at Helper.exports.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 21284
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 14:53:28,247 ERROR 20020 [-/127.0.0.1/-/17ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.exports.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 20020
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 14:54:08,497 ERROR 20020 [-/127.0.0.1/-/10ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.exports.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 20020
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 14:57:54,090 ERROR 14096 [-/127.0.0.1/-/18ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 14096
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:07:13,297 ERROR 24460 [-/127.0.0.1/-/24ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:27)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 24460
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:13:27,281 ERROR 24460 [-/127.0.0.1/-/17ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:13:27)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 24460
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:14:59,583 ERROR 24380 [-/127.0.0.1/-/46ms POST /register] nodejs.SequelizeValidationError: notNull Violation: customers.password cannot be null
+    at Promise.all.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (D:\vscode\sequelize-ts\node_modules\sequelize\lib\instance-validator.js:72:8)
+    at runHooks.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\instance-validator.js:107:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (D:\vscode\sequelize-ts\node_modules\sequelize\lib\instance-validator.js:106:8)
+    at InstanceValidator.validate (D:\vscode\sequelize-ts\node_modules\sequelize\lib\instance-validator.js:90:38)
+    at model.validate (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:3975:49)
+    at Promise.try (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:3740:21)
+From previous event:
+    at model.save (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:3737:23)
+    at Function.create (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:2222:8)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:31:30)
+name: "SequelizeValidationError"
+errors: [{"message":"customers.password cannot be null","type":"notNull Violation","path":"password","value":null,"origin":"CORE","instance":{"avatar_url":"https://s11.mogucdn.com/mlcdn/c45406/181105_60bdj928jdhjg9ehhg58hje1212ek_640x640.jpg","wxavatae_url":"https://s11.mogucdn.com/mlcdn/c45406/181105_60bdj928jdhjg9ehhg58hje1212ek_640x640.jpg","type":0,"sex":0,"created_at":"2019-07-08T07:14:59.564Z","updated_at":"2019-07-08T07:14:59.565Z","id":null,"mobile":"15179033445","username":"yby","customer_id":"18b4d2b0a15011e9a58223cbe223f922"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 24380
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:19:25,695 ERROR 24300 [-/127.0.0.1/-/17ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:11:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 24300
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:20:22,403 ERROR 20016 [-/127.0.0.1/-/40ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:11:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 20016
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:21:29,637 ERROR 20016 [-/127.0.0.1/-/15ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:11:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 20016
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 15:21:57,698 ERROR 20524 [-/127.0.0.1/-/25ms POST /register] nodejs.TypeError: Cannot read property 'createCipheriv' of undefined
+    at Helper.aesEncrypt (D:\vscode\sequelize-ts\app\extend\helper.ts:12:25)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:28:36)
+
+pid: 20524
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 18:13:19,986 ERROR 23088 [-/127.0.0.1/-/26ms POST /login] nodejs.Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\vscode\sequelize-ts\node_modules\jsonwebtoken\sign.js:107:20)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:91:27)
+
+pid: 23088
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 23:56:42,418 ERROR 7656 [-/127.0.0.1/-/23ms POST /customer/register] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:52:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:21:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:53)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:21:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 7656
+hostname: DESKTOP-QJUC35N
+
+2019-07-08 23:57:11,350 ERROR 7656 [-/127.0.0.1/-/3ms POST /customer/register] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.hasRegister (D:\vscode\sequelize-ts\app\service\customer.ts:52:47)
+    at CustomerService.register (D:\vscode\sequelize-ts\app\service\customer.ts:21:36)
+    at CustomerController.register (D:\vscode\sequelize-ts\app\controller\customer.ts:12:53)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:21:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 7656
+hostname: DESKTOP-QJUC35N
+

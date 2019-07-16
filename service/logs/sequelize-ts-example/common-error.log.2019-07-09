@@ -1,0 +1,433 @@
+2019-07-09 00:01:41,033 ERROR 24360 [-/127.0.0.1/-/25ms POST /customer/login] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.getCustomerByMobile (D:\vscode\sequelize-ts\app\service\customer.ts:105:31)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:70:37)
+    at CustomerController.login (D:\vscode\sequelize-ts\app\controller\customer.ts:21:50)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 24360
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 00:01:47,611 ERROR 24360 [-/127.0.0.1/-/3ms POST /customer/login] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.getCustomerByMobile (D:\vscode\sequelize-ts\app\service\customer.ts:105:31)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:70:37)
+    at CustomerController.login (D:\vscode\sequelize-ts\app\controller\customer.ts:21:50)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 24360
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 00:02:40,165 ERROR 22780 [-/127.0.0.1/-/28ms POST /customer/login] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.getCustomerByMobile (D:\vscode\sequelize-ts\app\service\customer.ts:105:31)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:70:37)
+    at CustomerController.login (D:\vscode\sequelize-ts\app\controller\customer.ts:22:50)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22780
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 00:03:29,287 ERROR 22780 [-/127.0.0.1/-/4ms POST /customer/login] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.getCustomerByMobile (D:\vscode\sequelize-ts\app\service\customer.ts:105:31)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:70:37)
+    at CustomerController.login (D:\vscode\sequelize-ts\app\controller\customer.ts:22:50)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22780
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 00:04:46,798 ERROR 22780 [-/127.0.0.1/-/4ms POST /customer/login] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.getCustomerByMobile (D:\vscode\sequelize-ts\app\service\customer.ts:105:31)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:70:37)
+    at CustomerController.login (D:\vscode\sequelize-ts\app\controller\customer.ts:22:50)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22780
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 00:05:13,629 ERROR 26264 [-/127.0.0.1/-/26ms POST /customer/login] nodejs.Error: WHERE parameter "mobile" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2063:13)
+    at Utils.getComplexKeys.forEach.prop (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2052:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2050:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2462:19)
+    at MySQLQueryGenerator.selectQuery (D:\vscode\sequelize-ts\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1283:28)
+    at QueryInterface.select (D:\vscode\sequelize-ts\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at Promise.try.then.then.then (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1755:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1752:8)
+    at Function.findOne (D:\vscode\sequelize-ts\node_modules\sequelize\lib\model.js:1922:17)
+    at CustomerService.getCustomerByMobile (D:\vscode\sequelize-ts\app\service\customer.ts:105:31)
+    at CustomerService.login (D:\vscode\sequelize-ts\app\service\customer.ts:70:37)
+    at CustomerController.login (D:\vscode\sequelize-ts\app\controller\customer.ts:22:50)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 26264
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 22:55:51,254 ERROR 20512 nodejs.InvalidAccessKeyId.NotFoundError: Specified access key is not found., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "InvalidAccessKeyId.NotFoundError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=InvalidAccessKeyId.NotFound&source=PopGw","Message":"Specified access key is not found.","RequestId":"B2A755FE-A880-4EE4-B8BE-18232F85D28F","HostId":"dysmsapi.aliyuncs.com","Code":"InvalidAccessKeyId.NotFound"}
+code: "InvalidAccessKeyId.NotFound"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":404,"headers":{"date":"Tue, 09 Jul 2019 14:55:54 GMT","content-type":"application/json; charset=UTF-8","content-length":"278","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 20512
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:00:08,833 ERROR 20512 nodejs.InvalidAccessKeyId.NotFoundError: Specified access key is not found., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "InvalidAccessKeyId.NotFoundError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=InvalidAccessKeyId.NotFound&source=PopGw","Message":"Specified access key is not found.","RequestId":"A3AC4D73-2557-4DD4-B994-07928A8AADA5","HostId":"dysmsapi.aliyuncs.com","Code":"InvalidAccessKeyId.NotFound"}
+code: "InvalidAccessKeyId.NotFound"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":404,"headers":{"date":"Tue, 09 Jul 2019 15:00:12 GMT","content-type":"application/json; charset=UTF-8","content-length":"278","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 20512
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:07:05,349 ERROR 17080 nodejs.isv.INVALID_JSON_PARAMError: JSON参数不合法, URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "isv.INVALID_JSON_PARAMError"
+data: {"Message":"JSON参数不合法","RequestId":"871CEF7B-C7C6-4EFE-AF03-E1D9F5574DFE","Code":"isv.INVALID_JSON_PARAM"}
+code: "isv.INVALID_JSON_PARAM"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":200,"headers":{"date":"Tue, 09 Jul 2019 15:07:08 GMT","content-type":"application/json; charset=UTF-8","content-length":"116","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 17080
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:08:55,225 ERROR 1000 nodejs.isv.INVALID_JSON_PARAMError: JSON参数不合法, URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "isv.INVALID_JSON_PARAMError"
+data: {"Message":"JSON参数不合法","RequestId":"1940E87F-F49A-4642-B9CE-7CCA93B218EE","Code":"isv.INVALID_JSON_PARAM"}
+code: "isv.INVALID_JSON_PARAM"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":200,"headers":{"date":"Tue, 09 Jul 2019 15:08:58 GMT","content-type":"application/json; charset=UTF-8","content-length":"116","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 1000
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:10:26,416 ERROR 22796 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"E5C5A2BB-EAE5-4213-8A4F-170FE5CE64D6","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:10:29 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 22796
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:17:16,625 ERROR 14216 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"3A8A28FB-DF8C-4681-9C55-EB4AE15869EB","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:17:20 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 14216
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:19:15,201 ERROR 20088 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"398B99A2-DCD1-4CA9-BC08-7CE06F0F9F66","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:19:18 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 20088
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:20:29,323 ERROR 24040 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"25046095-0FC4-4E41-9633-A973A1AA5017","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:20:32 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 24040
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:20:54,782 ERROR 24040 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"DB7DCDAD-53A2-47FC-9CE1-E907FF3C1F6F","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:20:58 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 24040
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:21:03,406 ERROR 6940 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"59AB42DB-F569-440D-9E00-80636CD7D5F7","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:21:06 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 6940
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:23:38,118 ERROR 27620 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"030369FB-F2D0-43AD-9455-E000F43EB957","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:23:41 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 27620
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:24:12,206 ERROR 27620 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"A617BC11-B853-435F-87F3-1DEA4F8900C8","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:24:15 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 27620
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:24:30,209 ERROR 23088 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"9B009F5B-B3F8-40A7-B378-8335F83F04AF","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:24:33 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 23088
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:25:26,038 ERROR 14024 nodejs.MissingPhoneNumbersError: PhoneNumbers is mandatory for this action., URL: https://dysmsapi.aliyuncs.com/
+    at httpx.request.then.then (D:\vscode\sequelize-ts\node_modules\@alicloud\pop-core\lib\rpc.js:205:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "MissingPhoneNumbersError"
+data: {"Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingPhoneNumbers&source=PopGw","Message":"PhoneNumbers is mandatory for this action.","RequestId":"36442978-0C38-412B-812E-5A9516A7DEDD","HostId":"dysmsapi.aliyuncs.com","Code":"MissingPhoneNumbers"}
+code: "MissingPhoneNumbers"
+url: "https://dysmsapi.aliyuncs.com/"
+entry: {"url":"https://dysmsapi.aliyuncs.com/","request":{"headers":{"x-sdk-client":"Node.js(v10.15.3), @alicloud/pop-core: 1.7.7","user-agent":"AlibabaCloud (win32; x64) Node.js/v10.15.3 Core/1.7.7","content-type":"application/x-www-form-urlencoded","host":"dysmsapi.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Tue, 09 Jul 2019 15:25:29 GMT","content-type":"application/json; charset=UTF-8","content-length":"270","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","server":"Jetty(7.2.2.v20101205)"}}}
+pid: 14024
+hostname: DESKTOP-QJUC35N
+
+2019-07-09 23:52:24,908 ERROR 22352 nodejs.TypeError: ctx.helper.sendPhoneMsg is not a function
+    at CustomerService.sendVerificationCode (D:\vscode\sequelize-ts\app\service\customer.ts:139:16)
+    at CustomerController.sendcode (D:\vscode\sequelize-ts\app\controller\login.ts:64:41)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\vscode\sequelize-ts\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\vscode\sequelize-ts\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\vscode\sequelize-ts\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\app\middleware\authorization.ts:8:13
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at D:\vscode\sequelize-ts\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\vscode\sequelize-ts\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\vscode\sequelize-ts\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\vscode\sequelize-ts\node_modules\koa-compose\index.js:42:32)
+
+pid: 22352
+hostname: DESKTOP-QJUC35N
+

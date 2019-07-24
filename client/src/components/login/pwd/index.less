@@ -1,0 +1,26 @@
+@import '~themes/vars.less';
+
+.pwd {
+  width: 70%;
+  height: 100%;
+  margin-left: 60px;
+  .section {
+    margin-top: 40px;
+    .options {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      padding-left: 10px;
+      .forget {
+        color: @color-lightred;
+        cursor: pointer;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 0;
+        &:hover {
+          color: @color-hoverred;
+        }
+      }
+    }
+  }
+}

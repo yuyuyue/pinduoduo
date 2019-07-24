@@ -1,0 +1,96 @@
+@import "~themes/vars.less";
+
+.login {
+  .header {
+    margin-top: 92px;
+    display: inline-block;
+    margin-left: 368px;
+    height: 96px;
+    line-height: 96px;
+    img {
+      display: inline-block;
+      width: 162px;
+      height: 56px;
+      vertical-align: middle;
+    }
+    .headerTitle {
+      vertical-align: bottom;
+      display: inline-block;
+      height: 78px;
+      line-height: 78px;
+      color: @color-red;
+      font-size: @fz-18;
+    }
+  }
+  .container {
+    width: 100%;
+    min-width: 1920px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 536px;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .form {
+      position: absolute;
+      width: 420px;
+      top: 60px;
+      right: 400px;
+      height: 420px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-sizing: border-box;
+      .info{
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        .title {
+          flex: 1;
+          display: inline-block;
+          padding-left: 28px;
+          .option {
+            display: inline-block;
+            text-align: center;
+            width: 85px;
+            padding: 0 10px;
+            height: 14px;
+            line-height: 14px;
+            font-size: @fz-14;
+            margin-bottom: 0;
+            cursor: pointer;
+            &:not(:last-child) {
+              border-right: 1px solid #d8d8d8;
+            }
+          }
+          .oprated {
+            color: @color-lightred;
+          }
+        }
+        .register {
+          width: 75px;
+          height: 28px;
+          line-height: 28px;
+          border-radius: 3px;
+          text-align: center;
+          margin-right: 40px;
+          font-size: @fz-14;
+          color: @color-white;
+          background-color: @color-lightred;
+          border-color: @color-lightred;
+          cursor: pointer;
+          &:hover {
+            background-color: @color-hoverred;
+          }
+        }
+      }
+      .context {
+        width: 100%;
+        height: 300px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

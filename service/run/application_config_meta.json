@@ -1,308 +1,308 @@
 {
-  "keys": "D:\\vscode\\service\\config\\config.default.ts",
+  "keys": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
   "sequelize": {
-    "dialect": "D:\\vscode\\service\\config\\config.default.ts",
-    "host": "D:\\vscode\\service\\config\\config.default.ts",
-    "port": "D:\\vscode\\service\\config\\config.default.ts",
-    "database": "D:\\vscode\\service\\config\\config.default.ts",
-    "username": "D:\\vscode\\service\\config\\config.default.ts",
-    "password": "D:\\vscode\\service\\config\\config.default.ts",
-    "timezone": "D:\\vscode\\service\\config\\config.default.ts"
+    "dialect": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "host": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "port": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "database": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "username": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "password": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "timezone": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts"
   },
   "routerPlus": {
-    "enable": "D:\\vscode\\service\\config\\config.default.ts",
-    "package": "D:\\vscode\\service\\config\\config.default.ts"
+    "enable": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "package": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts"
   },
   "security": {
     "csrf": {
-      "ignore": "D:\\vscode\\service\\config\\config.default.ts",
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "ignore": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
-  "aeskey": "D:\\vscode\\service\\config\\config.default.ts",
-  "aesiv": "D:\\vscode\\service\\config\\config.default.ts",
-  "jwtkey": "D:\\vscode\\service\\config\\config.default.ts",
-  "middleware": "D:\\vscode\\service\\config\\config.default.ts",
+  "aeskey": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+  "aesiv": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+  "jwtkey": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+  "middleware": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
   "core": {
-    "accessKeyId": "D:\\vscode\\service\\config\\config.default.ts",
-    "accessKeySecret": "D:\\vscode\\service\\config\\config.default.ts",
-    "endpoint": "D:\\vscode\\service\\config\\config.default.ts",
-    "apiVersion": "D:\\vscode\\service\\config\\config.default.ts"
+    "accessKeyId": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "accessKeySecret": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "endpoint": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts",
+    "apiVersion": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts"
   },
   "authorization": {
-    "authWitheList": "D:\\vscode\\service\\config\\config.default.ts"
+    "authWitheList": "D:\\repos\\pinduoduo\\service\\config\\config.default.ts"
   },
   "session": {
-    "maxAge": "D:\\vscode\\service\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\vscode\\service\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\vscode\\service\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\vscode\\service\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "D:\\vscode\\service\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\vscode\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\vscode\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\vscode\\service\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\vscode\\service\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\vscode\\service\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "D:\\vscode\\service\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\vscode\\service\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\vscode\\service\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\vscode\\service\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\vscode\\service\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\vscode\\service\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "D:\\vscode\\service\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "D:\\vscode\\service\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\vscode\\service\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\vscode\\service\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\vscode\\service\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\vscode\\service\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\vscode\\service\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\vscode\\service\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\vscode\\service\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\vscode\\service\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\vscode\\service\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\vscode\\service\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "root": "D:\\vscode\\service\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\vscode\\service\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\vscode\\service\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\vscode\\service\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\vscode\\service\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "private": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "@alicloud/pop-core": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "egg": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "egg-router-plus": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "egg-sequelize": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "jsonwebtoken": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "mysql2": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "uuid": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "@alicloud/pop-core": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-router-plus": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "jsonwebtoken": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "uuid": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "@types/mocha": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "autod": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "cross-env": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "factory-girl": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "lodash": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "sequelize-cli": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "@types/mocha": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "factory-girl": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "node": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
     "egg": {
-      "typescript": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "declarations": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "typescript": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "declarations": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "dev": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "cov": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "ci": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "autod": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "dev": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "author": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+    "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\vscode\\service\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "enable": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\vscode\\service\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\config.default.js"
 }

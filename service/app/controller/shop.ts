@@ -3,11 +3,10 @@ import { Controller } from 'egg';
 export default class ShopController extends Controller {
   
   // 模糊查询店铺
-  async show() {
+  async showByName() {
     const { ctx } = this
 
-    const name = ctx.params.name
-    console.log(name, '+++++++++++++')
+    const name = escape(ctx.params.name)
     const options = {
       limit: ctx.helper.parseToInt(ctx.query.limit) || 10,
       offset: ctx.helper.parseToInt(ctx.query.offset) || 0,
@@ -22,6 +21,23 @@ export default class ShopController extends Controller {
 
     ctx.returnBody(200, "查询成功", 0, shopInfo.dataValues)
   }
+
+    // 估计shop_id 精准查询
+    async show() {
+
+      const { ctx } = this
+  
+      const shop_id = ctx.params.id
+  
+      const shopInfo = await ctx.service.shop.findByShopId(shop_id)
+      
+      if (!shopInfo) {
+        ctx.returnBody(404, "查询失败", -1)
+        return
+      }
+  
+      ctx.returnBody(200, "查询成功", 0, shopInfo.dataValues)
+    }
 
   // 更新店铺
   async update() {
@@ -66,7 +82,7 @@ export default class ShopController extends Controller {
 
     // 登录结果
     const loginInfo = await ctx.service.shop.loginIn({ mobile, password })
-    const { status, msg, type, token, shop_id } = loginInfo
+    const { status, msg, type, token, data } = loginInfo
 
     // 验证token
     if (type == 0 && token) {
@@ -78,9 +94,9 @@ export default class ShopController extends Controller {
         domain: '127.0.0.1'
       }
       ctx.cookies.set('token', token, opts) // cookie 有效期7天
-      ctx.cookies.set('shop_id', shop_id, opts) // cookie 有效期7天
+      ctx.cookies.set('shop_id', data.shop_id, opts) // cookie 有效期7天
     }
-    ctx.returnBody(status, msg, type)
+    ctx.returnBody(status, msg, type, data)
   }
 
   // 验证码登录
@@ -115,7 +131,9 @@ export default class ShopController extends Controller {
     ctx.cookies.set('token', token, opts) // cookie 有效期7天
     ctx.cookies.set('shop_id', shopInfo.shop_id, opts) // cookie 有效期7天
 
-    ctx.returnBody(200, '登录成功', 0)
+    let data = shopInfo.dataValues
+    delete data.password
+    ctx.returnBody(200, '登录成功', 0, data)
   }
 
   // 登出

@@ -60,17 +60,15 @@ export default function(appInfo: EggAppConfig) {
   const bizConfig = {
     authorization: {
       authWitheList: [
-        '/login/register',
-        '/login/loginIn',
-        '/login/loginOut',
-        '/login/sendcode/15179033446',
-        '/customer/loginByPwd',
-        '/customer/loginByCode',
-        '/customer/updatePwd',
-        '/shop/register',
-        '/shop/loginByPwd',
-        '/shop/loginByCode',
-        '/shop/updatePwd',
+        '/api/v2/customer/register',
+        '/api/v2/customer/loginByPwd',
+        '/api/v2/customer/loginByCode',
+        '/api/v2/customer/updatePwd',
+        '/api/v2/shop/register',
+        '/api/v2/shop/loginByPwd',
+        '/api/v2/shop/loginByCode',
+        '/api/v2/shop/updatePwd',
+        '/api/v2/code/sendcode/15179033445'
       ]
     }
   }

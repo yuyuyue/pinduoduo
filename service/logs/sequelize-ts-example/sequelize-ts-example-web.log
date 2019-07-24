@@ -567,3 +567,350 @@ hostname: DESKTOP-QJUC35N
 2019-07-16 17:23:36,516 INFO 11324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2019-07-16 17:23:55,554 INFO 22700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2019-07-16 17:29:42,462 INFO 23012 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-18 21:46:44,403 INFO 12700 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-18 21:47:39,303 INFO 5112 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-18 21:48:34,198 INFO 5112 [egg-sequelize](29ms) Executed (default): SELECT `id`, `name`, `avatar` FROM `shops` AS `shops` WHERE `shops`.`name` LIKE '%å°å°%' LIMIT 0, 10;
+2019-07-18 21:58:35,036 INFO 5112 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `avatar` FROM `shops` AS `shops` WHERE `shops`.`name` LIKE '%å°å°%' LIMIT 0, 10;
+2019-07-18 22:00:08,727 INFO 5112 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `avatar` FROM `shops` AS `shops` WHERE `shops`.`name` LIKE '%aaa%' LIMIT 0, 10;
+2019-07-18 22:00:58,551 INFO 2860 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-18 22:01:07,583 INFO 2860 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `avatar` FROM `shops` AS `shops` WHERE `shops`.`name` LIKE '%å°%' LIMIT 0, 10;
+2019-07-18 22:01:20,284 INFO 18744 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-18 22:01:22,817 INFO 18744 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `avatar` FROM `shops` AS `shops` WHERE `shops`.`name` LIKE '%小%' LIMIT 0, 10;
+2019-07-18 22:02:01,819 INFO 15032 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:36:00,492 INFO 8240 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:39:11,973 INFO 8848 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:39:25,571 INFO 12848 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:39:42,473 INFO 11152 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:39:54,868 WARN 11152 [-/127.0.0.1/-/5ms GET /api/v2/code/sendcode/] nodejs.SyntaxError: Unexpected token } in JSON at position 30
+    at JSON.parse (<anonymous>)
+    at parse (D:\repos\pinduoduo\service\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\repos\pinduoduo\service\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"mobile\": \"15179033445\",\n\t\n}"
+pid: 11152
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:41:25,699 INFO 15096 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:44:11,582 INFO 10156 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:45:15,419 INFO 11456 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:45:37,295 INFO 11456 [egg-sequelize](44ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 19:45:37,328 INFO 11456 [egg-sequelize](21ms) Executed (default): INSERT INTO `customers` (`id`,`customer_id`,`username`,`password`,`avatar_url`,`mobile`,`wxavatae_url`,`type`,`sex`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);
+2019-07-24 19:46:45,841 INFO 11456 [egg-sequelize](102ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 19:46:45,859 ERROR 11456 [-/127.0.0.1/-/117ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'customer_id' of undefined
+    at CustomerController.loginByPwd (D:\repos\pinduoduo\service\app\controller\customer.ts:77:43)
+
+pid: 11456
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:48:31,027 INFO 8624 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:49:02,845 INFO 16716 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:49:32,776 INFO 11284 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:51:44,599 INFO 8512 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:51:54,444 INFO 5820 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:00,056 INFO 1652 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:06,086 INFO 18020 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:11,760 INFO 10760 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:25,972 INFO 14760 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:33,439 INFO 12752 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:41,015 INFO 3616 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:47,172 INFO 12664 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:52:53,475 INFO 17692 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:53:00,347 INFO 9368 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:53:07,256 INFO 4860 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:53:17,180 INFO 2276 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:53:48,897 INFO 1732 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:54:57,044 INFO 11464 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:56:37,617 INFO 11464 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 19:56:37,635 ERROR 11464 [-/127.0.0.1/-/21ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 11464
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:56:40,267 INFO 8460 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:56:41,849 INFO 15548 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:57:03,761 INFO 9996 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:59:08,232 INFO 13872 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:59:08,726 INFO 13872 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 19:59:08,738 ERROR 13872 [-/127.0.0.1/-/20ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13872
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:59:35,728 INFO 13872 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 19:59:35,731 ERROR 13872 [-/127.0.0.1/-/9ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13872
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:59:40,577 INFO 5016 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 19:59:41,377 INFO 5016 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 19:59:41,390 ERROR 5016 [-/127.0.0.1/-/21ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 5016
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:00:20,688 INFO 5016 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:00:20,691 ERROR 5016 [-/127.0.0.1/-/7ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 5016
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:00:21,055 INFO 18304 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:01:25,048 INFO 18304 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:01:25,061 ERROR 18304 [-/127.0.0.1/-/21ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 18304
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:01:27,266 INFO 9280 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:01:30,495 INFO 5412 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:02:02,788 INFO 13984 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:02:04,988 INFO 13984 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:02:04,999 ERROR 13984 [-/127.0.0.1/-/18ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13984
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:02:26,648 INFO 13984 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:02:26,651 ERROR 13984 [-/127.0.0.1/-/10ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13984
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:02:27,910 INFO 2932 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:04:00,742 INFO 5776 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:04:13,554 INFO 10276 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:04:22,620 INFO 10276 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:04:22,631 ERROR 10276 [-/127.0.0.1/-/18ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 10276
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:05:00,541 INFO 10276 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:05:00,543 ERROR 10276 [-/127.0.0.1/-/7ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 10276
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:05:01,802 INFO 9776 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:05:11,741 INFO 9776 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:05:11,760 ERROR 9776 [-/127.0.0.1/-/29ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:36)
+
+pid: 9776
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:05:12,993 INFO 15084 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:05:58,465 INFO 13492 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:06:07,433 INFO 720 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:06:10,068 INFO 720 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:06:10,085 ERROR 720 [-/127.0.0.1/-/20ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 720
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:06:46,896 INFO 5908 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:06:56,484 INFO 11704 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:07:05,779 INFO 11704 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:07:05,790 ERROR 11704 [-/127.0.0.1/-/27ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:36)
+
+pid: 11704
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:06,954 INFO 18296 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:07:11,593 INFO 18296 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:07:11,608 ERROR 18296 [-/127.0.0.1/-/28ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:13,608 INFO 18296 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:07:13,613 ERROR 18296 [-/127.0.0.1/-/7ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:13,925 INFO 18296 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:07:13,927 ERROR 18296 [-/127.0.0.1/-/3ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:54,820 INFO 18296 [egg-sequelize](1ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:07:54,823 ERROR 18296 [-/127.0.0.1/-/10ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:56,785 INFO 7124 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:08:35,815 INFO 7124 [egg-sequelize](2ms) Executed (default): SELECT `customer_id`, `username`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:08:35,833 ERROR 7124 [-/127.0.0.1/-/24ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:44)
+
+pid: 7124
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:08:38,165 INFO 17512 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:08:39,880 INFO 17772 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:08:41,473 INFO 17772 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:10:33,085 INFO 13680 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:10:33,499 INFO 13680 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:10:33,507 ERROR 13680 [-/127.0.0.1/-/23ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 13680
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:11:02,021 INFO 4520 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:11:19,785 INFO 16588 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:11:34,980 INFO 14724 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:11:44,952 INFO 11208 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:12:00,233 INFO 3692 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:12:11,160 INFO 4700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:12:48,341 INFO 1444 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:13:02,687 INFO 10704 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:13:11,234 INFO 17036 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:13:19,150 INFO 13412 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:14:15,877 INFO 2256 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:14:38,634 INFO 18188 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:14:40,751 INFO 18188 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:14:40,760 ERROR 18188 [-/127.0.0.1/-/17ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 18188
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:14:46,208 INFO 18188 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:14:46,210 ERROR 18188 [-/127.0.0.1/-/4ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 18188
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:15:08,642 INFO 18188 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:15:08,644 ERROR 18188 [-/127.0.0.1/-/8ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 18188
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:15:10,024 INFO 9176 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:15:31,326 INFO 9176 [egg-sequelize](3ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:15:31,337 ERROR 9176 [-/127.0.0.1/-/25ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 9176
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:15:32,509 INFO 15276 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:15:40,060 INFO 15276 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:15:40,069 ERROR 15276 [-/127.0.0.1/-/17ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 15276
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:16:09,537 INFO 15276 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:16:09,936 INFO 5124 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:16:14,910 INFO 5124 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:16:33,470 INFO 1032 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:16:35,741 INFO 1032 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:16:36,475 INFO 1032 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:16:37,369 INFO 13716 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:17:06,968 INFO 4348 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:17:41,091 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:17:44,104 INFO 18300 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:45,755 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:46,502 INFO 18300 [egg-sequelize](0ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:47,217 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:47,758 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:48,351 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:48,739 INFO 18300 [egg-sequelize](0ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:49,359 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:17:53,534 INFO 18300 [egg-sequelize](1ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:20:00,274 INFO 8620 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:22:59,567 INFO 5212 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:23:48,844 INFO 5212 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:24:17,280 INFO 8460 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:24:17,705 INFO 8460 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:24:39,524 INFO 14524 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:26:43,706 INFO 12728 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:26:45,346 INFO 4700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:27:35,328 INFO 4700 [egg-sequelize](2ms) Executed (default): SELECT `id`, `customer_id`, `username`, `password`, `avatar_url`, `mobile`, `wechat`, `wxavatae_url`, `type`, `sex`, `address`, `birthday`, `signature`, `created_at`, `updated_at` FROM `customers` AS `customers` WHERE `customers`.`mobile` = '15179033445';
+2019-07-24 20:27:37,428 INFO 15352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:29:30,586 INFO 13004 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:30:40,682 INFO 2040 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:31:19,993 INFO 16100 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:53:21,383 INFO 9788 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-24 20:53:23,101 INFO 10992 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

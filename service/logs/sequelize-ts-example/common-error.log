@@ -459,3 +459,207 @@ name: "EPERMError"
 pid: 3520
 hostname: DESKTOP-QJUC35N
 
+2019-07-24 19:46:45,859 ERROR 11456 [-/127.0.0.1/-/117ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'customer_id' of undefined
+    at CustomerController.loginByPwd (D:\repos\pinduoduo\service\app\controller\customer.ts:77:43)
+
+pid: 11456
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:56:37,634 ERROR 11464 [-/127.0.0.1/-/21ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 11464
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:59:08,737 ERROR 13872 [-/127.0.0.1/-/20ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13872
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:59:35,730 ERROR 13872 [-/127.0.0.1/-/9ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13872
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 19:59:41,390 ERROR 5016 [-/127.0.0.1/-/21ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 5016
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:00:20,690 ERROR 5016 [-/127.0.0.1/-/7ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 5016
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:01:25,060 ERROR 18304 [-/127.0.0.1/-/21ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 18304
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:02:04,999 ERROR 13984 [-/127.0.0.1/-/18ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13984
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:02:26,650 ERROR 13984 [-/127.0.0.1/-/10ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 13984
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:04:22,631 ERROR 10276 [-/127.0.0.1/-/18ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 10276
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:05:00,542 ERROR 10276 [-/127.0.0.1/-/7ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 10276
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:05:11,759 ERROR 9776 [-/127.0.0.1/-/29ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:36)
+
+pid: 9776
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:06:10,084 ERROR 720 [-/127.0.0.1/-/20ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:98:36)
+
+pid: 720
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:05,790 ERROR 11704 [-/127.0.0.1/-/27ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:36)
+
+pid: 11704
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:11,608 ERROR 18296 [-/127.0.0.1/-/28ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:13,611 ERROR 18296 [-/127.0.0.1/-/7ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:13,926 ERROR 18296 [-/127.0.0.1/-/3ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:07:54,823 ERROR 18296 [-/127.0.0.1/-/10ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:36)
+
+pid: 18296
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:08:35,832 ERROR 7124 [-/127.0.0.1/-/24ms POST /api/v2/customer/loginByPwd] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at invalidArrayBufferView (internal/crypto/cipher.js:87:10)
+    at Decipheriv.update (internal/crypto/cipher.js:148:11)
+    at Helper.aesDecrypt (D:\repos\pinduoduo\service\app\extend\helper.ts:43:30)
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:102:44)
+
+pid: 7124
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:10:33,507 ERROR 13680 [-/127.0.0.1/-/23ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 13680
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:14:40,759 ERROR 18188 [-/127.0.0.1/-/17ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 18188
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:14:46,209 ERROR 18188 [-/127.0.0.1/-/4ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 18188
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:15:08,644 ERROR 18188 [-/127.0.0.1/-/8ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 18188
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:15:31,336 ERROR 9176 [-/127.0.0.1/-/25ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 9176
+hostname: DESKTOP-QJUC35N
+
+2019-07-24 20:15:40,069 ERROR 15276 [-/127.0.0.1/-/17ms POST /api/v2/customer/loginByPwd] nodejs.TypeError: Cannot read property 'password' of undefined
+    at CustomerService.loginIn (D:\repos\pinduoduo\service\app\service\customer.ts:100:66)
+
+pid: 15276
+hostname: DESKTOP-QJUC35N
+

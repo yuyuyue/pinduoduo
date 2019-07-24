@@ -22,7 +22,7 @@ export default (app: Application) => {
 
  
   // 商店相关
-  apiV2Router.get('/shop/show/:name', shop.show) // 模糊查询店铺 ?
+  apiV2Router.get('/shop/show/:name', shop.showByName) // 模糊查询店铺 ?
   apiV2Router.put('/shop/update/:id', shop.update) // 通过id更新店铺基本信息
 
   // B端登录相关

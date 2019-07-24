@@ -45,11 +45,6 @@ export default class Shop extends Service {
     return updateInfo[0]
   }
 
-
-  async destroy() {
-    
-  }
-
    /**
    * @func register 注册
    * @param shop 注册自定义接口
@@ -135,14 +130,14 @@ export default class Shop extends Service {
     // 验证通过, 生产token
     const token = ctx.helper.jwt.sign({ shop_id: shopInfo.shop_id }, app.config.jwtkey, { expiresIn: '7d' })
 
-    const shop_id = shopInfo.shop_id
-
+    let data = shopInfo.dataValues
+    delete data.password
     return {
       status: 200,
       type: 0,
       msg: '登录成功',
       token,
-      shop_id
+      data
     }
   }
 
@@ -166,5 +161,19 @@ export default class Shop extends Service {
       { password: passwordAes },
       { where: { mobile }}
     )
+  }
+
+  /**
+   * @func findByShopId restful 单条查询顾客
+   * @param shop_id 顾客的唯一hash id
+   */
+  public async findByShopId(shop_id: string) {
+    const { ctx } = this
+
+    const shop = await ctx.model.shop.findOne({
+      where: {shop_id}
+    })
+    console.log(shop)
+    return shop
   }
 }

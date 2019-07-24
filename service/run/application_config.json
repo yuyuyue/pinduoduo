@@ -87,27 +87,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\vscode\\service\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\vscode\\service\\node_modules\\egg-session\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-security\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-development\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-static\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-view\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-sequelize\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg-router-plus\\config\\locales",
-        "D:\\vscode\\service\\node_modules\\egg\\config\\locales",
-        "D:\\vscode\\service\\config\\locales"
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-session\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-sequelize\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg-router-plus\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\locales",
+        "D:\\repos\\pinduoduo\\service\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -118,8 +118,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\vscode\\service\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\vscode\\service\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -165,14 +165,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\vscode\\service\\app\\public",
+      "dir": "D:\\repos\\pinduoduo\\service\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "D:\\vscode\\service\\app\\view",
+      "root": "D:\\repos\\pinduoduo\\service\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -236,9 +236,9 @@
       "author": "yby <1349807391@qq.com>",
       "license": "MIT"
     },
-    "baseDir": "D:\\vscode\\service",
+    "baseDir": "D:\\repos\\pinduoduo\\service",
     "HOME": "C:\\Users\\严博艺",
-    "rundir": "D:\\vscode\\service\\run",
+    "rundir": "D:\\repos\\pinduoduo\\service\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -269,7 +269,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\vscode\\service\\logs\\sequelize-ts-example",
+      "dir": "D:\\repos\\pinduoduo\\service\\logs\\sequelize-ts-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -355,17 +355,15 @@
     },
     "authorization": {
       "authWitheList": [
-        "/login/register",
-        "/login/loginIn",
-        "/login/loginOut",
-        "/login/sendcode/15179033446",
-        "/customer/loginByPwd",
-        "/customer/loginByCode",
-        "/customer/updatePwd",
-        "/shop/register",
-        "/shop/loginByPwd",
-        "/shop/loginByCode",
-        "/shop/updatePwd"
+        "/api/v2/customer/register",
+        "/api/v2/customer/loginByPwd",
+        "/api/v2/customer/loginByCode",
+        "/api/v2/customer/updatePwd",
+        "/api/v2/shop/register",
+        "/api/v2/shop/loginByPwd",
+        "/api/v2/shop/loginByCode",
+        "/api/v2/shop/updatePwd",
+        "/api/v2/code/sendcode/15179033445"
       ]
     },
     "coreMiddlewares": "~config~coreMiddleware",
@@ -392,8 +390,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-session",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -405,8 +403,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-security",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -418,8 +416,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-jsonp",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -431,8 +429,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-onerror",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -442,8 +440,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-i18n",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -453,8 +451,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-watcher",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -464,8 +462,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-schedule",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -477,8 +475,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-multipart",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-multipart",
       "version": "2.7.1"
     },
     "development": {
@@ -492,8 +490,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-development",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -505,8 +503,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-logrotator",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -516,8 +514,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\config\\plugin.ts",
-      "path": "D:\\vscode\\service\\node_modules\\egg-static",
+      "from": "D:\\repos\\pinduoduo\\service\\config\\plugin.ts",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -527,8 +525,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\vscode\\service\\node_modules\\egg-view",
+      "from": "D:\\repos\\pinduoduo\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "sequelize": {
@@ -538,8 +536,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\config\\plugin.ts",
-      "path": "D:\\vscode\\service\\node_modules\\egg-sequelize",
+      "from": "D:\\repos\\pinduoduo\\service\\config\\plugin.ts",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-sequelize",
       "version": "5.1.0"
     },
     "routerPlus": {
@@ -549,8 +547,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\vscode\\service\\config\\plugin.ts",
-      "path": "D:\\vscode\\service\\node_modules\\egg-router-plus",
+      "from": "D:\\repos\\pinduoduo\\service\\config\\plugin.ts",
+      "path": "D:\\repos\\pinduoduo\\service\\node_modules\\egg-router-plus",
       "version": "1.3.1"
     }
   }

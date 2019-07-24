@@ -17,9 +17,9 @@ export default class CodeController extends Controller {
       // Code OK时发送成功
       if (Code === 'OK') {
         ctx.session.code = code
-        ctx.returnBody(200, "验证码发送成功", 0, { Message })
+        ctx.returnBody(200, "验证码发送成功", 0, { message: Message })
       } else {
-        ctx.returnBody(200, "验证码发送失败", -1, { Message })
+        ctx.returnBody(200, "验证码发送失败", -1, { message: Message })
       }
   
     }

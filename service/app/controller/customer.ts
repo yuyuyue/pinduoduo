@@ -61,8 +61,8 @@ export default class CustomerController extends Controller {
     const { mobile, password } = ctx.request.body
 
     // 登录结果
-    const loginInfo = await ctx.service.customer.loginIn({ mobile, password })
-    const { status, msg, type, token, customer_id } = loginInfo
+    const resultfo = await ctx.service.customer.loginByPwd({ mobile, password })
+    const { status, msg, type, token, data } = resultfo
 
     // 验证token
     if (type == 0 && token) {
@@ -74,9 +74,9 @@ export default class CustomerController extends Controller {
         domain: '127.0.0.1'
       }
       ctx.cookies.set('token', token, opts) // cookie 有效期7天
-      ctx.cookies.set('customer_id', customer_id, opts) // cookie 有效期7天
+      ctx.cookies.set('customer_id', data.customer_id , opts) // cookie 有效期7天
     }
-    ctx.returnBody(status, msg, type)
+    ctx.returnBody(status, msg, type, data)
   }
 
   // 验证码登录
@@ -98,8 +98,10 @@ export default class CustomerController extends Controller {
       return
     }
 
-     // 验证通过, 生产token
-    const token = ctx.helper.jwt.sign({ customer_id: customerInfo.customer_id }, app.config.jwtkey, { expiresIn: '7d' })
+    const dataValues = customerInfo.dataValues
+
+    // 验证通过, 生产token
+    const token = ctx.helper.jwt.sign({ customer_id: dataValues.customer_id }, app.config.jwtkey, { expiresIn: '7d' })
 
     // id存入Cookie, 用于验证过期.
     const opts = {
@@ -109,9 +111,12 @@ export default class CustomerController extends Controller {
       domain: '127.0.0.1'
     }
     ctx.cookies.set('token', token, opts) // cookie 有效期7天
-    ctx.cookies.set('customer_id', customerInfo.customer_id, opts) // cookie 有效期7天
+    ctx.cookies.set('customer_id', dataValues.customer_id, opts) // cookie 有效期7天
+    
+    let data = dataValues
+    delete data.password
 
-    ctx.returnBody(200, '登录成功', 0)
+    ctx.returnBody(200, '登录成功', 0, data)
   }
   // 登出
   public async loginOut() {

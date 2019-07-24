@@ -80,7 +80,7 @@ export default class CustomerService extends Service {
    * @func login 登录
    * @param customer 登录自定义接口 
    */
-  public async loginIn(customer: LoginInterface) {
+  public async loginByPwd(customer: LoginInterface) {
     const { app, ctx } = this
 
     const customerInfo = await this.getCustomerByMobile(customer.mobile)
@@ -94,8 +94,10 @@ export default class CustomerService extends Service {
       }
     }
 
+    const { dataValues } = customerInfo
+
     // 解密
-    const passwordAes = ctx.helper.aesDecrypt(customerInfo.password, app.config.aeskey, app.config.aesiv)
+    const passwordAes: string = ctx.helper.aesDecrypt(dataValues.password, app.config.aeskey, app.config.aesiv)
 
     // 密码不匹配
     if (passwordAes != customer.password) {
@@ -107,16 +109,18 @@ export default class CustomerService extends Service {
     }
 
     // 验证通过, 生产token
-    const token = ctx.helper.jwt.sign({ customer_id: customerInfo.customer_id }, app.config.jwtkey, { expiresIn: '7d' })
+    const token = ctx.helper.jwt.sign({ customer_id: dataValues.customer_id }, app.config.jwtkey, { expiresIn: '7d' })
 
-    const customer_id = customerInfo.customer_id
+    let data = dataValues
 
+    // 删除密码
+    delete data.password
     return {
       status: 200,
       type: 0,
       msg: '登录成功',
       token,
-      customer_id
+      data
     }
   }
 
@@ -127,7 +131,7 @@ export default class CustomerService extends Service {
   public async getCustomerByMobile(mobile: string) {
     const { ctx } = this
     return await ctx.model.Customer.findOne({
-      where: {mobile: mobile}
+      where: {mobile: mobile},
     })
   }
 

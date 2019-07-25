@@ -57,31 +57,22 @@ class CodeTimer extends React.Component {
   }
 
   render() {
-    const { getFieldDecorator } = this.props.form
     return (
-      <Form.Item>
-        <div className={Style.codeItem}>
-          <div className={Style.codeInput}>
-            {getFieldDecorator('code', {
-              rules: [
-                { required: true, message: '未输入密码' },
-                { whitespace: true, message: '不能使用空格'},
-              ],
-            })(
-              <Input
-                prefix={ <Icon type="code" style={{ color: 'rgba(0,0,0,.25)' } } />}
-                type="code"
-                placeholder="请输入验证码"
-              />,
-            )}
-          </div>
-          <div className={Style.codeBtn}>
-            <Button type="primary" onClick={ this.handleCode } block disabled={ this.state.isCode && true }>
-              {  this.state.isCode ? `${this.state.time} s` : '验证码'  }
-            </Button>
-          </div>
+      <div className={Style.codeItem}>
+        <div className={Style.codeInput}>
+          <Input
+            prefix={ <Icon type="code" style={{ color: 'rgba(0,0,0,.25)' } } />}
+            type="code"
+            placeholder="请输入验证码"
+            onBlur= { this.props.onBlur }
+          />
         </div>
-      </Form.Item>
+        <div className={Style.codeBtn}>
+          <Button type="primary" onClick={ this.handleCode } block disabled={ this.state.isCode && true }>
+            {  this.state.isCode ? `${this.state.time} s` : '验证码'  }
+          </Button>
+        </div>
+      </div>
     )
   }
 }

@@ -28,51 +28,35 @@ class UpdatePwd extends React.Component {
   }
 
   render() {
-    const { getFieldDecorator } = this.props.form
     return (
-      <main className={Style.code}>
-      <Form onSubmit={this.handleSubmit} className="login-form">
-        <Form.Item>
-          {getFieldDecorator('username', {
-            rules: [
-              { required: true, message: '未输入账号' },
-              { whitespace: true, message: '不能使用空格'},
-              { pattern: new RegExp('^1(3|4|5|7|8)\d{11}$', 'g'), message: '请输入正确的手机号'}
-            ],
-          })(
+      <div className={Style.code}>
+        <Form onSubmit={this.handleSubmit} className="login-form">
+          <Form.Item>
             <Input
               prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
               type="username"
               placeholder="请输入手机号"
               onChange={ this.handleMoible }
-            />,
-          )}
-        </Form.Item>
-        <Form.Item>
-          {getFieldDecorator('password', {
-            rules: [
-              { required: true, message: '未输入账号' },
-              { whitespace: true, message: '不能使用空格'},
-            ],
-          })(
+            />
+          </Form.Item>
+          <Form.Item>
             <Input
               prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
               type="password"
               placeholder="请输入新密码"
               onChange={ this.handleMoible }
-            />,
-          )}
-        </Form.Item>
-        <CodeTimer mobile={this.state.mobile}/>
-        <div className={Style.submit}>
-          <Form.Item >
-            <Button type="primary" htmlType="submit" className="login-form-button" block>
-              登录
-            </Button>
+            />
           </Form.Item>
-        </div>
-      </Form>
-    </main>
+          <CodeTimer mobile={this.state.mobile}/>
+          <div className={Style.submit}>
+            <Form.Item >
+              <Button type="primary" htmlType="submit" className="login-form-button" block>
+                登录
+              </Button>
+            </Form.Item>
+          </div>
+        </Form>
+    </div>
     )
   }
 }

@@ -6,6 +6,7 @@ import CodeLogin from '@components/login/code/index.jsx'
 import UpdatePwd from '@components/login/updatepwd/index.jsx'
 import loginImg from '@assets/image/login-img.png'
 import pinImg from '@assets/image/pinduoduo.png'
+import Link from 'umi/link';
 
 const index = ({ dispatch, login }) => {
   function loginTypeChange(type) {
@@ -41,7 +42,9 @@ const index = ({ dispatch, login }) => {
                   <p className={`${Style.option} ${login.loginType === 1 ? Style.oprated : '' }`} onClick={ loginTypeChange.bind(null, 1) } >密码登录</p>
                   <p className={`${Style.option} ${login.loginType === 2 ? Style.oprated : '' }`} onClick={ loginTypeChange.bind(null, 2) }>短信登录</p>
                 </div>
-                <span className={Style.register}>0元入驻</span>
+                <Link className={Style.register} to="/register">
+                  0元入驻
+                </Link>
               </div>
               <div className={Style.context}>
                 { contextType() }

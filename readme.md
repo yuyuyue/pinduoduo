@@ -21,7 +21,7 @@
 
 - 启动
 1. yarn
-2. yarn start | npm run dev
+2. yarn start | npm run start
 
 - 技术栈
 ```

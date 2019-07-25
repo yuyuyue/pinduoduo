@@ -3,8 +3,6 @@ export default {
   namespace: 'login',
   state: {
     loginType: 1,
-    isCode: false,
-    codeBtn: '验证码'
   },
   reducers: {
     change(state, { payload }) {

@@ -29,38 +29,23 @@ class PwdLogin extends React.Component {
   }
 
   render() {
-    const { getFieldDecorator } = this.props.form
     return (
-      <main className={Style.pwd}>
+      <div className={Style.pwd}>
         <section className={Style.section}>
           <Form onSubmit={this.handleSubmit} className="login-form">
             <Form.Item>
-              {getFieldDecorator('username', {
-                rules: [
-                  { required: true, message: '未输入账号' },
-                  { whitespace: true, message: '不能使用空格'}
-                ],
-              })(
-                <Input
-                  prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                  type="username"
-                  placeholder="请输入手机号"
-                />,
-              )}
+              <Input
+                prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                type="username"
+                placeholder="请输入手机号"
+              />
             </Form.Item>
             <Form.Item>
-              {getFieldDecorator('password', {
-                rules: [
-                  { required: true, message: '未输入密码' },
-                  { whitespace: true, message: '不能使用空格'}
-                ],
-              })(
-                <Input
-                  prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                  type="password"
-                  placeholder="请输入密码"
-                />,
-              )}
+              <Input
+                prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                type="password"
+                placeholder="请输入密码"
+              />
             </Form.Item>
             <Form.Item>
               <div className={Style.options}>
@@ -76,7 +61,7 @@ class PwdLogin extends React.Component {
             </Form.Item>
           </Form>
         </section>
-      </main>
+      </div>
     )
   }
 }

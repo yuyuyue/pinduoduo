@@ -12,6 +12,9 @@ const index = () => {
       <Link to="/register">
         register
       </Link>
+      <Link to="/home">
+        home
+      </Link>
     </section>
   )
 }

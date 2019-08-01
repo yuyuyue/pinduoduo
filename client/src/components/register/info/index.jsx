@@ -51,6 +51,7 @@ class Info extends React.Component {
     })
   }
   render() {
+    const { getFieldDecorator } = this.props.form
     return (
       <div className={Style.info}>
         <section className={Style.form}>
@@ -62,22 +63,46 @@ class Info extends React.Component {
               <Form.Item>
                 <div className={Style.line}>
                   <p className={Style.tip}><span className={Style.required}>*</span>店铺名称:</p>
-
-                  <Input className={Style.input} onChange={ this.handleMoible }/>
+                  {getFieldDecorator('name', {
+                    rules: [{ required: true, message: 'Please input your username!' }],
+                  })(
+                    <Input
+                      type="name"
+                      placeholder="请输入手机号"
+                      onChange={ this.handleMoible }
+                      className={Style.input} 
+                    />
+                  )}
                 </div>
               </Form.Item>
               <Form.Item>
                 <div className={Style.line}>
                   <p className={Style.tip}><span className={Style.required}>*</span>设置密码:</p>
-
-                  <Input className={Style.input} onChange={ this.handleMoible }/>
+                  {getFieldDecorator('password', {
+                    rules: [{ required: true, message: 'Please input your username!' }],
+                  })(
+                    <Input
+                      type="password"
+                      placeholder="请输入手机号"
+                      onChange={ this.handleMoible }
+                      className={Style.input} 
+                    />
+                  )}
                 </div>
               </Form.Item>
               <Form.Item>
                 <div className={Style.line}>
                   <p className={Style.tip}><span className={Style.required}>*</span>确认密码:</p>
-
-                  <Input className={Style.input} onChange={ this.handleMoible }/>
+                  {getFieldDecorator('password', {
+                    rules: [{ required: true, message: 'Please input your username!' }],
+                  })(
+                    <Input
+                      type="password"
+                      placeholder="请输入手机号"
+                      onChange={ this.handleMoible }
+                      className={Style.input} 
+                    />
+                  )}
                 </div>
               </Form.Item>
               <Form.Item>

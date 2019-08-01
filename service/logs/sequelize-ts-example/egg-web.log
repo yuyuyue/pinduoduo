@@ -2619,3 +2619,31 @@
 2019-07-24 20:53:23,030 INFO 10992 [egg:core] dump config after load, 13ms
 2019-07-24 20:53:23,080 INFO 10992 [egg-watcher:application] watcher start success
 2019-07-24 20:53:23,114 INFO 10992 [egg:core] dump config after ready, 10ms
+2019-07-26 12:29:38,989 INFO 232 [egg:logger] init all loggers with options: {"dir":"D:\\repos\\pinduoduo\\service\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-26 12:29:39,043 INFO 232 [egg-multipart] stream mode enable
+2019-07-26 12:29:43,840 INFO 232 [egg-static] starting static serve /public/ -> D:\repos\pinduoduo\service\app\public
+2019-07-26 12:29:43,864 INFO 232 [egg-security] use csrf middleware
+2019-07-26 12:29:43,870 INFO 232 [egg-security] use methodnoallow middleware
+2019-07-26 12:29:43,871 INFO 232 [egg-security] use noopen middleware
+2019-07-26 12:29:43,872 INFO 232 [egg-security] use nosniff middleware
+2019-07-26 12:29:43,880 INFO 232 [egg-security] use xssProtection middleware
+2019-07-26 12:29:43,883 INFO 232 [egg-security] use xframe middleware
+2019-07-26 12:29:43,884 INFO 232 [egg-security] use dta middleware
+2019-07-26 12:29:43,884 INFO 232 [egg-security] compose 7 middlewares into one security middleware
+2019-07-26 12:29:44,520 INFO 232 [egg:core] dump config after load, 71ms
+2019-07-26 12:29:44,566 INFO 232 [egg-watcher:application] watcher start success
+2019-07-26 12:29:44,605 INFO 232 [egg:core] dump config after ready, 20ms
+2019-07-26 14:20:51,449 INFO 6884 [egg:logger] init all loggers with options: {"dir":"D:\\repos\\pinduoduo\\service\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-26 14:20:51,477 INFO 6884 [egg-multipart] stream mode enable
+2019-07-26 14:20:52,424 INFO 6884 [egg-static] starting static serve /public/ -> D:\repos\pinduoduo\service\app\public
+2019-07-26 14:20:52,427 INFO 6884 [egg-security] use csrf middleware
+2019-07-26 14:20:52,429 INFO 6884 [egg-security] use methodnoallow middleware
+2019-07-26 14:20:52,429 INFO 6884 [egg-security] use noopen middleware
+2019-07-26 14:20:52,430 INFO 6884 [egg-security] use nosniff middleware
+2019-07-26 14:20:52,431 INFO 6884 [egg-security] use xssProtection middleware
+2019-07-26 14:20:52,432 INFO 6884 [egg-security] use xframe middleware
+2019-07-26 14:20:52,432 INFO 6884 [egg-security] use dta middleware
+2019-07-26 14:20:52,432 INFO 6884 [egg-security] compose 7 middlewares into one security middleware
+2019-07-26 14:20:52,485 INFO 6884 [egg:core] dump config after load, 10ms
+2019-07-26 14:20:52,523 INFO 6884 [egg-watcher:application] watcher start success
+2019-07-26 14:20:52,558 INFO 6884 [egg:core] dump config after ready, 13ms

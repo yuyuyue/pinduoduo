@@ -7,7 +7,8 @@ class PwdLogin extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-
+      mobile: '',
+      password: ''
     }
   }
   handleSubmit = e => {
@@ -15,6 +16,14 @@ class PwdLogin extends React.Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         console.log('Received values of form: ', values)
+        const { password, mobile } = values
+        this.props.dispatch({
+          type: 'login/pwd',
+          payload: {
+            mobile,
+            password
+          }
+        })
       }
     })
   }
@@ -29,23 +38,32 @@ class PwdLogin extends React.Component {
   }
 
   render() {
+    const { getFieldDecorator } = this.props.form
     return (
       <div className={Style.pwd}>
         <section className={Style.section}>
           <Form onSubmit={this.handleSubmit} className="login-form">
             <Form.Item>
-              <Input
+              {getFieldDecorator('mobile', {
+                rules: [{ required: true, message: '请输入手机号' }],
+              })(
+                <Input
                 prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                type="username"
+                type="mobile"
                 placeholder="请输入手机号"
               />
+              )}
             </Form.Item>
             <Form.Item>
-              <Input
-                prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                type="password"
-                placeholder="请输入密码"
-              />
+              {getFieldDecorator('password', {
+                rules: [{ required: true, message: '请输入密码' }],
+              })(
+                <Input
+                  prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                  type="password"
+                  placeholder="请输入密码"
+                />
+              )}
             </Form.Item>
             <Form.Item>
               <div className={Style.options}>

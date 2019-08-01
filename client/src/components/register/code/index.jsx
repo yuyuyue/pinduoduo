@@ -42,6 +42,7 @@ class Code extends React.Component {
   }
 
   render() {
+    const { getFieldDecorator } = this.props.form
     return (
       <div className={Style.code}>
         <section className={Style.form}>
@@ -51,15 +52,19 @@ class Code extends React.Component {
           <div className={Style.item}>
           <Form onSubmit={this.handleSubmit} className="login-form">
             <Form.Item>
-              <Input
-                prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                type="mobile"
-                placeholder="请输入手机号"
-                onChange={ this.handleMoible }
-              />
+              {getFieldDecorator('mobile', {
+                rules: [{ required: true, message: 'Please input your username!' }],
+              })(
+                <Input
+                  prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                  type="mobile"
+                  placeholder="请输入手机号"
+                  onChange={ this.handleMoible }
+                />
+              )}
             </Form.Item>
             <Form.Item>
-              <CodeTimer onBlur={ this.handleCode }/>
+              <CodeTimer mobile={this.state.mobile} onBlur={ this.handleCode }/>
             </Form.Item>
             <Form.Item>
               <div className={Style.button}>

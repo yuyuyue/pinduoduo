@@ -4,7 +4,6 @@ import { Form, Icon, Input, Button } from 'antd'
 import { connect } from 'dva'
 import CodeTimer from '../codetimer/index.jsx'
 
-
 class CodeLogin extends React.Component {
   constructor (props) {
     super(props)
@@ -28,15 +27,21 @@ class CodeLogin extends React.Component {
   }
 
   render() {
+    const { getFieldDecorator } = this.props.form
     return (
       <div className={Style.code}>
         <Form onSubmit={this.handleSubmit} className="login-form">
           <Form.Item>
-            <Input
+            {getFieldDecorator('name', {
+              rules: [{ required: true, message: 'Please input your username!' }],
+            })(
+              <Input
               prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+              type="name"
               placeholder="请输入手机号"
               onChange={ this.handleMoible }
             />
+            )}
           </Form.Item>
           <CodeTimer mobile={this.state.mobile}/>
           <div className={Style.submit}>

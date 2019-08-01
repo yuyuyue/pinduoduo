@@ -1300,3 +1300,25 @@ hostname: DESKTOP-QJUC35N
 2019-07-24 20:53:18,286 INFO 3036 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"D:\\repos\\pinduoduo\\service\\app\\controller\\code.ts","stat":{"dev":586048984,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374884219272,"size":724,"atimeMs":1562742770246.3943,"mtimeMs":1563972798280.2131,"ctimeMs":1563972798280.2131,"birthtimeMs":1562742770246.3943,"atime":"2019-07-10T07:12:50.246Z","mtime":"2019-07-24T12:53:18.280Z","ctime":"2019-07-24T12:53:18.280Z","birthtime":"2019-07-10T07:12:50.246Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-07-24 20:53:21,420 WARN 3036 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
 2019-07-24 20:53:23,126 WARN 3036 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-07-26 12:29:26,089 INFO 15264 [egg:logger] init all loggers with options: {"dir":"D:\\repos\\pinduoduo\\service\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-07-26 12:29:32,434 INFO 15264 [egg:core] dump config after load, 12ms
+2019-07-26 12:29:33,409 INFO 15264 [egg-watcher] Start watching: ["D:\\repos\\pinduoduo\\service\\app","D:\\repos\\pinduoduo\\service\\config","D:\\repos\\pinduoduo\\service\\mocks","D:\\repos\\pinduoduo\\service\\mocks_proxy","D:\\repos\\pinduoduo\\service\\app.js"]
+2019-07-26 12:29:33,409 INFO 15264 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\app"
+2019-07-26 12:29:33,410 INFO 15264 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\config"
+2019-07-26 12:29:33,410 INFO 15264 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\mocks"
+2019-07-26 12:29:33,410 INFO 15264 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\mocks_proxy"
+2019-07-26 12:29:33,410 INFO 15264 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\app.js"
+2019-07-26 12:29:33,412 INFO 15264 [egg-watcher:agent] watcher start success
+2019-07-26 12:29:33,642 INFO 15264 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-07-26 12:29:33,976 INFO 15264 [egg:core] dump config after ready, 25ms
+2019-07-26 14:20:47,512 INFO 3620 [egg:logger] init all loggers with options: {"dir":"D:\\repos\\pinduoduo\\service\\logs\\sequelize-ts-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-ts-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-07-26 14:20:49,457 INFO 3620 [egg:core] dump config after load, 6ms
+2019-07-26 14:20:49,636 INFO 3620 [egg-watcher] Start watching: ["D:\\repos\\pinduoduo\\service\\app","D:\\repos\\pinduoduo\\service\\config","D:\\repos\\pinduoduo\\service\\mocks","D:\\repos\\pinduoduo\\service\\mocks_proxy","D:\\repos\\pinduoduo\\service\\app.js"]
+2019-07-26 14:20:49,636 INFO 3620 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\app"
+2019-07-26 14:20:49,636 INFO 3620 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\config"
+2019-07-26 14:20:49,637 INFO 3620 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\mocks"
+2019-07-26 14:20:49,637 INFO 3620 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\mocks_proxy"
+2019-07-26 14:20:49,637 INFO 3620 [egg-watcher] Start watching: "D:\\repos\\pinduoduo\\service\\app.js"
+2019-07-26 14:20:49,637 INFO 3620 [egg-watcher:agent] watcher start success
+2019-07-26 14:20:49,716 INFO 3620 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-07-26 14:20:49,733 INFO 3620 [egg:core] dump config after ready, 14ms

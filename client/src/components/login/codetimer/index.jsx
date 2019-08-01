@@ -2,7 +2,7 @@ import React from 'react'
 import Style from './index.less'
 import { Form, Icon, Input, Button } from 'antd'
 import { connect } from 'dva'
-// import LoginApi from '@service/login.js'
+import LoginApi from '@service/login.js'
 
 // 验证码组件
 class CodeTimer extends React.Component {
@@ -15,7 +15,6 @@ class CodeTimer extends React.Component {
   }
 
   handleCode = async (e) => {
-    console.log(this.props.mobile)
     e.preventDefault()
     if (!this.state.isCode) {
       this.setState({
@@ -25,8 +24,8 @@ class CodeTimer extends React.Component {
       this.props.dispatch({
         type: 'login/code'
       })
-      // const data =  await LoginApi.getCode(this.props.mobile)
-      // console.log(data, '!!!!!!!!!!!!!!!!!!!')
+      const data =  await LoginApi.getCode(this.props.mobile)
+      console.log(data, '!!!!!!!!!!!!!!!!!!!')
     }
   }
 

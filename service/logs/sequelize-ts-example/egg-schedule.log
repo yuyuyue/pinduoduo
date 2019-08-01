@@ -574,3 +574,15 @@
 2019-07-24 20:53:22,528 INFO 10992 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2019-07-24 20:53:22,528 INFO 10992 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\clean_log.js
 2019-07-24 20:53:22,528 INFO 10992 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-26 12:29:39,041 INFO 232 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-26 12:29:39,041 INFO 232 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-26 12:29:39,041 INFO 232 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-26 12:29:44,618 INFO 15264 [Timer] D:\repos\pinduoduo\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 57615386ms at 2019-07-27 04:30:00.004
+2019-07-26 12:29:44,619 INFO 15264 [Timer] D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 41415381ms at 2019-07-27 00:00:00.000
+2019-07-26 12:29:44,620 INFO 15264 [Timer] D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 41416381ms at 2019-07-27 00:00:01.001
+2019-07-26 14:20:51,477 INFO 6884 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-07-26 14:20:51,477 INFO 6884 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-07-26 14:20:51,477 INFO 6884 [egg-schedule]: register schedule D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-07-26 14:20:52,570 INFO 3620 [Timer] D:\repos\pinduoduo\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 50947433ms at 2019-07-27 04:30:00.003
+2019-07-26 14:20:52,570 INFO 3620 [Timer] D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34747430ms at 2019-07-27 00:00:00.000
+2019-07-26 14:20:52,571 INFO 3620 [Timer] D:\repos\pinduoduo\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34748430ms at 2019-07-27 00:00:01.000

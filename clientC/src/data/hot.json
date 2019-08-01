@@ -1,0 +1,252 @@
+{
+  "swiper": [
+    {
+      "index": 0,
+      "src": "//t00img.yangkeduo.com/goods/images/2019-06-20/f7050092307e22fe179499d097c541ae.jpeg"
+    },
+    {
+      "index": 1,
+      "src": "//t00img.yangkeduo.com/goods/images/2019-06-19/4acb8dc5fe1102ee41814e619185eabc.jpeg"
+    },
+    {
+      "index": 2,
+      "src": "//t16img.yangkeduo.com/pdd_oms/2019-06-14/b5c69d1fe2ae2365b1c9b1ac7766b41c.jpeg"
+    },
+    {
+      "index": 3,
+      "src": "//t16img.yangkeduo.com/pdd_oms/2019-06-19/f6f8553cc9949bec5b66b396fd987285.jpeg"
+    },
+    {
+      "index": 4,
+      "src": "//t16img.yangkeduo.com/pdd_oms/2019-06-20/3d2270c9956529228ba01b76292a335c.jpg"
+    },
+    {
+      "index": 5,
+      "src": "//t16img.yangkeduo.com/pdd_oms/2019-06-14/dafac20ea96c61fa9010fc14598a0eb1.jpeg"
+    },
+    {
+      "index": 6,
+      "src": "//t16img.yangkeduo.com/pdd_oms/2019-06-19/94d6508c6a6fb0038a1e6e83c22acbf1.jpg"
+    },
+    {
+      "index": 7,
+      "src": "//t00img.yangkeduo.com/goods/images/2019-06-20/4260ab0d32cc35d189548850dfe91b4a.jpeg"
+    }
+  ],
+  "entranceCard": {
+    "items": [
+      {
+        "imgSrc": "//t07img.yangkeduo.com/images/2018-05-16/26c916947489c6b2ddd188ecdb54fd8d.png",
+        "moreInfo": true,
+        "moreSrc": "//t00img.yangkeduo.com/goods/images/2018-11-27/b029799e2af2466305285a445feb13a7.gif",
+        "title": "限时秒杀"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2018-12-22/b9851773573d1d682aa46d896de7f4fa.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "断码清仓"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-06-18/e167cce697a7a0855451409575111246.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "品牌馆"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2018-12-03/d21a7598e29ce189a9a57bb234ee4fad.png",
+        "moreInfo": true,
+        "moreSrc": "//t00img.yangkeduo.com/goods/images/2018-11-27/b029799e2af2466305285a445feb13a7.gif",
+        "title": "多多果园"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2018-10-07/c671f2c49805658697cc0f72fff87eb3.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "9块9特卖"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-02-15/b329c4673337e18030f1211df38a543b.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "助力享免单"
+      },
+      {
+        "imgSrc": "//t10img.yangkeduo.com/images/2018-05-16/712fc1e7f4f7b0572257ef162b5185a9.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "天天领现金"
+      },
+      {
+        "imgSrc": "//t05img.yangkeduo.com/images/2018-05-04/c71c9acd8b48203a704f6c0951caddc0.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "1分抽大奖"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-01-27/76826abcd09fe76657f07a901db83698.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "省钱月卡"
+      },
+      {
+        "imgSrc": "//t05img.yangkeduo.com/images/2018-05-16/801ae189938526cdaf40935d07034c5e.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "充值中心"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-05-17/d0f54e342597b876ef433dbe7de88480.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "百亿补贴"
+      },
+      {
+        "imgSrc": "//t01img.yangkeduo.com/images/2018-05-16/c2ba677bcd16ecad6c335e5e04a1cf1e.png",
+        "moreInfo": true,
+        "moreSrc": "//t00img.yangkeduo.com/goods/images/2018-12-03/6fffdaa9bdef16e5140d46357293e1fa.gif",
+        "title": "现金签到"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-02-05/1351e256a0319a6885761b937d06d581.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "金猪赚大钱"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2018-08-31/2068a85245f512000d78325876d23ae3.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "电器城"
+      },
+      {
+        "imgSrc": "//t03img.yangkeduo.com/images/2018-05-16/a666ac01e718dd06231a722baa6fa935.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "爱逛街"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-02-15/1ddd6e21a8281e794dec6ef736867290.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "砍价免费拿"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-04-12/80f3af132fae04453792464bb837ca02.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "多多爱消除"
+      },
+      {
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-01-20/d36b7af30da354cb2c8ad4ea7bd819cd.png",
+        "moreInfo": false,
+        "moreSrc": "",
+        "title": "每日好店"
+      }
+    ],
+    "swiperOption": {
+      "freeMode": true,
+      "slidesPerView": 5,
+      "slidesPerColumn": 2,
+      "slidesPerColumnFill": "row",
+      "scrollbar": {
+        "el": ".swiper-scrollbar",
+        "draggable": true
+      }
+    }
+  },
+  "newExclusive": {
+    "title": "新人专享",
+    "tip": "爆款热买 包邮到家",
+    "bigImgSrc": "//pinduoduoimg.yangkeduo.com/app/lego/dynamic_view/fresh_user_hongbao_word.png",
+    "items": [
+      {
+        "imgSrc": "//images.pinduoduo.com/mrk/2019-03-07/23baeb9b-f3d8-467e-bc34-e656f3f38220.jpg",
+        "title": "新品夏威夷果",
+        "price": "8.9"
+      },
+      {
+        "imgSrc": "//images.pinduoduo.com/mrk/2019-03-07/6a9b2107-3fb2-40a9-be7f-295b8b9e524d.jpg",
+        "title": "宜马高级餐具合金筷子防滑不发霉耐高温",
+        "price": "5.2"
+      }
+    ]
+  },
+  "discounts": {
+    "special": {
+      "content": "完美日记8折抢",
+      "url": ""
+    },
+    "items": [
+      {
+        "url": "",
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-06-20/9fd8fbef-6dee-4180-b7e3-d7f7e6c582e2.jpg",
+        "discount": 7
+      },
+      {
+        "url": "",
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-06-20/0311c28d-04e2-42a2-8dc0-76af3394bc68.jpg",
+        "discount": 2.5
+      },
+      {
+        "url": "",
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-04-29/73bf0b5a-ebaf-47c8-bc73-38b70ef6c596.jpg",
+        "discount": 3
+      },
+      {
+        "url": "",
+        "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-06-19/ea7ebd8e-775c-4d0d-b757-dae7e5db6078.jpg",
+        "discount": 2.7
+      }
+    ]
+  },
+  "commodity": [
+    {
+      "recommend": false,
+      "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-05-23/40bac6fa262c2b87f473ecbafa285de1.jpeg",
+      "amazingSrc": "//images.pinduoduo.com/swan_console/2019-03-29/84830874-ad50-46d4-bd29-40928e8bf8be.png",
+      "title": "【超百搭】中长款防晒衫 复古港味 宽松版型 时尚显瘦 多色可选",
+      "special": "官方旗舰店",
+      "tips": ["2个好友买过", "不中退款"],
+      "price": 0.01,
+      "amount": "已拼2255件",
+      "lastTwoCustomerAvatar": [
+        "//t20img.yangkeduo.com/a/e6b07cc3b93666775bc40a86aecd30a97f5a540e-1529824871",
+        "//t21img.yangkeduo.com/a/d37a3cd3462e9b3df646bef378f0e8bde1772a28-1524092075"
+      ]
+    },
+    {
+      "recommend": true,
+      "brandImgSrc": "//t00img.yangkeduo.com/goods/images/2019-01-20/931733afbfb8971c674b7b32ad5b0ef6.jpeg",
+      "shopName": "飞利浦",
+      "slogan": { "content": "创新为你", "important": true },
+      "items": [
+        {
+          "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-03-26/94dcc79b9d8dafdba4b89a274ed50299.jpeg",
+          "nowPrice": 8.9,
+          "oldPrice": 99
+        },
+        {
+          "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-03-26/94dcc79b9d8dafdba4b89a274ed50299.jpeg",
+          "nowPrice": 8.9,
+          "oldPrice": 99
+        },
+        {
+          "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-03-26/94dcc79b9d8dafdba4b89a274ed50299.jpeg",
+          "nowPrice": 8.9,
+          "oldPrice": 99
+        },
+        {
+          "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-03-26/94dcc79b9d8dafdba4b89a274ed50299.jpeg",
+          "nowPrice": 8.9,
+          "oldPrice": 99
+        },
+        {
+          "imgSrc": "//t00img.yangkeduo.com/goods/images/2019-03-26/94dcc79b9d8dafdba4b89a274ed50299.jpeg",
+          "nowPrice": 8.9,
+          "oldPrice": 99
+        }
+      ]
+    }
+  ]
+}
